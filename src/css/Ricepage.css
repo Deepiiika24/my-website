@@ -1,0 +1,56 @@
+.ricepage-main-container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 150px auto;
+}
+
+.ricepage-main-container .ricepage-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.ricepage-main-container .ricepage-container .ricepage-banner img {
+    height: 400px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+.ricepage-main-container .ricepage-container .ricepage-content h2 {
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.ricepage-main-container .ricepage-container .ricepage-content p {
+    text-align: justify;
+}
+.ricepage-type-table{
+    margin:50px auto;
+}
+.ricepage-type-table .ricepage-table-heading table.table.table-hover.table-responsive.table-bordered {
+    width: 80%;
+    margin: 50px auto;
+}
+
+table.table.table-hover.table-responsive.table-bordered thead tr th {
+    margin: 0 auto;
+    padding: 10px 125px;
+    text-align: center;
+    padding: 15px 15px !important;
+}
+.even-columns-table th,
+.even-columns-table td {
+  width: calc(100% / 3);
+  text-align: center;
+}
+.ricepage-type-table .ricepage-table-heading table.table.table-hover.table-responsive.table-bordered th {
+    padding: 6px 35px;
+    text-align: center;
+}
+.ricepage-type-table .ricepage-table-heading th#quantity{
+    border-left-color: white;
+    border-right-color: white;
+}
+.ricepage-type-table .ricepage-table-heading th#Quantity{
+    border-right-color: white;
+}

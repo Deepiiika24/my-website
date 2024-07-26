@@ -1,0 +1,203 @@
+.container{
+    max-width: 1280px;
+    width: 100%;
+}
+.spices{
+    height:300px;
+    width:100%;
+}
+.spices-banner{
+    background-image: url('../images/spices6.jpg');
+    background-size: cover;
+    padding: 141px 81px;
+    margin: 119px 0px;
+    position: relative;
+}
+.spices-banner h1 {
+    color: #f4efef;
+    font-size: 44px;
+    position: absolute;
+    margin: -61px 39px;
+}
+.spices-banner ul span a {
+    color: #f4efef;
+    font-size: 21px;
+    margin: 75px 4px;
+    text-decoration: none;
+    padding: 10px -98px;
+}
+.spices-content {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    margin: 30px 0px;
+}
+.spices-logo-context img {
+    max-width: 210px;
+    margin: 62px 525px;
+}
+.spices-logo-context h4 {
+    text-align: center;
+    margin: -96px 1px;
+    color: #78a738;
+}
+.spices-logo-context p {
+    padding: 141px 90px;
+    text-align: center;
+}
+.spices-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    gap:2.5rem;
+    /* position: absolute; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+    margin: 79px 126px;
+}  
+.spices-product{
+    height: 1500px;
+    width: 100%;
+    margin: 145px 0px
+}
+img.spices-pic{
+    box-shadow: 0px 0px 13px #808080a6;
+    border-radius:3px;
+}
+h3.link1-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 39px 81px;
+    font-size: 23px;
+}
+h3.link3-namespices a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 40px 33px;
+    font-size: 23px;
+}
+h3.link4-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 68px;
+    font-size: 23px;
+}
+h3.link6-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 36px 75px;
+    font-size: 23px;
+}
+h3.link7-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 36px 55px;
+    font-size: 23px;
+}
+h3.link8-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 57px;
+    font-size: 23px;
+}
+h3.link9-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 57px;
+    font-size: 23px;
+}
+h3.link10-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 57px;
+    font-size: 23px;
+}
+h3.link11-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 42px;
+    font-size: 23px;
+}
+h3.link12-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 57px;
+    font-size: 23px;
+}
+h3.link13-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 57px;
+    font-size: 23px;
+}
+h3.link14-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 57px;
+    font-size: 23px;
+}
+h3.link15-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 44px;
+    font-size: 23px;
+}
+h3.link16-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 57px;
+    font-size: 23px;
+}
+h3.link17-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 57px;
+    font-size: 23px;
+}
+h3.link18-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 57px;
+    font-size: 23px;
+}
+h3.link19-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 57px;
+    font-size: 23px;
+}
+h3.link20-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 57px;
+    font-size: 23px;
+}
+h3.link17-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 33px 49px;
+    font-size: 23px;
+}
+h3.link18-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 19px;
+    font-size: 23px;
+}
+h3.link19-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 45px;
+    font-size: 23px;
+}
+h3.link20-name a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 19px;
+    font-size: 23px;
+}
+
+.h3, h3 {
+    font-size: 3.75rem;
+}

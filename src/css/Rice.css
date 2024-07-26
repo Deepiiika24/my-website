@@ -1,0 +1,119 @@
+.rice-main-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.rice-main-container .rice-banner {
+    margin-top: 121px;
+    width: 100%;
+}
+
+.rice-container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.rice-container .rice-icon .rice-body-icon {
+    margin: 120px 450px -40px 450px;
+    width: 200px;
+}
+.rice-container .rice-content h1.rice-heading {
+    margin: -230px 0px 0px 0px;
+    padding: 15px 512px;
+    color: white;
+}
+
+.rice-container .rice-content .rice-menu {
+    display: flex;
+    margin: 0px 400px;
+    gap: 15px;
+    padding: 5px 94px;
+}
+
+ul.rice-menu li {
+    list-style: none;
+}
+
+ul.rice-menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.rice-container h2.rice-body-heading {
+    text-align: center;
+    color: Green;
+}
+
+.rice-container h1 {
+    text-align: center;
+    color: red;
+    margin: -30px 0px 30px 0px;
+}
+
+.rice-container p {
+    text-align: justify;
+}
+
+.rice-container .rice-sub-container .rice-image {
+    display: flex;
+    padding: 25px 0px;
+    gap: 45px;
+}
+
+.rice-container .rice-sub-container .rice-image1 {
+    display: flex;
+    padding: 25px 0px;
+    gap: 45px;
+}
+
+.rice-container .rice-sub-container .rice-image .card img.rice-pic,
+.rice-container .rice-sub-container .rice-image1 .card img.rice-pic {
+    height: 243px;
+    width: 243px;
+    box-shadow: 0px 0px 13px #808080a6;
+    border-radius: 3px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.rice-container .rice-sub-container .rice-image .card #rice-link-name,
+.rice-container .rice-sub-container .rice-image1 .card #rice-link-name {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.rice-container .rice-sub-container .rice-image .card #rice-link-name a,
+.rice-container .rice-sub-container .rice-image1 .card #rice-link-name a {
+    text-decoration: none;
+    color: #00000091;
+}
+.card {
+    min-width: auto;
+}
+@media only screen and (min-width: 1024px) {
+    .rice-main-container {
+        max-width: 1280px;
+        min-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .rice-main-container .rice-banner {
+        margin-top: 121px;
+        max-width: 1280px;
+        min-width: 1024px;
+        width: 100%;
+    }
+    .rice-container {
+        max-width: 920px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .rice-container .rice-icon .rice-body-icon {
+        margin: 120px 365px -40px 365px;
+        width: 200px;
+    }
+
+}

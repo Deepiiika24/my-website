@@ -1,0 +1,78 @@
+/* Other pages */
+.leaf-page-container{
+    max-width: 1280px;
+    width:100%;
+    margin:0 auto;
+}
+.leaf-page-container .subpage-container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.leaf-page-container .subpage-container .leaf-sub-banner .leaf-subpage-img{
+    height:400px;
+    width:500px;
+    border-radius: 32px;
+}
+.leaf-page-container .subpage-container #leaf-banner-content h2 {
+    text-align: center;
+    padding: 15px 0px;
+}
+.leaf-page-container .subpage-container #leaf-banner-content p {
+    text-align: justify;
+    line-height: inherit;
+}
+.leaf-page-container .leaves-type-table{
+    max-width: 1100px;
+    width:100%;
+    margin:50px auto;
+}
+table.table.table-hover.table-responsive.table-bordered {
+    width: 80%;
+    margin: 45px auto;
+}
+.toren-main-container{
+    max-width: 1100px;
+    width: 100%;
+    margin:0 auto;
+}
+.toren-main-container h2{
+    text-align: center;
+    padding:150px 0px 50px 0px;
+    color:green;
+}
+.toren-container{
+    max-width: 1100px;
+    width:100%;
+    margin:50px auto;
+}
+.toren-container .toren-banner img{
+    height:250px;
+    width:250px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.toren-main-container .toren-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    line-height: inherit;
+    text-align: justify;
+}
+.toren-main-container .toren-container .toren-content h3{
+    padding:20px 0px;
+    color:Red;
+}
+.toren-main-container .table-heading{
+    color:black;
+    text-align: start;
+    padding:30px 0px;
+}
+table.table.table-hover.table-responsive.table-bordered th {
+    padding: 10px 25px;
+    text-align: justify;
+}

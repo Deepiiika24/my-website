@@ -1,0 +1,139 @@
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin:0 auto;
+}
+.vegetable{
+    height:300px;
+    width:100%;
+}
+.vegetable-banner{
+    background-image: url('../images/vegetables/vegetable-banner.jpg');
+    background-size: cover;
+    padding: 141px 81px;
+    margin: 119px 0px;
+    position: relative;
+}
+.vegetable-banner h1 {
+    color: #f4efef;
+    font-size: 44px;
+    position: absolute;
+    margin: -61px 14px;
+}
+.vegetable-banner ul span a {
+    color: #f4efef;
+    font-size: 21px;
+    margin: 75px 4px;
+    text-decoration: none;
+    padding: 10px -31px;
+}
+.vegetable-content {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    margin: 30px 0px;
+}
+.vegetable-logo-context img {
+    max-width: 210px;
+    margin: 62px 525px;
+}
+.vegetable-logo-context h1 {
+    text-align: center;
+    margin: -96px 1px;
+    color: #78a738;
+}
+.vegetable-logo-context p {
+    padding: 141px 90px;
+    text-align: center;
+} 
+ .vegetable-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    gap:2.5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+    margin: 79px 126px;
+}  
+.vegetable-product{
+    height: 900px;
+    width: 100%;
+    margin: 145px 0px
+}
+img.vegetable-pic{
+    box-shadow: 0px 0px 13px #808080a6;
+    border-radius:3px;
+}
+h3.link1-nameveg a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 0px 43px;
+    font-size: 23px;
+}
+h3.link2-nameveg a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 0px 77px;
+    font-size: 23px;
+}
+h3.link3-nameveg a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 0px 47px;
+    font-size: 23px;
+}
+h3.link4-nameveg a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 0px 47px;
+    font-size: 23px;
+}
+h3.link5-nameveg a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 0px 47px;
+    font-size: 23px;
+}
+h3.link6-nameveg a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 0px 47px;
+    font-size: 23px;
+}
+h3.link7-nameveg a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 0px 47px;
+    font-size: 23px;
+}
+h3.link8-nameveg a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 0px 47px;
+    font-size: 23px;
+}
+h3.link9-nameveg a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 0px 47px;
+    font-size: 23px;
+}
+h3.link10-nameveg a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 0px 78px;
+    font-size: 23px;
+}
+h3.link11-nameveg a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 0px 47px;
+    font-size: 23px;
+}
+h3.link12-nameveg a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 0px 76px;
+    font-size: 23px;
+}

@@ -1,0 +1,137 @@
+.leaves-main-container{
+    max-width: 1280px;
+    width:100%;
+    margin:0 auto;
+}
+.leaves-main-container .leaves-banner{
+    width:100%;
+    margin-top:121px;
+}
+.leaves-main-container .leaves-content h1{
+    top: 30%;
+    position: absolute;
+    color: white;
+    margin: 50px 535px;
+    font-weight: 800;
+}
+.leaves-main-container .leaves-content .leaves-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    list-style: none;
+    top: 42%;
+    position: absolute;
+    margin: 40px 505px;
+    overflow: hidden;
+    text-decoration: none;
+    font-weight: bold;
+}
+.leaves-main-container .leaves-content .leaves-menu a{
+    color: white;
+    text-decoration: none;
+}
+.leaves-main-container .leaves-container,.leaves-main-container .leaves-sub-container{
+    max-width: 1100px;
+    width:100%;
+    margin:30px auto;
+}
+.leaves-main-container .leaves-container .leaves-icon {
+    height: auto;
+    width: 200px;
+    margin:-25px 450px;
+}
+.leaves-main-container .leaves-container h3,.leaves-main-container .leaves-container h1{
+    text-align: center;
+}
+.leaves-main-container .leaves-container p{
+    max-width: 900px;
+    text-align: justify;
+    margin: 0 auto;
+}
+.leaves-main-container .leaves-sub-container .leaves-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+.leaves-main-container .leaves-sub-container .leaves-img-end{
+    display: flex;
+    justify-content: flex-start;
+    padding: 25px 0px;
+    gap:45px;
+}
+.leaves-main-container .leaves-sub-container .leaves-img .card .leaves-pic,
+.leaves-main-container .leaves-sub-container .leaves-img-end .card .leaves-pic{
+    height:243px;
+    width:243px;
+    box-shadow: 0px 0px 13px #808080a6;
+    border-radius: 3px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+.leaves-main-container .leaves-sub-container .leaves-img .card #leaf-link-name,
+.leaves-main-container .leaves-sub-container .leaves-img-end .card #leaf-link-name{
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.leaves-main-container .leaves-sub-container .leaves-img .card #leaf-link-name a,
+.leaves-main-container .leaves-sub-container .leaves-img-end .card #leaf-link-name a{
+    text-decoration: none;
+    color: #00000091;
+}
+@media (max-width:768px){
+    .leaves-main-container{
+        max-width: 768px;
+        min-width: 520px;
+        width:100%;
+        margin:0 auto;
+    }
+    .leaves-main-container .leaves-banner{
+        width:100%;
+        margin-top:121px;
+    }
+    .leaves-main-container .leaves-content h1{
+        padding-top: 30px;
+        position: absolute;
+        color: white;
+        margin: 60px 320px;
+        font-weight: 800;
+    }
+    .leaves-main-container .leaves-content .leaves-menu{
+        display: flex;
+        justify-content: space-between;
+        gap: 6px;
+        list-style: none;
+        position: absolute;
+        margin: 38px 313px 0px 313px;
+        overflow: hidden;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 60px 2px;
+    }
+    .leaves-main-container .leaves-container,.leaves-main-container .leaves-sub-container{
+        max-width: 660px;
+        width:100%;
+        margin:30px auto;
+    }
+    .leaves-main-container .leaves-container .leaves-icon {
+        height: auto;
+        margin: -30px 212px -50px 212px;
+    }
+    .leaves-main-container .leaves-container p{
+        max-width: 660px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+    .leaves-main-container .leaves-sub-container .leaves-img{
+        justify-content: space-evenly;
+        padding: 25px 0px;
+        flex-wrap: wrap;
+        gap: 45px;
+    }
+    .leaves-main-container .leaves-sub-container .leaves-img-end{
+        justify-content: space-evenly;
+        padding: 25px 0px;
+        flex-wrap: wrap;
+        gap: 45px;
+    }
+}
