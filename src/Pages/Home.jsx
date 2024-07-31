@@ -46,8 +46,8 @@ function Home() {
                 <div className='home-container'>
                     <img className='logo1' src={logo}></img>
                     <div className='home-content'>
-                        <h2>KOOGUL INDUSTRIES IMPORTERS & EXPORTERS</h2>
-                        <h2 style={{color:"red",padding:"0px 0px 20px 0px"}}>__________</h2>
+                        <h2>Koogul Industries Importers & Exporters</h2>
+                        <h2 style={{padding:"0px 0px 20px 0px"}}>__________</h2>
                         <p>"As the ‘land of spices’, India exports tons of various kinds of food. In fact, food export from India is a major source of revenue. To help your products reach to even the farthest corners of the world, Pisum Foods offers you various types of food export as well as spices export from India. Being among the leading food export companies in India, we ensure our services conform to international quality standards.”</p>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ function Home() {
                 </div>
             <section className='main-bg1'>
                     <img className='pic' src={pic}></img>
-                    <h1 className='text'>POPULAR PRODUCTS</h1>
+                    <h1 className='text'>Popular Products</h1>
                     <div className='slider1'>
                         <div className='card'>
                             <img src={swiper1} className='slide-img'></img>

@@ -15,21 +15,22 @@
     margin: 0 auto;
 }
 
-.rice-container .rice-icon .rice-body-icon {
-    margin: 120px 450px -40px 450px;
+.rice-icon .rice-body-icon {
+    margin: 150px 450px -30px 450px;
     width: 200px;
 }
-.rice-container .rice-content h1.rice-heading {
+.rice-content h1.rice-heading {
     margin: -230px 0px 0px 0px;
     padding: 15px 512px;
     color: white;
+    text-align: center;
 }
 
-.rice-container .rice-content .rice-menu {
+.rice-content .rice-menu {
     display: flex;
-    margin: 0px 400px;
-    gap: 15px;
-    padding: 5px 94px;
+    margin: 0px 484px;
+    gap: 10px;
+    padding: 0px 94px;
 }
 
 ul.rice-menu li {
@@ -45,11 +46,12 @@ ul.rice-menu li a {
 .rice-container h2.rice-body-heading {
     text-align: center;
     color: Green;
+    font-size: 30px;
 }
 
 .rice-container h1 {
     text-align: center;
-    color: red;
+    color: green;
     margin: -30px 0px 30px 0px;
 }
 
@@ -92,28 +94,4 @@ ul.rice-menu li a {
 }
 .card {
     min-width: auto;
-}
-@media only screen and (min-width: 1024px) {
-    .rice-main-container {
-        max-width: 1280px;
-        min-width: 1024px;
-        width: 100%;
-        margin: 0 auto;
-    }
-    .rice-main-container .rice-banner {
-        margin-top: 121px;
-        max-width: 1280px;
-        min-width: 1024px;
-        width: 100%;
-    }
-    .rice-container {
-        max-width: 920px;
-        width: 100%;
-        margin: 0 auto;
-    }
-    .rice-container .rice-icon .rice-body-icon {
-        margin: 120px 365px -40px 365px;
-        width: 200px;
-    }
-
 }

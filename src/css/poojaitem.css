@@ -1,261 +1,323 @@
-.container{
-    max-width: 1280px;
+.pooja-main-container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pooja {
+    height: 300px;
     width: 100%;
 }
-.pooja{
-    height:300px;
-    width:100%;
-}
-.pooja-banner{
+
+.pooja-banner {
     background-image: url('../images/pooja/pooja-product-banner.jpg');
     background-size: cover;
     padding: 141px 81px;
     margin: 119px 0px;
     position: relative;
 }
+
 .pooja-banner ul span a {
     color: white;
-    font-size: 21px;
-    margin: 75px 4px;
     text-decoration: none;
-    padding: 10px -98px;
+    padding: 5px 10px;
 }
+
 .pooja-banner h1 {
     color: #f4efef;
     font-size: 44px;
     position: absolute;
     margin: -61px 5px;
 }
-.pooja-content{
+
+.pooja-content {
     height: 200px;
     width: 100%;
 }
+
 .pooja-content {
-    height: 400px;
     width: 100%;
     background-color: white;
     margin: 30px 0px;
 }
+
 .pooja-logo-content img {
-    max-width: 250px;
-    margin: 69px 506px;
+    width: 200px;
+    margin: 15px 450px -30px 450px;
 }
+
 .pooja-logo-content h4 {
     text-align: center;
-    margin: -96px 1px;
     color: green;
-    font-size: 41px;
+    font-size: 30px;
 }
-.pooja-logo-content p {
-    padding: 141px 90px;
+
+.pooja-logo-content h1 {
+    color: green;
     text-align: center;
-}.brass-swiper{
-    height: 450px;
+    margin: -30px 0px 30px 0px;
+}
+
+.pooja-logo-content p {
+    text-align: justify;
+}
+
+.brass-swiper {
     width: 100%;
+    margin-top: 100px;
 }
-.brass-swiper h2{
-padding: 0 0 0 89px;
+.brass-swiper1{
+    width:100%;
+    margin:0 auto;
+    padding:10px 0px;
 }
+.brass-swiper h2 ,.brass-swiper1 h2{
+    padding: 0px;
+    font-size: 30px;
+}
+
 .pooja-swiper {
     max-width: 1100px;
     width: 100%;
     height: 100%;
-  }
-  
-  .pooja-swiper-slide {
+}
+
+.pooja-swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
     position: relative;
     display: flex;
     justify-content: center;
-    gap:20px;
+    gap: 20px;
     align-items: center;
-  }
-  .pooja-swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+}
+
+.pooja-swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
     margin: -13px 0px;
 }
-  
-  .pooja-swiper-slide img {
+
+.pooja-swiper-slide img {
     display: block;
     width: 243px;
     height: 243px;
     object-fit: cover;
 
-  }
-.swiper .swiper-wrapper .swiper-slide .pooja-slide-img{ 
-    height:243px;
-    width:243px;
-    box-shadow: 0px 0px 20px #585757a6; 
-    border-radius:5px;
+}
+
+.swiper .swiper-wrapper .swiper-slide .pooja-slide-img {
+    height: 243px;
+    width: 243px;
+    box-shadow: 0px 0px 20px #585757a6;
+    border-radius: 5px;
     /* grid-template-columns: repeat(auto-fit,minmax(200px,auto)); */
     border: none;
 }
+
 .card {
     height: 300px;
     width: 243px;
 }
-.card .pooja-slide-img{
-    height:243px;
-    width:243px;
+
+.card .pooja-slide-img {
+    height: 243px;
+    width: 243px;
 }
+
 .link1-namepooja {
     margin: 0 auto;
     font-size: 20px;
-    padding:10px 0px;
+    padding: 10px 0px;
 }
+
 .link1-namepooja a {
     text-decoration: none;
     color: #00000091;
     margin: 36px 34px;
     font-size: 23px;
 }
-.pooja-img{
-    margin: 44px 97px;
+
+.pooja-img {
+    padding:20px 0px;
 }
-.Spiritual-and-religious{
- width: 100%;
- height: 450px;
+
+.Spiritual-and-religious {
+    width: 100%;
+    margin: 0 auto;
 }
-.pooja-img-spiritual{
-    margin: 44px 97px;
+
+.pooja-img-spiritual {
+    padding:20px 0px;
 }
-.Spiritual-and-religious h2{
-    padding: 0 0 0 89px;
-    }
-    .link2-namepooja {
-        margin: 0 auto;
-        font-size: 20px;
-        padding:10px 0px;
-    }
-    .link2-namepooja a {
-        text-decoration: none;
-        color: #00000091;
-        margin: 36px 30px;
-        font-size: 23px;
-    }
-    .link4-namepooja {
-        margin: 0 auto;
-        font-size: 20px;
-        padding:10px 0px;
-    }
-    .link4-namepooja a {
-        text-decoration: none;
-        color: #00000091;
-        margin: 36px 30px;
-        font-size: 23px;
-    }
-    .Medical-and-herbal{
-        width: 100%;
- height: 450px;
-    }.Medical-and-herbal h2{
-        padding: 0 0 0 89px;
-    }
-    .pooja-img-Medical{
-        margin: 44px 97px;
-    }
-    .link2-namepooja{
-        margin: 0 auto;
-        font-size: 20px;
-        padding:10px 0px;
-    }
-    .link2-namepooja a{
-        text-decoration: none;
-        color: #00000091;
-        margin: 36px 25px;
-        font-size: 23px;
-    }
-    .link3-namepooja{
-        margin: 0 auto;
-        font-size: 20px;
-        padding:10px 0px;
-    }
-    .link3-namepooja a{
-        text-decoration: none;
-        color: #00000091;
-        margin: 36px 15px;
-        font-size: 23px;
-    }
-    .Agricultural-and-natural{
-        width: 100%;
-        height: 450px;
-    }
-    .Agricultural-and-natural h2{
-        padding: 0 0 0 89px;
-    }
-    .pooja-img-Agricultural{
-        margin: 44px 97px;
-    }
-    .link1-namepooja-108 {
-        margin: 0 auto;
-        font-size: 20px;
-        padding:0px 0px;
-    }
-    .link1-namepooja-108 a {
-        text-decoration: none;
-        color: #00000091;
-        margin: 10px 5px;
-        font-size: 23px;
-    }
-    .link1-namepooja-hari {
-        margin: 0 auto;
-        font-size: 20px;
-        padding:10px 0px;
-    }
-    .link1-namepooja-hari a {
-        text-decoration: none;
-        color: #00000091;
-        margin: 35px 5px;
-        font-size: 23px;
-    }
-    .link1-namepooja-navgraha {
-        margin: 0 auto;
-        font-size: 20px;
-        padding:10px 0px;
-    }
-    .link1-namepooja-navgraha a {
-        text-decoration: none;
-        color: #00000091;
-        margin: 35px 5px;
-        font-size: 23px;
-    }
-    .link4-namepooja-satya {
-        margin: 0 auto;
-        font-size: 20px;
-        padding:10px 0px;
-    }
-    .link4-namepooja-satya a {
-        text-decoration: none;
-        color: #00000091;
-        margin: 35px 5px;
-        font-size: 23px;
-    }
-    .link1-namepooja-varalakshmi {
-        margin: 0 auto;
-        font-size: 20px;
-        padding:10px 0px;
-    }
-    .link1-namepooja-varalakshmi a {
-        text-decoration: none;
-        color: #00000091;
-        margin: 35px 5px;
-        font-size: 23px;
-    }
-    .link1-namepooja-sudrashana {
-        margin: 0 auto;
-        font-size: 20px;
-        padding:10px 0px;
-    }
-    .link1-namepooja-sudrashana a {
-        text-decoration: none;
-        color: #00000091;
-        margin: 35px 5px;
-        font-size: 23px;
-    }
-    .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
-        margin: 13px;
-    }
-    h1.pooja-kit-heading {
-        margin: -91px -14px;
-        font-size: 27px;
-    }
+
+.Spiritual-and-religious h2 {
+    padding: 0px;
+    font-size: 30px;
+}
+
+.link2-namepooja {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.link2-namepooja a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 36px 30px;
+    font-size: 23px;
+}
+
+.link4-namepooja {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.link4-namepooja a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 36px 30px;
+    font-size: 23px;
+}
+
+.Medical-and-herbal {
+    width: 100%;
+    margin:0 auto;
+}
+
+.Medical-and-herbal h2 {
+    padding:0px;
+    font-size: 30px;
+}
+
+.pooja-img-Medical {
+    padding:20px 0px;
+}
+
+.link2-namepooja {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.link2-namepooja a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 36px 25px;
+    font-size: 23px;
+}
+
+.link3-namepooja {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.link3-namepooja a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 36px 15px;
+    font-size: 23px;
+}
+
+.Agricultural-and-natural {
+    width: 100%;
+    margin:0 auto;
+}
+
+.Agricultural-and-natural h2 {
+    padding: 0px;
+    font-size: 30px;
+}
+
+.pooja-img-Agricultural {
+    padding:20px 0px;
+}
+
+.link1-namepooja-108 {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 0px 0px;
+}
+
+.link1-namepooja-108 a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 10px 5px;
+    font-size: 23px;
+}
+
+.link1-namepooja-hari {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.link1-namepooja-hari a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 5px;
+    font-size: 23px;
+}
+
+.link1-namepooja-navgraha {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.link1-namepooja-navgraha a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 5px;
+    font-size: 23px;
+}
+
+.link4-namepooja-satya {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.link4-namepooja-satya a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 5px;
+    font-size: 23px;
+}
+
+.link1-namepooja-varalakshmi {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.link1-namepooja-varalakshmi a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 5px;
+    font-size: 23px;
+}
+
+.link1-namepooja-sudrashana {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.link1-namepooja-sudrashana a {
+    text-decoration: none;
+    color: #00000091;
+    margin: 35px 5px;
+    font-size: 23px;
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    margin-bottom: -10px;
+}
+
+h1.pooja-kit-heading {
+    margin: -91px -14px;
+    font-size: 27px;
+}

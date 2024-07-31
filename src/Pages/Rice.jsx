@@ -17,14 +17,14 @@ function Rice() {
       <div className="rice-main-container">
         <img src={rice} className='rice-banner' />
       </div>
+      <div class="rice-content">
+        <h1 className='rice-heading'>Rice</h1>
+        <ul className='rice-menu'>
+          <li><Link to="/">HOME</Link></li>
+          <li style={{ fontSize: "17px", color: "white" }}> / RICE</li>
+        </ul>
+      </div>
       <div className="rice-container">
-        <div class="rice-content">
-          <h1 className='rice-heading'>Rice</h1>
-          <ul className='rice-menu'>
-            <li><Link to="/">HOME</Link></li>
-            <li style={{ fontSize: "17px", color: "white" }}> / RICE</li>
-          </ul>
-        </div>
         <div className="rice-icon">
           <img src={icon} className='rice-body-icon' />
         </div>

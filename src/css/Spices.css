@@ -1,16 +1,21 @@
 .container{
     max-width: 1280px;
     width: 100%;
+    margin: 0 auto;
+}
+.spices-body-container{
+    max-width: 1100px;
+    width:100%;
+    margin:0 auto;
 }
 .spices{
-    height:300px;
     width:100%;
 }
 .spices-banner{
     background-image: url('../images/spices6.jpg');
     background-size: cover;
     padding: 141px 81px;
-    margin: 119px 0px;
+    margin: 121px 0px 0px 0px;
     position: relative;
 }
 .spices-banner h1 {
@@ -27,23 +32,26 @@
     padding: 10px -98px;
 }
 .spices-content {
-    height: 300px;
-    width: 100%;
-    background-color: white;
-    margin: 30px 0px;
+    margin:0 auto;
+    width:100%;
 }
 .spices-logo-context img {
-    max-width: 210px;
-    margin: 62px 525px;
+    width: 200px;
+    margin: 20px 450px 60px 450px;
 }
 .spices-logo-context h4 {
     text-align: center;
-    margin: -96px 1px;
-    color: #78a738;
+    margin: -96px 0px;
+    color: green;
+}
+.spices-logo-context h1 {
+    padding-top: 80px;
+    color: green;
+    text-align: center;
 }
 .spices-logo-context p {
-    padding: 141px 90px;
-    text-align: center;
+    padding: 20px 0px;
+    text-align: justify;
 }
 .spices-img{
     display: grid;
@@ -54,12 +62,11 @@
     right: 0;
     bottom: 0;
     position: relative;
-    margin: 79px 126px;
 }  
 .spices-product{
-    height: 1500px;
+    max-width: 1100px;
     width: 100%;
-    margin: 145px 0px
+    margin: 0 auto;
 }
 img.spices-pic{
     box-shadow: 0px 0px 13px #808080a6;

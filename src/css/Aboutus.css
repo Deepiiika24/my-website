@@ -16,7 +16,6 @@
     padding: 0 80px;
     position: absolute;
     color: white;
-    font-weight: 800;
 }
 
 .about-main-container .About-banner .about-content .about-menu {
@@ -66,9 +65,11 @@
     margin: 0 auto;
 }
 
-.about-text-container .about-heading h1{
-    color: red;
+.about-text-container .about-heading h1 {
+    color: green;
     text-align: center;
+    font-size: 32px;
+    padding: 20px 0px;
 }
 
 .about-container-slider {
@@ -76,6 +77,10 @@
     width: 100%;
     margin: 0 auto;
     padding-top: 100px;
+}
+.about-container-slider h1 {
+    font-size: 30px;
+    padding: 0px 0px 15px 0px;
 }
 
 .about-main-container .swiper .aboutswiper{
@@ -148,19 +153,20 @@
 
 .about-main-container .about-final-container h1 {
     text-align: center;
+    color: green;
+    font-size: 32px;
 }
 
 .about-main-container .about-final-container img {
     width: 20%;
     height: auto;
-    margin: 0px 442px;
+    margin: 0px 442px -50px 442px;
 }
 
 .about-main-container .about-final-container p {
-    max-width: 800px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 18px;
 
 }
@@ -229,203 +235,4 @@
 .col-md-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
-}
-
-@media (max-width:768px){
-    .about-main-container{
-        max-width: 768px;
-        width:100%;
-        margin:0 auto;
-    }.about-main-container .About-banner img{
-        max-width: 768px;
-        width:100%;
-        margin: 1px auto;
-    }.about-main-container .About-banner .about-content h1 {
-        top: 40%;
-        padding: 0 40px;
-        position: absolute;
-        color: white;
-        font-weight: 800;
-    }.about-main-container .About-banner .about-content .about-menu {
-        display: flex;
-        justify-content: space-between;
-        gap: 10px;
-        list-style: none;
-        top: 50%;
-        position: absolute;
-        padding: 0 47px;
-        overflow: hidden;
-        text-decoration: none;
-    }.about-main-container .about-body-container{
-        max-width: 660px;
-        width:100%;
-        margin:0 auto;
-        display: flex;
-        padding-top: 50px;
-        justify-content: space-between;
-        gap: 25px;
-    }.about-body-container img {
-        height: 300px;
-        width: 45%;
-        border-radius: 35px;
-    }.about-text-container .about-heading h1 {
-        color: red;
-        font-size: 25px;
-        text-align: center;
-        padding:0px 0px;
-    }.about-para {
-        padding: 0px 0px;
-        line-height: normal;
-    }.about-para p {
-        text-align: justify;
-        font-size: 16px;
-    }.about-container-slider {
-        max-width: 660px;
-        width: 100%;
-        margin: 0 auto;
-        padding:50px 0px;
-    }.about-container-slider h1 {
-        font-size: 25px;
-        padding: 10px 0px;
-    }.swiper-wrapper {
-        max-width: 660px;
-        width: 100%;
-        margin: 0 auto;
-    }.card-body{
-        padding:0px 0px !important;
-    }.about-main-container .about-final-container{
-        max-width: 660px;
-        width:100%;
-        margin:0 auto;
-        padding:20px 0px;
-    }.about-main-container .about-final-container img {
-        width: 20%;
-        height: auto;
-        margin: -43px 270px;
-    }.about-main-container .about-final-container p{
-        text-align: justify;
-        font-size: 15px;
-    }.about-wrapper {
-        max-width: 660px;
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        background: aliceblue;
-        line-height: 20px;
-        letter-spacing: 1px;
-        margin-top: 50px;
-    }.about-main-container .about-final-container .about-wrapper .about-container1, .about-main-container .about-final-container .about-wrapper .about-container2, .about-main-container .about-final-container .about-wrapper .about-container3 {
-        max-width: 600px;
-        width: 100%;
-        margin: 0 auto;
-    }
-}
-@media (max-width:480px){
-    .about-main-container{
-        max-width: 480px;
-        width:100%;
-        margin:0 auto;
-    }.about-main-container .About-banner img{
-        max-width: 480px;
-        width:100%;
-        margin: 1px auto;
-    }.about-main-container .About-banner .about-content h1 {
-        top: 35%;
-        padding: 0px 25px;
-        position: absolute;
-        color: white;
-        font-size:20px;
-        font-weight: 700;
-    }.about-main-container .About-banner .about-content .about-menu {
-        display: flex;
-        justify-content: space-between;
-        gap: 10px;
-        list-style: none;
-        top: 43%;
-        position: absolute;
-        padding: 0 20px;
-        overflow: hidden;
-        text-decoration: none;
-    }.about-main-container .About-banner .about-content .about-menu li {
-        font-size: 12px;
-    }
-    .about-main-container .about-body-container{
-        max-width: 415px;
-        width:100%;
-        margin:0 auto;
-        display: contents;
-        padding-top: 50px;
-        justify-content: space-between;
-        gap: 10px;
-    }.about-body-container img {
-        height: 300px;
-        width: 450px;
-        border-radius: 30px;
-        margin: 15px 15px;
-    }.about-text-container {
-        max-width: 415px;
-        width: 100%;
-        margin: 0 auto;
-    }.about-text-container .about-heading h1 {
-        color: red;
-        font-size: 25px;
-        text-align: center;
-        padding:0px 0px;
-    }.about-para {
-        padding: 0px 0px;
-        line-height: normal;
-    }.about-para p {
-        text-align: justify;
-        font-size: 15px;
-    }.about-container-slider {
-        max-width: 415px;
-        width: 100%;
-        margin: 0 auto;
-        padding:0px 0px;
-    }.swiper-wrapper {
-        max-width: 415px;
-        width: 100%;
-        margin: 0 auto;
-    }.about-main-container .about-final-container{
-        max-width: 415px;
-        width:100%;
-        margin:0 auto;
-        padding:20px 0px;
-    }.about-main-container .about-final-container img {
-        width: 20%;
-        height: auto;
-        margin: 0px 165px;
-    }.about-main-container .about-final-container h1 {
-        text-align: center;
-        font-size: 25px;
-    }.about-main-container .about-final-container p{
-        text-align: justify;
-        font-size: 15px;
-    }.about-wrapper {
-        max-width: 415px;
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        background: aliceblue;
-        line-height: 20px;
-        letter-spacing: 1px;
-        margin-top: 50px;
-    }.about-container1,.about-container2,.about-container3{
-        display: contents;
-    }.about-sub-container {
-        max-width: 375px;
-        margin: 0 auto;
-        text-align: justify;
-        padding: 20px 0px;
-    }img.img-fluid.rounded-start {
-        height: 70px;
-        width: 70px;
-    }.swiper-wrapper {
-        height: 200px;
-        width: 350px;
-    }.swiper.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden.aboutswiper {
-        margin: 0px 30px;
-    }.card-body{
-        padding:0px 0px !important;
-    }
 }

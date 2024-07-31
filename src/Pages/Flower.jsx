@@ -42,7 +42,7 @@ function Flower() {
       <section className="flowers">
         <div className="flower-banner">
           <img src={flower1} alt="" />
-          <div class="content">
+          <div class="main-flower-content">
             <h1>Flowers</h1>
             <ul className='menu'>
               <li><Link to="/">HOME</Link></li>
@@ -53,7 +53,7 @@ function Flower() {
       </section>
       <section className="flower-content">
         <img src={icon} alt="" />
-        <h5>Experience the enchanting fragrance and vibrant beauty of flowers from <span>Koogul Industries</span>. Discover the superb quality of our blooms, carefully cultivated and brought to you by <span>Koogul Industries</span>, your trusted partner in floriculture exports.</h5>
+        <h1>TRUSTED PARTNER IN FLORICULTURE EXPORTS</h1>
         <h1>_______</h1>
         <p>Floriculture in India primarily means the cultivation of flowers or flower farming. Known for its rich diversity, India's floriculture sector thrives with a wide variety of flowers, making it a prominent player in the global flower market. At Koogul Industries, we take pride in being one of the leading exporters of exquisite flowers from India, ensuring that the beauty of Indian floriculture reaches every corner of the world.</p>
       </section>

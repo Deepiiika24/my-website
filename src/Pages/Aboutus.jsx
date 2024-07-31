@@ -26,7 +26,7 @@ function Aboutus() {
         <section class="About-banner">
           <img src={banner} alt="" />
           <div class="about-content">
-            <h1>About Us</h1>
+            <h1>ABOUT US</h1>
             <ul className='about-menu'>
               <li><Link to="/">HOME</Link></li>
               <li> / ABOUT US</li>
@@ -186,7 +186,7 @@ function Aboutus() {
         <div className="about-final-container">
           <img src={icon} alt="" />
           <h1>Why Shop with us?</h1>
-          <h1 style={{ color: `red` }}>_______</h1>
+          <h1>_______</h1>
           <p>We are a dynamic creative agency based in  <span>Melbourne, Australia,</span> specializing in multilingual localization and top-notch translation solutions. With our extensive experience, we deliver high-quality, precise translations tailored to meet your global communication needs.</p>
           <div className="about-wrapper">
             <div className="about-container1">
