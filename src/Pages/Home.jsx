@@ -3,7 +3,7 @@ import '../css/Home.css';
 import logo from '../images/logo1.png'
 import slide1 from '../images/slider-1.jpg'
 import slide2 from '../images/gold2.jpg'
-import slide3 from '../images/spices6.jpg'
+import slide3 from '../images/spices-banner-4.jpg'
 import pic from '../images/l.png'
 import swiper1 from '../images/swiper3.jpg'
 import swiper2 from '../images/malli.jpg'
@@ -47,7 +47,7 @@ function Home() {
                     <img className='logo1' src={logo}></img>
                     <div className='home-content'>
                         <h2>KOOGUL INDUSTRIES IMPORTERS & EXPORTERS</h2>
-                        <h2>__________</h2>
+                        <h2 style={{color:"red",padding:"0px 0px 20px 0px"}}>__________</h2>
                         <p>"As the ‘land of spices’, India exports tons of various kinds of food. In fact, food export from India is a major source of revenue. To help your products reach to even the farthest corners of the world, Pisum Foods offers you various types of food export as well as spices export from India. Being among the leading food export companies in India, we ensure our services conform to international quality standards.”</p>
                     </div>
                 </div>

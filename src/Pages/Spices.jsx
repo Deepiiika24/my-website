@@ -1,5 +1,4 @@
 import React from 'react';
-import spicesbanner from '../images/spices3.jpg'
 import spiceslogo from '../images/l.png'
 import'../css/Spices.css'
 import { Link } from 'react-router-dom'
@@ -49,85 +48,85 @@ function Spices() {
         <div className='spices-img'>
         <div className='card'>
                  <img src={spices1} className='spices-pic'></img>
-              <h3 className='link1-name'><Link to='/Garlic'>Garlic</Link> </h3>
+              <h3 className='link1-name' id='link-name'><Link to='/Garlic'>Garlic</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices2} className='spices-pic'></img>
-              <h3 className='link2-name'><Link to='/Clove'>Clove</Link> </h3>
+              <h3 className='link2-name' id='link-name'><Link to='/Clove'>Clove</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices3} className='spices-pic'></img>
-              <h3 className='link3-namespices'><Link to='/Mustardseeds'>Mustard Seeds</Link> </h3>
+              <h3 className='link3-namespices' id='link-name'><Link to='/Mustardseeds'>Mustard Seeds</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices4} className='spices-pic'></img>
-              <h3 className='link4-name'><Link to='/Bayleaf'>Bay-leaf</Link> </h3>
+              <h3 className='link4-name' id='link-name'><Link to='/Bayleaf'>Bay-leaf</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices5} className='spices-pic'></img>
-              <h3 className='link5-name'><Link to='/Turmeric'>Turmeric</Link> </h3>
+              <h3 className='link5-name' id='link-name'><Link to='/Turmeric'>Turmeric</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices6} className='spices-pic'></img>
-              <h3 className='link6-name'><Link to='/Ginger'>Ginger</Link> </h3>
+              <h3 className='link6-name' id='link-name'><Link to='/Ginger'>Ginger</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices7} className='spices-pic'></img>
-              <h3 className='link7-name'><Link to='/Spistaranice'>Start-anise</Link> </h3>
+              <h3 className='link7-name' id='link-name'><Link to='/Spistaranice'>Start-anise</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices8} className='spices-pic'></img>
-              <h3 className='link8-name'><Link to='/Cinnamon'>Cinnamon</Link> </h3>
+              <h3 className='link8-name' id='link-name'><Link to='/Cinnamon'>Cinnamon</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices9} className='spices-pic'></img>
-              <h3 className='link9-name'><Link to='/Nutmeg'>Nutmeg</Link> </h3>
+              <h3 className='link9-name' id='link-name'><Link to='/Nutmeg'>Nutmeg</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices10} className='spices-pic'></img>
-              <h3 className='link10-name'><Link to='/Cumin'>Cumin</Link> </h3>
+              <h3 className='link10-name' id='link-name'><Link to='/Cumin'>Cumin</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices11} className='spices-pic'></img>
-              <h3 className='link11-name'><Link to='/Blackpepper'>Black pepper</Link> </h3>
+              <h3 className='link11-name' id='link-name'><Link to='/Blackpepper'>Black pepper</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices12} className='spices-pic'></img>
-              <h3 className='link12-name'><Link to='/Redchilli'>Red chilli</Link> </h3>
+              <h3 className='link12-name' id='link-name'><Link to='/Redchilli'>Red chilli</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices13} className='spices-pic'></img>
-              <h3 className='link13-name'><Link to='/Coriander'>Coriander</Link> </h3>
+              <h3 className='link13-name' id='link-name'><Link to='/Coriander'>Coriander</Link> </h3>
              </div>
              
              <div className='card'>
                  <img src={spices15} className='spices-pic'></img>
-              <h3 className='link15-name'><Link to='/Caromseeds'>Carom seeds</Link> </h3>
+              <h3 className='link15-name' id='link-name'><Link to='/Caromseeds'>Carom seeds</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices16} className='spices-pic'></img>
-              <h3 className='link16-name'><Link to='/Mace'>Mace</Link> </h3>
+              <h3 className='link16-name' id='link-name'><Link to='/Mace'>Mace</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices17} className='spices-pic'></img>
-              <h3 className='link17-name'><Link to='/poppyseed'>poppy seed</Link> </h3>
+              <h3 className='link17-name' id='link-name'><Link to='/poppyseed'>poppy seed</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices18} className='spices-pic'></img>
-              <h3 className='link18-name'><Link to='/Greencardamom'>Green Cardamom</Link> </h3>
+              <h3 className='link18-name' id='link-name'><Link to='/Greencardamom'>Green Cardamom</Link> </h3>
              </div>
              
              <div className='card'>
                  <img src={spices19} className='spices-pic'></img>
-              <h3 className='link19-name'><Link to='/Peppercorns'>Peppercorns</Link> </h3>
+              <h3 className='link19-name' id='link-name'><Link to='/Peppercorns'>Peppercorns</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices20} className='spices-pic'></img>
-              <h3 className='link20-name'><Link to='/Browncardamam'>Brown cardamam</Link> </h3>
+              <h3 className='link20-name' id='link-name'><Link to='/Browncardamam'>Brown cardamam</Link> </h3>
              </div>
              <div className='card'>
                  <img src={spices14} className='spices-pic'></img>
-              <h3 className='link14-name'><Link to='/Spicessaffron'>Saffron</Link> </h3>
+              <h3 className='link14-name' id='link-name'><Link to='/Spicessaffron'>Saffron</Link> </h3>
              </div>
         </div>
       </section>

@@ -181,3 +181,7 @@ img.flower-pic {
     gap: 20px;
     padding: 10px 0px;
 }
+img.petals-pic, img.flower-slide-img {
+    height: 243px;
+    width: 243px;
+}

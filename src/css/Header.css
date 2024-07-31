@@ -91,7 +91,7 @@ ul.dropdown-menu.show {
     --bs-gutter-x: -0.5rem !important;
   }
   ul.dropdown-menu.show {
-    background: #F44336;
+    background: #d85a5ae6;;
   }nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     max-width: 768px;
     width: 100% !important;

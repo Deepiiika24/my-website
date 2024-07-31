@@ -18,7 +18,8 @@
 
 .home-content h2 {
     text-align: center;
-    color: #78a738;
+    color: green;
+    font-size: 32px;
 }
 
 .home-content p {
@@ -59,7 +60,7 @@ section.main-bg1 {
     height: 750px;
     width: 100%;
     background-color: #c0bbbb1c;
-    margin: -52px 0px;
+    margin: 0 auto;
 }
 
 .w-100 {
@@ -77,84 +78,7 @@ img.pic {
 }
 
 h1.text {
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
-    color: #78a738;
-}
-@media (max-width:768px){
-    .home-slider-container {
-        max-width: 768px;
-        width: 100%;
-        margin: 0 auto;
-    }.home-main-bg {
-        max-width: 660px;
-        width: 100%;
-        margin: 0 auto;
-    }.home-container img.logo1 {
-        height: 70px;
-        width: 150px;
-        margin: 0px 257px;
-    }.home-content h2 {
-        text-align: center;
-        color: #78a738;
-    }.home-content p {
-        text-align: justify;
-        font-size: 14px;
-    }.shape-container{
-        max-width: 660px;
-        width:100%;
-        margin:0 auto;
-    }img.product {
-        margin: 10px 145px;
-    }section.main-bg1{
-        max-width: 768px;
-        width:100%;
-        margin:-10px auto;
-    }section.main-bg1 img.pic {
-        height: 80px;
-        margin: -40px 320px;
-    }section.main-bg1 h1.text {
-        font-size: 20px;
-        text-align: center;
-        color: #78a738;
-    }
-}
-@media (max-width:480px){
-    .home-slider-container {
-        max-width: 480px;
-        width: 100%;
-        margin: 0 auto;
-    }.home-main-bg {
-        max-width: 415px;
-        width: 100%;
-        margin: 0 auto;
-    }.home-container img.logo1 {
-        height: 60px;
-        width: 100px;
-        margin: 0px 160px;
-    }.home-content h2 {
-        text-align: center;
-        color: #78a738;
-        font-size: 20px;
-    }.home-content p {
-        text-align: justify;
-        font-size: 12px;
-    }.shape-container{
-        max-width: 415px;
-        width:100%;
-        margin:0 auto;
-    }img.product {
-        margin: 10px 23px;
-    }section.main-bg1{
-        max-width: 480px;
-        width:100%;
-        margin:-10px auto;
-    }section.main-bg1 img.pic {
-        height: 60px;
-        margin: -40px 190px;
-    }section.main-bg1 h1.text {
-        font-size: 30px;
-        text-align: center;
-        color: #78a738;
-    }
+    color: green;
 }
