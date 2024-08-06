@@ -1,94 +1,21 @@
-.container{
+.spices-page-container{
+    max-width: 1280px;
+    width:100%;
+    margin:0 auto;
+}
+section.Spices-type-banner {
+    margin-top: 121px;
     width: 100%;
 }
-.Spices-type-banner{
+section.spices-type-content,section.Spices-type-table {
+    max-width: 1100px;
     width: 100%;
-    height: 317px;
+    margin: 50px auto;
 }
-img.banner {
-    margin: 116px -17px;
-}
-.spices-type-content{
-    width: 100%;
-    height: 300px;
-}
-.spices-type-text h1{
-    margin: 194px 488px;
-    color: #000000b3;
-}  
-.spices-type-text p{
-    margin: -146px 105px;
+.spices-type-text h1 {
     text-align: center;
+    padding: 10px 0px;
 }
-.Spices-type-table{
-    height: 400px;
-    width: 100%;
-}
-.Spices-table-heading h1 {
-    margin: -14px 479px;
-    font-size: 48px;
-    color: #000000b3;
-}
-table.table.table-hover.table-responsive.table-bordered {
-    width: 63%;
-    padding: 45px 2px;
-    margin: 68px 234px;
-}
-table.table.table-hover.table-responsive.table-bordered th {
-    padding: 6px 96px;
-}
-.table-bordered tr {
-    border: 1px solid #ff000057;
-}
-.table-bordered th {
-    border: 1px solid #ff000057;
-}
-.spices-type-text h2 {
-    margin: 194px 358px;
-    color: #000000b3;
-    font-size: 48px;
-}
-.spices-type-text h3 {
-    margin: 193px 432px;
-    color: #000000b3;
-    font-size: 30px;
-    font-size: 48px;
-}
-.spices-type-text.tumeric h2 {
-    margin: 189px 423px;
-    font-size: 48px;
-}
-.spices-type-text.cinnamon h3 {
-    margin: 215px 410px;
-    font-size: 48px;
-}
-.spices-type-text.cumin h2 {
-    margin: 180px 449px;
-    font-size: 48px;
-}
-.spices-type-text.blackpepper h3 {
-    margin: 180px 377px;
-    font-size: 48px;
-}
-.spices-type-text.redchilli h3 {
-    margin: 185px 422px;
-    font-size: 48px;
-}
-section.spices-type-content.coriander h3 {
-    margin: 203px 413px;
-    font-size: 48px;
-}
-section.spices-type-content.poppy h3 {
-    margin: 203px 394px;
-    font-size: 48px;
-}
-.spices-type-text.greens h3 {
-    margin: 203px 332px;
-    font-size: 48px;
-}
-.spices-type-text.saffron h3 {
-    margin: 203px 430px;
-}
-.spices-type-text.star h3 {
-    margin: 203px 414px;
+.spices-type-text p {
+    text-align: justify;
 }

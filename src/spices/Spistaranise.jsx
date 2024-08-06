@@ -11,7 +11,7 @@ function Spistaranice() {
       </section>
       <section className='spices-type-content'>
         <div className='spices-type-text star'>
-          <h3>Star-anise Exporters</h3>
+          <h1>STAR-ANISE EXPORTERS</h1>
           <p>Illicium verum (star anise or badian, Chinese star anise, star anise seed, star aniseed and star of anise) is a medium-sized evergreen tree native to northeast Vietnam and South China. It is a spice that closely resembles anise in flavor and is obtained from the star-shaped pericarps of the fruit of I. verum which are harvested just before ripening. Star anise oil is a highly fragrant oil used in cooking, perfumery, soaps, toothpastes, mouthwashes, and skin creams. Until 2012, when they switched to using genetically modified E. coli, Roche Pharmaceuticals used up to 90% of the world's annual star anise crop to produce oseltamivir (Tamiflu) via shikimic acid.</p>
         </div>
       </section>

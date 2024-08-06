@@ -11,7 +11,7 @@ function Mace() {
       </section>
       <section className='spices-type-content'>
         <div className='spices-type-text'>
-          <h1>Mace Exporters</h1>
+          <h1>MACE EXPORTERS</h1>
           <p>Mace is actually the lacy coating, called the aril, found on a nutmeg seed. This lacy aril is red in colour and can be removed by hand from the outer shell of the nutmeg and then dried. The Mace exporter in India exports tonnes of the product abroad from India. This Mace export from India has been increasing over the years. This may be because of the several health and medicinal benefits of Mace. The Indian Mace exporter, therefore, is earning good revenues from this export. The Mace export includes the export of various varieties of Mace.</p>
         </div>
       </section>

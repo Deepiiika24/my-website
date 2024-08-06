@@ -11,7 +11,7 @@ function Caromseeds() {
       </section>
       <section className='spices-type-content'>
         <div className='spices-type-text'>
-          <h2>Caromseeds Exporters</h2>
+          <h1>CAROMSEEDS EXPORTERS</h1>
           <p>Ajwain or ajowan (Trachyspermum ammi)  also known as ajowan caraway, omam (in Tamil), thymol seeds, bishop's weed, or carom—is an annual herb in the family Apiaceae.[4] Both the leaves and the seed like fruit (often mistakenly called seeds) of the plant are consumed by humans. The name "bishop's weed" also is a common name for other plants. The "seed" (i.e., the fruit) is often confused with lovage seed.</p>
         </div>
       </section>

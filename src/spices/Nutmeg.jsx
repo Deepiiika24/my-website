@@ -11,7 +11,7 @@ function Nutmeg() {
       </section>
       <section className='spices-type-content'>
         <div className='spices-type-text'>
-          <h3>Nutmeg Exporters</h3>
+          <h1>NUTMEG EXPORTERS</h1>
           <p>Nutmeg is the seed, or the ground spice derived from that seed, of several tree species of the genus Myristica; fragrant nutmeg or true nutmeg (M. fragrans) is a dark-leaved evergreen tree cultivated for two spices derived from its fruit: nutmeg, from its seed, and mace, from the seed covering. It is also a commercial source of nutmeg essential oil and nutmeg butter. Indonesia is the main producer of nutmeg and mace, and the true nutmeg tree is native to its islands.
 If consumed in amounts exceeding its typical use as a spice, nutmeg powder may produce allergic reactions, cause contact dermatitis, or have psychoactive effects. Although used in traditional medicine for treating various disorders, nutmeg has no scientifically confirmed medicinal value.</p>
         </div>

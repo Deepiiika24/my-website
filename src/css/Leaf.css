@@ -38,15 +38,17 @@
 .leaves-main-container .leaves-container .leaves-icon {
     height: auto;
     width: 200px;
-    margin:-25px 450px;
+    margin: 0px 450px -35px 450px;
 }
-.leaves-main-container .leaves-container h3,.leaves-main-container .leaves-container h1{
+.leaves-main-container .leaves-container h1,.leaves-main-container .leaves-container h1{
     text-align: center;
+    color: green;
+    font-size: 30px;
+    padding:5px 0px;
 }
 .leaves-main-container .leaves-container p{
-    max-width: 900px;
     text-align: justify;
-    margin: 0 auto;
+    margin: 25px auto;
 }
 .leaves-main-container .leaves-sub-container .leaves-img{
     display: flex;
@@ -77,61 +79,4 @@
 .leaves-main-container .leaves-sub-container .leaves-img-end .card #leaf-link-name a{
     text-decoration: none;
     color: #00000091;
-}
-@media (max-width:768px){
-    .leaves-main-container{
-        max-width: 768px;
-        min-width: 520px;
-        width:100%;
-        margin:0 auto;
-    }
-    .leaves-main-container .leaves-banner{
-        width:100%;
-        margin-top:121px;
-    }
-    .leaves-main-container .leaves-content h1{
-        padding-top: 30px;
-        position: absolute;
-        color: white;
-        margin: 60px 320px;
-        font-weight: 800;
-    }
-    .leaves-main-container .leaves-content .leaves-menu{
-        display: flex;
-        justify-content: space-between;
-        gap: 6px;
-        list-style: none;
-        position: absolute;
-        margin: 38px 313px 0px 313px;
-        overflow: hidden;
-        text-decoration: none;
-        font-weight: bold;
-        padding: 60px 2px;
-    }
-    .leaves-main-container .leaves-container,.leaves-main-container .leaves-sub-container{
-        max-width: 660px;
-        width:100%;
-        margin:30px auto;
-    }
-    .leaves-main-container .leaves-container .leaves-icon {
-        height: auto;
-        margin: -30px 212px -50px 212px;
-    }
-    .leaves-main-container .leaves-container p{
-        max-width: 660px;
-        text-align: justify;
-        margin: 0 auto;
-    }
-    .leaves-main-container .leaves-sub-container .leaves-img{
-        justify-content: space-evenly;
-        padding: 25px 0px;
-        flex-wrap: wrap;
-        gap: 45px;
-    }
-    .leaves-main-container .leaves-sub-container .leaves-img-end{
-        justify-content: space-evenly;
-        padding: 25px 0px;
-        flex-wrap: wrap;
-        gap: 45px;
-    }
 }

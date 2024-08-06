@@ -11,7 +11,7 @@ function Greencardamom() {
       </section>
       <section className='spices-type-content'>
         <div className='spices-type-text greens'>
-          <h3>Green cardamom Exporters</h3>
+          <h1>GREEN CARDAMON EXPORTERS</h1>
           <p>Elettaria cardamomum, commonly known as green cardamom or true cardamom, is a herbaceous, perennial plant in the ginger family, native to southern India. It is the most common of the species whose seeds are used as a spice called cardamom that has a sharp, strong, punchy aroma. It is cultivated widely in tropical regions and reportedly naturalized in Réunion, Indochina, and Costa Rica.</p>
         </div>
       </section>

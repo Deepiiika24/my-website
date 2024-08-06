@@ -11,7 +11,7 @@ function Mustardseeds() {
       </section>
       <section className='spices-type-content'>
         <div className='spices-type-text'>
-          <h2>Mustard Seeds Exporters</h2>
+          <h1>MUSTARD SEEDS EXPORTERS</h1>
           <p>Mustard seeds are the small round seeds of various mustard plants. The seeds are usually about 1 to 2 millimetres in diameter and may be colored from yellowish white to black. They are an important spice in many regional foods and may come from one of three different plants: black mustard (Brassica nigra), brown mustard (B. juncea), or white mustard (Sinapis alba).
 Grinding and mixing the seeds with water, vinegar or other liquids creates the yellow condiment known as mustard.</p>
         </div>

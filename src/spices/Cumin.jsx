@@ -11,7 +11,7 @@ function Cumin() {
       </section>
       <section className='spices-type-content'>
         <div className='spices-type-text cumin'>
-          <h2>Cumin Exporters</h2>
+          <h1>CUMIN EXPORTERS</h1>
           <p>Cumin ( US also  Cuminum cyminum) is a flowering plant in the family Apiaceae, native to the Irano-Turanian Region. Its seeds  each one contained within a fruit, which is dried – are used in the cuisines of many cultures in both whole and ground form. Although cumin is used in traditional medicine, there is no high-quality evidence that it is safe or effective as a therapeutic agent.</p>
         </div>
       </section>

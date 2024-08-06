@@ -24,7 +24,7 @@
 }
 .snacks-container .snacks-content .snacks-menu {
     display: flex;
-    margin: 205px 452px;
+    margin: 205px 452px 195px 452px;
     gap: 15px;
 }
 ul.snacks-menu li {
@@ -35,17 +35,17 @@ ul.snacks-menu li a{
     font-size: 18px;
     color:white;
 }
-.snacks-container h2.snacks-body-heading{
-    text-align: center;
-    color:Green;
-}
 .snacks-container h1{
     text-align: center;
-    color: red;
-    margin: -30px 0px 30px 0px;
+    color:Green;
+    font-size: 30px;
+    padding:8px 0px;
 }
+
+ 
 .snacks-container p{
-    text-align: center;
+    text-align: justify;
+    padding:15px 0px;
 }
 .snacks-container .snacks-sub-container .snacks-image {
     display: flex;

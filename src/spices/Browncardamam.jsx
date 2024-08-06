@@ -11,7 +11,7 @@ function Browncardamam() {
       </section>
       <section className='spices-type-content '>
         <div className='spices-type-text greens'>
-          <h3>Browncardamam Exporters</h3>
+          <h1>BROWN CARDAMOM EXPORTERS</h1>
           <p>Amomum subulatum, also known as black cardamom, hill cardamom, Bengal cardamom, greater cardamom, Indian cardamom,Nepal cardamom, winged cardamom, big cardamon, or brown cardamom, is a perennial herbaceous plant in the family Zingiberaceae. Its seed pods have a strong, camphor-like flavour, with a smoky character derived from the method of drying.</p>
         </div>
       </section>

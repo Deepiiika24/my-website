@@ -11,7 +11,7 @@ function Poppyseed() {
       </section>
       <section className='spices-type-content poppy'>
         <div className='spices-type-text'>
-          <h3>Poppy seed Exporters</h3>
+          <h1>POPPY SEED EXPORTERS</h1>
           <p>Poppy seed is an oilseed obtained from the opium poppy (Papaver somniferum). The tiny, kidney-shaped seeds have been harvested from dried seed pods by various civilizations for thousands of years. It is still widely used in many countries, especially in Central Europe and South Asia, where it is legally grown and sold in shops. The seeds are used whole or ground into meal as an ingredient in many foods especially in pastry and bread and they are pressed to yield poppyseed oil.</p>
         </div>
       </section>

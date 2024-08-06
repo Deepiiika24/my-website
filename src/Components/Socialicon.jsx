@@ -18,9 +18,8 @@ const Socialicon = () => {
                     <p>Twitter</p>
                 </li>
                 <li>
-                    <a href="" target="_blank" rel="noopener noreferrer" />
                     <InstagramIcon style={{ fontSize: 25 }} sx={{ color: pink[500] }} className='instagram' />
-                    <p>Instagram</p>
+                    <p>Instagram</p> 
                 </li>
             </ul>
         </div>

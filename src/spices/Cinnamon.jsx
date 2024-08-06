@@ -11,7 +11,7 @@ function Cinnamon() {
       </section>
       <section className='spices-type-content'>
         <div className='spices-type-text cinnamon'>
-          <h3>Cinnamon Exporters</h3>
+          <h1>CINNAMON EXPORTERS</h1>
           <p>Cinnamon is a spice obtained from the inner bark of several tree species from the genus Cinnamomum. Cinnamon is used mainly as an aromatic condiment and flavouring additive in a wide variety of cuisines, sweet and savoury dishes, breakfast cereals, snack foods, bagels, teas, hot chocolate and traditional foods. The aroma and flavour of cinnamon derive from its essential oil and principal component, cinnamaldehyde, as well as numerous other constituents including eugenol.
 Cinnamomum verum, from Koehler's Medicinal-Plants (1887)Close-up view of raw cinnamon bark Cinnamon is the name for several species of trees and the commercial spice products that some of them produce. All are members of the genus Cinnamomum in the family Lauraceae. </p>  </div>
       </section>

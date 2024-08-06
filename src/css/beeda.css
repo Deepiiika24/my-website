@@ -2,6 +2,11 @@
     max-width: 1280px;
     width: 100%;
 }
+.beeda-body-container{
+    max-width: 1100px;
+    width:100%;
+    margin: 0 auto;
+}
 .beeda{
     height:300px;
     width:100%;
@@ -27,23 +32,22 @@
     padding: 10px -31px;
 }
 .beeda-content {
-    height: 300px;
     width: 100%;
-    background-color: white;
-    margin: 30px 0px;
+    margin: 0 auto;
 }
 .beeda-logo-context img {
-    max-width: 210px;
-    margin: 62px 525px;
+    width: 200px;
+    height: auto;
+    margin: 50px 450px -30px 450px;
 }
 .beeda-logo-context h1 {
     text-align: center;
-    margin: -96px 1px;
     color: green;
+    font-size: 30px;
 }
 .beeda-logo-context p {
-    padding: 141px 90px;
-    text-align: center;
+    text-align: justify;
+    padding:20px 0px;
 } 
  .beeda-img{
     display: grid;
@@ -53,68 +57,20 @@
     right: 0;
     bottom: 0;
     position: relative;
-    margin: 79px 126px;
 }  
 .beeda-product{
-    height: 900px;
     width: 100%;
-    margin: 145px 0px
+    margin: 50px auto;
 }
 img.beeda-pic{
     box-shadow: 0px 0px 13px #808080a6;
     border-radius:3px;
 }
-h3.link1-namebeeda a {
+h3#beeda-linkname a {
     text-decoration: none;
     color: #00000091;
-    margin: 0px 23px;
-    font-size: 23px;
+    font-size: 20px;
 }
-h3.link2-namebeeda a {
-    text-decoration: none;
-    color: #00000091;
-    margin: 0px 25px;
-    font-size: 23px;
-}
-h3.link3-namebeeda a {
-    text-decoration: none;
-    color: #00000091;
-    margin: 0px 25px;
-    font-size: 23px;
-}
-h3.link4-namebeeda a {
-    text-decoration: none;
-    color: #00000091;
-    margin: 0px 47px;
-    font-size: 23px;
-}
-h3.link5-namebeeda a {
-    text-decoration: none;
-    color: #00000091;
-    margin: 0px 44px;
-    font-size: 23px;
-}
-h3.link6-namebeeda a {
-    text-decoration: none;
-    color: #00000091;
-    margin: 0px 69px;
-    font-size: 23px;
-}
-h3.link7-namebeeda a {
-    text-decoration: none;
-    color: #00000091;
-    margin: 0px 29px;
-    font-size: 23px;
-}
-h3.link8-namebeeda a {
-    text-decoration: none;
-    color: #00000091;
-    margin: 0px 27px;
-    font-size: 23px;
-}
-h3.link9-namebeeda a {
-    text-decoration: none;
-    color: #00000091;
-    margin: 0px 27px;
-    font-size: 23px;
+h3#beeda-linkname{
+    margin: 0 auto;
 }

@@ -18,7 +18,7 @@ import { Link } from 'react-router-dom'
 function Home() {
 
     return (
-        <div >
+        <div className='home-main-container' >
             <div className="home-slider-container">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">

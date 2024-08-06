@@ -38,7 +38,7 @@ function Snacks() {
           <img src={icon} className='snacks-body-icon' />
         </div>
         <div>
-          <h2 className='snacks-body-heading'>WORLD-CLASS SNACKS DELIVERED : PREMIER EXPORTER OF GOURMET TREATS</h2>
+          <h1 className='snacks-body-heading'>WORLD-CLASS SNACKS DELIVERED : PREMIER EXPORTER OF GOURMET TREATS</h1>
           <h1>_______</h1>
           <p>Indulge in our exquisite range of gourmet snacks, meticulously sourced and crafted to delight your taste buds. As a premier exporter, we ensure world-class quality and taste delivered right to your doorstep.</p>
         </div>

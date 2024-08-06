@@ -11,7 +11,7 @@ function Coriander() {
       </section>
       <section className='spices-type-content coriander'>
         <div className='spices-type-text'>
-          <h3>Coriander Exporters</h3>
+          <h1>CORIANDER EXPORTERS</h1>
           <p>Coriander (Coriandrum sativum), also known as cilantro  is an annual herb in the family Apiaceae. All parts of the plant are edible, but the fresh leaves and the dried seeds are the parts most traditionally used in cooking.
 Most people perceive coriander as having a tart, lemon/lime taste, but some individuals perceive the leaves to have a soapy, pungent, or rotten taste</p>
         </div>

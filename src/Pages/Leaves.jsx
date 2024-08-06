@@ -34,8 +34,8 @@ function Leaves() {
       </div>
       <div className="leaves-container">
           <img src={icon} alt="icon" className='leaves-icon'/>
-          <h3 style={{color:"green"}}>EXPORTING PREMIUM QUALITY LEAVES FOR ALL YOUR NEEDS</h3>
-          <h1 style={{color:"red"}}>_______</h1>
+          <h1>EXPORTING PREMIUM QUALITY LEAVES FOR ALL YOUR NEEDS</h1>
+          <h1>_______</h1>
           <p>At Koogul Industries, we pride ourselves on providing a diverse range of premium quality leaves to meet all your culinary, decorative, and ceremonial needs. Our leaves are handpicked, ensuring the utmost freshness and quality with every shipment. We cater to both large-scale commercial orders and individual customer requests, making us your trusted partner in leaf export.</p>
       </div>
       <div className="leaves-sub-container">
