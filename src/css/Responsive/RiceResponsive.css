@@ -211,9 +211,11 @@
       margin: -20px 10px 10px 10px;
     }
   
-    .rice-container .rice-sub-container  {
-      flex-wrap: wrap;
-      margin: 0px 61px;
+    .rice-container .rice-sub-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px 0px;
+        gap: 15px;
     }
   }
   
