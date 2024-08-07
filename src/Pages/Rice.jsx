@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Rice.css'
+import '../css/Responsive/RiceResponsive.css'
 import rice from '../images/rice/Rice-banner.png'
 import icon from '../images/l.png'
 import rice1 from '../images/rice/Basmati-rice.jpg'
