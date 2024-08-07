@@ -158,9 +158,9 @@ ul.rice-menu li a {
 }
 }
 
-@media (max-width:425px) {
+@media (max-width:424px) {
   .rice-main-container {
-    max-width: 425px;
+    max-width: 424px;
     width: 100%;
     margin: 0 auto;
   }
