@@ -1,97 +1,375 @@
 .rice-main-container {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .rice-main-container .rice-banner {
-    margin-top: 121px;
-    width: 100%;
+  margin-top: 121px;
+  width: 100%;
 }
 
 .rice-container {
-    max-width: 1100px;
-    width: 100%;
-    margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .rice-icon .rice-body-icon {
-    margin: 150px 450px -30px 450px;
-    width: 200px;
+  margin: 150px 450px -30px 450px;
+  width: 200px;
 }
+
 .rice-content h1.rice-heading {
-    margin: -230px 0px 0px 0px;
-    padding: 15px 512px;
-    color: white;
-    text-align: center;
+  margin: -230px 0px 0px 0px;
+  padding: 15px 512px;
+  color: white;
+  text-align: center;
 }
 
 .rice-content .rice-menu {
-    display: flex;
-    margin: 0px 484px;
-    gap: 10px;
-    padding: 0px 94px;
+  display: flex;
+  margin: 0px 484px;
+  gap: 10px;
+  padding: 0px 94px;
 }
 
 ul.rice-menu li {
-    list-style: none;
+  list-style: none;
 }
 
 ul.rice-menu li a {
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
 }
 
 .rice-container h2.rice-body-heading {
-    text-align: center;
-    color: Green;
-    font-size: 30px;
+  text-align: center;
+  color: Green;
+  font-size: 30px;
 }
 
 .rice-container h1 {
-    text-align: center;
-    color: green;
-    margin: -30px 0px 30px 0px;
+  text-align: center;
+  color: green;
+  margin: -30px 0px 30px 0px;
 }
 
 .rice-container p {
+  text-align: justify;
+}
+
+.rice-container .rice-sub-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 25px 0px;
+  gap: 45px;
+}
+
+.rice-container .rice-sub-container .card img.rice-pic {
+  height: 243px;
+  width: 243px;
+  box-shadow: 0px 0px 13px #808080a6;
+  border-radius: 3px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.rice-container .rice-sub-container .card #rice-link-name {
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
+.rice-container .rice-sub-container .card #rice-link-name a {
+  text-decoration: none;
+  color: #00000091;
+}
+
+.card {
+  min-width: auto;
+}
+
+@media (max-width:768px) {
+  .rice-main-container {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .rice-main-container .rice-banner {
+    margin-top: 121px;
+    width: 100%;
+  }
+
+  .rice-content h1.rice-heading {
+    margin: -125px 0px;
+    padding: 0px 0px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  ul.rice-menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+  }
+
+  li.menu-rice {
+    font-size: 20px;
+    color: white;
+    padding: 0px 0px;
+  }
+
+  .rice-content .rice-menu {
+    display: flex;
+    margin: 130px 0px 0px 0px;
+    gap: 7px;
+    padding: 0px 0px 0px 315px;
+  }
+
+  .rice-container {
+    width: 100%;
+    margin: 0px 0px;
+  }
+
+  .rice-icon .rice-body-icon {
+    margin: 70px 304px -35px 304px;
+    width: 160px;
+  }
+  .rice-container h2.rice-body-heading {
+    font-size: 20px;
+  }
+  .rice-container p {
     text-align: justify;
+    font-size: 15px;
+    margin: -20px 10px 10px 10px;
+  }
+  .rice-container .rice-sub-container, .rice-container .rice-sub-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 0px;
+    gap: 15px;
+}
+.rice-container .rice-sub-container .card #rice-link-name {
+  margin: 0 auto;
+  font-size: 18px;
+}
 }
 
-.rice-container .rice-sub-container .rice-image {
+@media (max-width:425px) {
+  .rice-main-container {
+    max-width: 425px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .rice-main-container .rice-banner {
+    margin-top: 121px;
+    width: 100%;
+  }
+
+  .rice-content h1.rice-heading {
+    margin: -70px 0px;
+    padding: 0px 0px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  ul.rice-menu li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+  }
+
+  li.menu-rice {
+    font-size: 14px;
+    color: white;
+    padding: 3px 0px;
+  }
+
+  .rice-content .rice-menu {
     display: flex;
-    padding: 25px 0px;
-    gap: 45px;
+    margin: 68px 0px 0px 0px;
+    gap: 5px;
+    padding: 0px 0px 0px 170px;
+  }
+
+  .rice-container {
+    width: 100%;
+    margin: 0px 0px;
+  }
+
+  .rice-icon .rice-body-icon {
+    margin: 29px 157px -30px 157px;
+    width: 110px;
+  }
+
+  .rice-container h2.rice-body-heading {
+    font-size: 14px;
+  }
+
+  .rice-container p {
+    text-align: justify;
+    font-size: 10px;
+    margin: -20px 10px 10px 10px;
+  }
+
+  .rice-container .rice-sub-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 0px;
+    gap: 15px;
 }
 
-.rice-container .rice-sub-container .rice-image1 {
-    display: flex;
-    padding: 25px 0px;
-    gap: 45px;
-}
+  .rice-container .rice-sub-container .card {
+    height: 200px;
+    width: 180px;
+  }
 
-.rice-container .rice-sub-container .rice-image .card img.rice-pic,
-.rice-container .rice-sub-container .rice-image1 .card img.rice-pic {
-    height: 243px;
-    width: 243px;
+  .rice-container .rice-sub-container .card img.rice-pic {
+    width: 180px;
+    height: 200px;
     box-shadow: 0px 0px 13px #808080a6;
     border-radius: 3px;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-}
+  }
 
-.rice-container .rice-sub-container .rice-image .card #rice-link-name,
-.rice-container .rice-sub-container .rice-image1 .card #rice-link-name {
+  .rice-container .rice-sub-container  .card #rice-link-name {
     margin: 0 auto;
-    font-size: 20px;
-    padding: 10px 0px;
+    font-size: 15px;
+  }
 }
 
-.rice-container .rice-sub-container .rice-image .card #rice-link-name a,
-.rice-container .rice-sub-container .rice-image1 .card #rice-link-name a {
+@media (max-width:375px) {
+  .rice-main-container {
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .rice-main-container .rice-banner {
+    margin-top: 121px;
+    width: 98%;
+  }
+
+  .rice-content h1.rice-heading {
+    margin: -65px 0px;
+    padding: 0px 0px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  ul.rice-menu li a {
     text-decoration: none;
-    color: #00000091;
+    font-size: 12px;
+    color: white;
+  }
+
+  li.menu-rice {
+    font-size: 12px;
+    color: white;
+    padding: 5px 0px;
+  }
+
+  .rice-content .rice-menu {
+    display: flex;
+    margin: 61px 0px 0px 0px;
+    gap: 5px;
+    padding: 0px 0px 0px 145px;
+  }
+
+  .rice-container {
+    width: 98%;
+    margin: 0px 0px;
+  }
+
+  .rice-icon .rice-body-icon {
+    margin: 28px 137px -20px 137px;
+    width: 90px;
+  }
+
+  .rice-container h2.rice-body-heading {
+    font-size: 12px;
+  }
+
+  .rice-container p {
+    text-align: justify;
+    font-size: 8px;
+    margin: -20px 10px 10px 10px;
+  }
+
+  .rice-container .rice-sub-container  {
+    flex-wrap: wrap;
+    margin: 0px 61px;
+  }
 }
-.card {
-    min-width: auto;
+
+@media (max-width:320px) {
+  .rice-main-container {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .rice-main-container .rice-banner {
+    margin-top: 121px;
+    width: 86%;
+  }
+
+  .rice-content h1.rice-heading {
+    margin: -55px 0px -63px 0px;
+    color: white;
+    font-size: 10px;
+    padding: 0px 45px 0px 0px;
+  }
+
+  ul.rice-menu li a {
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+  }
+
+  .rice-content .rice-menu {
+    display: flex;
+    margin: 61px 0px 0px 0px;
+    gap: 3px;
+    padding: 0px 0px 0px 105px;
+  }
+
+  li.menu-rice {
+    font-size: 10px;
+    color: white;
+    padding: 8px 0px;
+  }
+
+  .rice-container {
+    width: 86%;
+    margin: 0px 0px;
+  }
+
+  .rice-icon .rice-body-icon {
+    margin: 15px 103px -15px 103px;
+    width: 70px;
+  }
+
+  .rice-container h2.rice-body-heading {
+    font-size: 10px;
+  }
+
+  .rice-container p {
+    text-align: justify;
+    font-size: 6px;
+    margin: -20px 10px 10px 10px;
+  }
+
+  .rice-container .rice-sub-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px 45px;
+    gap: 15px;
+}
 }

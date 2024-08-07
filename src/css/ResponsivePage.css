@@ -1,0 +1,24 @@
+@media (max-width: 575px) {
+    .rice-main-container {
+        max-width: 575px;
+    }
+    .rice-container {
+        max-width: 535px;
+    }
+    .rice-icon .rice-body-icon {
+        margin: 112px 238px -10px 238px;
+        width: 100px;
+    }
+    .rice-container h2.rice-body-heading {
+        font-size: 15px;
+    }
+    .rice-container p {
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+    .rice-sub-container {
+        max-width: 531px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
