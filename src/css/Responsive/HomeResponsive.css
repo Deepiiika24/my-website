@@ -1,0 +1,501 @@
+@media (max-width:2560px) {
+    .home-main-container{
+        max-width: 2560px;
+        width:100%;
+        margin:0 auto;
+    }
+    .home-slider-container {
+        max-width: 2560px;
+        width: 100%;
+    }
+    .home-main-bg {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 2200px;
+    }
+    .home-container img.logo1 {
+        height: auto;
+        width: 25%;
+        margin: -40px 825px 0px 825px;
+    }
+    .home-content h2 {
+        text-align: center;
+        color: green;
+        font-size: 70px
+    }
+    
+    .home-content p {
+        text-align: justify;
+        font-size: 45px;
+    }
+    img.product {
+        margin: 50px 768px;
+        width: 40%;
+    }
+    img.pic {
+        margin: -145px 1024px -150px 1024px;
+        height: auto;
+        width: 20%;
+    }
+    h1.text {
+        font-size: 70px;
+        text-align: center;
+        color: green;
+    }
+    section.main-bg1 {
+        width: 100%;
+        background-color: #c0bbbb1c;
+        margin: -50px 0px 0px 0px;
+    }
+    .slider1 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 100px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        margin: 79px 160px;
+    }
+    .card {
+        background-color: whitesmoke;
+        height: 530px;
+        width: 400px;
+    }
+    img.slide-img {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 10px;
+        height: 480px;
+        width: 400px;
+    }
+    #home-link-name a {
+        text-decoration: none;
+        color: #00000091;
+        font-size: 45px;
+    }
+    
+}
+
+@media (max-width:1440px) {
+    .home-main-container{
+        max-width: 1440px;
+        width:100%;
+        margin:0 auto;
+    }
+    .home-slider-container {
+        max-width: 1440px;
+        width: 100%;
+    }
+    .home-main-bg {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1240px;
+    }
+    .home-container img.logo1 {
+        height: auto;
+        width: 23%;
+        margin: -30px 478px 0px 478px;
+    }
+    .home-content h2 {
+        text-align: center;
+        color: green;
+        font-size: 50px;
+    }
+    
+    .home-content p {
+        text-align: justify;
+        font-size: 35px;
+    }
+    img.product {
+        margin: 45px 431px;
+        width: 40%;
+    }
+    section.main-bg1 {
+        width: 100%;
+        background-color: #c0bbbb1c;
+        margin: -50px 0px 0px 0px;
+    }
+    img.pic {
+        margin: -145px 576px -150px 576px;
+        height: auto;
+        width: 20%;
+    }
+    h1.text {
+        font-size: 50px;
+        text-align: center;
+        color: green;
+    }
+    .card {
+        background-color: whitesmoke;
+        height: 530px;
+        width: 400px;
+    }
+    img.slide-img {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 10px;
+        height: 480px;
+        width: 400px;
+    }
+    .slider1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        margin: 80px 0px;
+    }
+    #home-link-name a {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:1024px){
+    .home-main-container{
+        max-width: 1024px;
+        width:100%;
+        margin:0 auto;
+    }
+    .home-slider-container {
+        max-width: 1024px;
+        width: 100%;
+    }
+    .home-main-bg {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 900px;
+    }
+    .home-container img.logo1 {
+        height: auto;
+        width: 23%;
+        margin: -30px 377px 0px 377px;
+    }
+    .home-content h2 {
+        text-align: center;
+        color: green;
+        font-size: 40px;
+    }
+    
+    .home-content p {
+        text-align: justify;
+        font-size: 30px;
+    }
+    img.product {
+        margin: 45px 307px;
+        width: 40%;
+    }
+    section.main-bg1 {
+        width: 100%;
+        margin: -50px 0px 0px 0px;
+    }
+    img.pic {
+        margin: -145px 410px -150px 410px;
+        height: auto;
+        width: 20%;
+    }
+    h1.text {
+        font-size: 45px;
+    }
+    .card {
+        background-color: whitesmoke;
+        height: 530px;
+        width: 400px;
+    }
+    img.slide-img {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 10px;
+        height: 480px;
+        width: 400px;
+    }
+    .slider1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 100px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        margin: 80px 60px;
+    }
+    #home-link-name a {
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width:768px){
+    .home-main-container{
+        max-width: 768px;
+        width:100%;
+        margin:0 auto;
+    }
+    .home-slider-container {
+        max-width: 768px;
+        width: 100%;
+    }
+    .home-main-bg {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 650px;
+    }
+    .home-container img.logo1 {
+        height: auto;
+        width: 23%;
+        margin: -30px 250px 0px 250px;
+    }
+    .home-content h2 {
+        font-size: 35px;
+    }
+    
+    .home-content p {
+        font-size: 25px;
+    }
+    img.product {
+        margin: 45px 230px;
+        width: 40%;
+    }
+    section.main-bg1 {
+        width: 100%;
+        margin: -50px 0px 0px 0px;
+    }
+    img.pic {
+        margin: -145px 306px -150px 306px;
+        height: auto;
+        width: 20%;
+    }
+    h1.text {
+        font-size: 35px;
+    }
+    .slider1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        margin: 80px 20px;
+    }
+    #home-link-name a {
+        font-size: 28px;
+    }
+    .card {
+        background-color: whitesmoke;
+        height: 400px;
+        width: 350px;
+    }
+    img.slide-img {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 10px;
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width:425px){
+    .home-main-container{
+        max-width: 425px;
+        width:100%;
+        margin:0 auto;
+    }
+    .home-slider-container {
+        max-width: 425px;
+        width: 100%;
+    }
+    .home-main-bg {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 375px;
+    }
+    .home-container img.logo1 {
+        height: auto;
+        width: 23%;
+        margin: -30px 145px 0px 145px;
+    }
+    .home-content h2 {
+        font-size: 25px;
+    }
+    
+    .home-content p {
+        font-size: 15px;
+    }
+    img.product {
+        margin: 45px 42px;
+        width: 80%;
+    }
+    section.main-bg1 {
+        width: 100%;
+        margin: -50px 0px 0px 0px;
+    }
+    img.pic {
+        margin: -145px 130px -150px 130px;
+        height: auto;
+        width: 40%;
+    }
+    h1.text {
+        font-size: 30px;
+    }
+    .slider1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        margin: 80px 37px;
+    }
+    #home-link-name a {
+        font-size: 28px;
+    }
+    .card {
+        background-color: whitesmoke;
+        height: 400px;
+        width: 350px;
+    }
+    img.slide-img {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 10px;
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width:375px){
+    .home-main-container{
+        max-width: 375px;
+        width:100%;
+        margin:0 auto;
+    }
+    .home-slider-container {
+        max-width: 375px;
+        width: 100%;
+    }
+    .home-main-bg {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 320px;
+    }
+    .home-container img.logo1 {
+        height: auto;
+        width: 23%;
+        margin: -30px 123px 0px 123px;
+    }
+    .home-content h2 {
+        font-size: 25px;
+    }
+    
+    .home-content p {
+        font-size: 15px;
+    }
+    img.product {
+        margin: 45px 42px;
+        width: 80%;
+    }
+    section.main-bg1 {
+        width: 100%;
+        margin: -50px 0px 0px 0px;
+    }
+    img.pic {
+        margin: -145px 115px -150px 115px;
+        height: auto;
+        width: 40%;
+    }
+    h1.text {
+        font-size: 27px;
+    }
+    .slider1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        margin: 80px 37px;
+    }
+    #home-link-name a {
+        font-size: 28px;
+    }
+    .card {
+        background-color: whitesmoke;
+        height: 350px;
+        width: 300px;
+    }
+    img.slide-img {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 10px;
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width:320px){
+    .home-main-container{
+        max-width: 320px;
+        width:100%;
+        margin:0 auto;
+    }
+    .home-slider-container {
+        max-width: 320px;
+        width: 100%;
+    }
+    .home-main-bg {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 250px;
+    }
+    .home-container img.logo1 {
+        height: auto;
+        width: 30%;
+        margin: -30px 90px 0px 90px;
+    }
+    .home-content h2 {
+        font-size: 18px;
+    }
+    
+    .home-content p {
+        font-size: 12px;
+    }
+    img.product {
+        margin: 0px 0px 45px 0px;
+        width: 100%;
+    }
+    section.main-bg1 {
+        width: 100%;
+        margin: -50px 0px 0px 0px;
+    }
+    img.pic {
+        margin: -145px 95px -150px 95px;
+        height: auto;
+        width: 40%;
+    }
+    h1.text {
+        font-size: 25px;
+    }
+    .slider1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        margin: 40px 20px;
+    }
+    #home-link-name a {
+        font-size: 20px;
+    }
+    .card {
+        background-color: whitesmoke;
+        height: 330px;
+        width: 280px;
+    }
+    img.slide-img {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 10px;
+        height: 280px;
+        width: 280px;
+    }
+}

@@ -1,10 +1,11 @@
 import React from 'react'
 import '../css/Home.css';
+import '../css/Responsive/HomeResponsive.css'
 import logo from '../images/logo1.png'
 import slide1 from '../images/slider-1.jpg'
 import slide2 from '../images/gold2.jpg'
 import slide3 from '../images/spices-banner-4.jpg'
-import pic from '../images/l.png'
+import pic from '../images/icon.png'
 import swiper1 from '../images/swiper3.jpg'
 import swiper2 from '../images/malli.jpg'
 import swiper3 from '../images/swiper4.jpg'
