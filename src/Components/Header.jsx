@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Header.css'
+import '../css/Responsive/HeaderResponsive.css'
 import Logo from '../images/logo1.png'
 import { Link } from 'react-router-dom'
 import banner from '../images/Bg.png'

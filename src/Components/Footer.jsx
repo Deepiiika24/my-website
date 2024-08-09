@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Footer.css'
+import '../css/Responsive/FooterResponsive.css'
 import { Link } from 'react-router-dom'
 import PhoneIcon from '@mui/icons-material/Phone';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
