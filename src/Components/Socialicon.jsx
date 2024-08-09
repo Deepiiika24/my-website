@@ -4,6 +4,7 @@ import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { pink } from '@mui/material/colors';
 import '../css/Socialicon.css'
+import '../css/Responsive/SocialiconResponsive.css'
 
 const Socialicon = () => {
     return (

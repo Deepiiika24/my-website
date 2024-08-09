@@ -369,9 +369,9 @@
   }
 
   .logo-img {
-    height: 100px;
-    width: 200px;
-    margin: 0px 10px !important;
+    height: 65px;
+    width: 130px;
+    margin: 0px 40px !important;
     background-color: white;
     border-radius: 50%;
   }
@@ -425,12 +425,12 @@
   }
 
   .logo-img {
-    height: 80px;
-    width: 160px;
-    margin: 0px 20px !important;
+    height: 50px;
+    width: 100px;
+    margin: 0px 30px !important;
     background-color: white;
     border-radius: 50%;
-}
+  }
 
   .container-fluid .collapse .navbar-nav {
     display: flex;

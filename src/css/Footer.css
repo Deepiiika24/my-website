@@ -1,37 +1,34 @@
-.container{
+.footer-container{
   width: 100%;
   margin: 0px auto;
   max-width: 1280px;
 }
-
-.footer{
-  height: 416px;
+.footer {
   width: 100%;
-  /* background-color: rgb(0 0 0 / 78%); */
-  margin: 70px 0px;
-  /* background-image: url('../images/footer3.png'); */
-  background-color: #020222  ;
+  margin: 20px 0px 0px 0px;
+  background-color: #020222;
   background-repeat: no-repeat !important;
   background-size: cover;
+  padding: 15px 0px 0px 0px;
 }
 .footer-class-contant{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(200px,auto));
   gap:2.5rem;
-  /* position: absolute; */
   position: relative;
-  margin: 77px 23px;
 }
+.footer-content {
+  margin: 0px 30px;
+}
+
+
 .footer-content h4 {
   color: white;
   margin-bottom: 2.5rem;
   font-size: 27px;
-  margin: 15px -26px;
 }
 .footer-content li{
   margin-bottom: 16px;
-}
-.footer-content li {
   display: block;
   color: white;
   font-weight: 400;
@@ -65,9 +62,6 @@
   margin-right: 17px;
   transition: all.40s ease;
 }
-.footer-content {
-  margin: 36px 52px;
-}
 .footer-icon {
   display: flex;
   margin: 400px 0px;
@@ -76,11 +70,6 @@
   color: white;
   font-size: 18px;
   margin: 17px -16px;
-}
-.footer-content h2 {
-  color: white;
-  font-size: 18px;
-  margin: 4px -10px;
 }
 .footer-content h5 {
   color: white;
@@ -94,7 +83,7 @@
 .icon {
   display: flex;
   color: white;
-  margin: -30px 175px;
+  margin: 0px 500px 0px 500px;
   gap: 84px;
 }
 svg.svg-inline--fa.fa-facebook-f {
@@ -108,14 +97,14 @@ svg.svg-inline--fa.fa-instagram {
   font-size: 38px;
   color:#E1306C;
 }
-.end-footer{
-  height: 77px;
+.end-footer {
   width: 100%;
   background-color: black;
-  margin: -70px 0px;
+  height: 74px;
 }
-.end-footer-contant h2{
+.end-footer-contant h2 {
   font-size: 20px;
   color: #9a99a0c9;
-  padding:27px 414px;
+  padding: 25px 0px;
+  text-align: center;
 }
