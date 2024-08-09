@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import banner from '../images/Bg.png'
 function Header() {
   return (
-    <div className='container'>
+    <div className='header-container'>
       <nav class="navbar navbar-expand-lg navbar-light bg-light" style={{ backgroundImage: `url(${banner})` }}>
         <div class="container-fluid">
           <img className='logo-img' src={Logo} alt="Logo.png" />
