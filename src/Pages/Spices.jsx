@@ -1,6 +1,7 @@
 import React from 'react';
 import spiceslogo from '../images/l.png'
 import '../css/Spices.css'
+import '../css/Responsive/SpicesResponsive.css'
 import { Link } from 'react-router-dom'
 import spices1 from '../images/spices/garlic.jpg'
 import spices2 from '../images/spices/clove.jpg'
@@ -22,10 +23,9 @@ import spices17 from '../images/spices/poppy.jpg'
 import spices18 from '../images/spices/greencardamom.jpg'
 import spices19 from '../images/spices/peppercorn.jpg'
 import spices20 from '../images/spices/brown.jpg'
-import spices21 from '../images/spices/bayleaf.jpg'
 function Spices() {
    return (
-      <div className='container'>
+      <div className='spices-container'>
          <section className='spices'>
             <div className='spices-banner'>
                <h1>Spices</h1>

@@ -55,9 +55,21 @@ function Footer() {
                         </div>
                     </div>
                     <div className='icon'>
-                        <span ><FontAwesomeIcon icon={faFacebookF} /></span>
-                        <span ><FontAwesomeIcon icon={faXTwitter} /></span>
-                        <span ><FontAwesomeIcon icon={faInstagram} /></span>
+                        <span >
+                            <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faFacebookF} />
+                            </a>
+                        </span>
+                        <span >
+                            <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faXTwitter} />
+                            </a>
+                        </span>
+                        <span >
+                            <a href="https://www.instagram.com/rameshram3636" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faInstagram} />
+                            </a>
+                        </span>
                     </div>
                 </div>
             </section>

@@ -1,0 +1,17 @@
+@media (max-width:2560px){
+    .spices-container{
+        max-width: 2560px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .spices{
+        width:100%;
+    }
+    .spices-banner{
+        background-image: ('../images/spices6.jpg');
+        background-size: cover;
+        padding: 293px 0px;
+        margin: 121px 0px 0px 0px;
+        position: relative;
+    }
+}
