@@ -31,7 +31,7 @@ function Rice() {
         </div>
         <div rice-container>
           <h2 className='rice-body-heading'>WE EXPORT PREMIUM QUALITY RICE, ENSURING EXCELLENCE IN EVERY GRAIN</h2>
-          <h1>_______</h1>
+          <h2 className='rice-body-heading'>_______</h2>
           <p>At Koogul Industries, we take pride in exporting only the highest quality rice to meet the diverse needs of our global customers. Our commitment to excellence begins with carefully selecting the finest rice varieties from trusted growers. Each grain undergoes rigorous quality checks to ensure it meets our exacting standards.</p>
         </div>
         <div className="rice-sub-container">

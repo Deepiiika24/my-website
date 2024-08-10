@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Leaf.css'
+import '../css/Responsive/LeavesResponsive.css'
 import { Link } from 'react-router-dom'
 import banner from '../images/Leaf/leaf-banner.png'
 import icon from '../images/icon.png'
@@ -29,7 +30,7 @@ function Leaves() {
         <h1>Leaves</h1>
         <ul className='leaves-menu'>
           <li><Link to="/">HOME</Link></li>
-          <li style={{ fontSize: "17px", color: "white" }}> / LEAVES</li>
+          <li classname='leaf-sub-menu'><a>/ LEAVES</a></li>
         </ul>
       </div>
       <div className="leaves-container">
@@ -39,7 +40,6 @@ function Leaves() {
           <p>At Koogul Industries, we pride ourselves on providing a diverse range of premium quality leaves to meet all your culinary, decorative, and ceremonial needs. Our leaves are handpicked, ensuring the utmost freshness and quality with every shipment. We cater to both large-scale commercial orders and individual customer requests, making us your trusted partner in leaf export.</p>
       </div>
       <div className="leaves-sub-container">
-          <div className="leaves-img">
             <div className='card'>
               <img src={leaf1} className='leaves-pic'></img>
               <h3 className='leaf-link1-name' id='leaf-link-name'><Link to='/Banana-leaves'>Banana Leaves</Link> </h3>
@@ -56,8 +56,6 @@ function Leaves() {
               <img src={leaf4} className='leaves-pic'></img>
               <h3 className='leaf-link1-name' id='leaf-link-name'><Link to='/Mango-leaves'>Mango Leaves</Link> </h3>
             </div>
-          </div>
-          <div className="leaves-img">
             <div className='card'>
               <img src={leaf5} className='leaves-pic'></img>
               <h3 className='leaf-link1-name' id='leaf-link-name'><Link to='/Betel-leaves'>Betel Leaves</Link> </h3>
@@ -74,8 +72,6 @@ function Leaves() {
               <img src={leaf8} className='leaves-pic'></img>
               <h3 className='leaf-link1-name' id='leaf-link-name'><Link to='/Palm-leaves'>Palm Leaves</Link> </h3>
             </div>
-          </div>
-          <div className="leaves-img">
             <div className='card'>
               <img src={leaf9} className='leaves-pic'></img>
               <h3 className='leaf-link1-name' id='leaf-link-name'><Link to='/Tulsi-leaves'>Tulsi Leaves</Link> </h3>
@@ -92,8 +88,6 @@ function Leaves() {
               <img src={leaf12} className='leaves-pic'></img>
               <h3 className='leaf-link1-name' id='leaf-link-name'><Link to='/Fig-leaves'>Fig Leaves</Link> </h3>
             </div>
-          </div>
-          <div className="leaves-img-end">
             <div className='card'>
               <img src={leaf13} className='leaves-pic'></img>
               <h3 className='leaf-link1-name' id='leaf-link-name'><Link to='/Moringa-leaves'>Moringa Leaves</Link> </h3>
@@ -101,7 +95,6 @@ function Leaves() {
             <div className='card'>
               <img src={leaf14} className='leaves-pic'></img>
               <h3 className='leaf-link1-name' id='leaf-link-name'><Link to='/Toren-leaves'>Toran</Link> </h3>
-            </div>
             </div>
         </div>
     </div>

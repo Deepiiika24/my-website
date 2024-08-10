@@ -1,3 +1,249 @@
+@media (max-width:2560px) {
+  .rice-main-container{
+    max-width: 2560px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .rice-main-container .rice-banner {
+    margin-top: 121px;
+    width: 100%;
+  }
+
+  .rice-content h1.rice-heading {
+    margin: -425px 0px 0px 0px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .rice-content .rice-menu {
+    display: flex;
+    margin: 0px 1105px;
+    gap: 10px;
+    padding: 0px 92px;
+  }
+
+  ul.rice-menu li {
+    list-style: none;
+    font-size: 28px;
+    color: white;
+  }
+
+  ul.rice-menu li a {
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+  }
+
+  .rice-container {
+    max-width: 2200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .rice-icon .rice-body-icon {
+    margin: 300px 880px -70px 880px;
+    width: 20%;
+  }
+
+  .rice-container h2.rice-body-heading {
+    text-align: center;
+    color: Green;
+    font-size: 50px;
+  }
+
+  .rice-container p {
+    text-align: justify;
+    font-size: 30px;
+  }
+
+  .rice-container .rice-sub-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px 0px;
+    gap: 100px;
+  }
+
+  .rice-container .rice-sub-container .card img.rice-pic {
+    box-shadow: 0px 0px 13px #808080a6;
+    border-radius: 10px;
+    height: 480px;
+    width: 400px;
+  }
+
+  .rice-container .rice-sub-container .card {
+    background-color: whitesmoke;
+    height: 530px;
+    width: 400px;
+  }
+
+  .rice-container .rice-sub-container .card #rice-link-name {
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 10px 0px;
+  }
+
+}
+
+@media (max-width:1440px) {
+  .rice-main-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .rice-main-container .rice-banner {
+    margin-top: 121px;
+    width: 100%;
+  }
+
+  .rice-content h1.rice-heading {
+    margin: -425px 0px 0px 0px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .rice-content h1.rice-heading {
+    margin: -265px 0px 0px 0px;
+    font-size: 45px;
+  }
+
+  .rice-content .rice-menu {
+    display: flex;
+    margin: 0px 645px;
+    gap: 2px;
+    padding: 0px 0px;
+  }
+
+  ul.rice-menu li {
+    font-size: 26px;
+  }
+
+  ul.rice-menu li a {
+    font-size: 26px;
+  }
+
+  .rice-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .rice-icon .rice-body-icon {
+    margin: 150px 515px -60px 515px;
+    width: 20%;
+  }
+
+  .rice-container h2.rice-body-heading {
+    font-size: 40px;
+  }
+
+  .rice-container p {
+    font-size: 25px;
+  }
+
+  .rice-container .rice-sub-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 0px;
+    gap: 40px;
+  }
+}
+
+@media (max-width:1280px) {
+  .rice-main-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .rice-main-container .rice-banner {
+    margin-top: 121px;
+    width: 100%;
+  }
+
+  .rice-container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .rice-icon .rice-body-icon {
+    margin: 150px 450px -30px 450px;
+    width: 200px;
+  }
+
+  .rice-content h1.rice-heading {
+    margin: -230px 0px 0px 0px;
+    padding: 15px 512px;
+    color: white;
+    text-align: center;
+  }
+
+  .rice-content .rice-menu {
+    display: flex;
+    margin: 0px 493px;
+    gap: 10px;
+    padding: 0px 82px;
+  }
+
+  ul.rice-menu li {
+    list-style: none;
+    font-size: 18px;
+    color: white;
+  }
+
+  ul.rice-menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+  }
+
+  .rice-container h2.rice-body-heading {
+    text-align: center;
+    color: Green;
+    font-size: 30px;
+  }
+
+  .rice-container p {
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .rice-container .rice-sub-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 25px 0px;
+    gap: 45px;
+  }
+
+  .rice-container .rice-sub-container .card img.rice-pic {
+    height: 243px;
+    width: 243px;
+    box-shadow: 0px 0px 13px #808080a6;
+    border-radius: 3px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  }
+
+  .rice-container .rice-sub-container .card #rice-link-name {
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 0px;
+  }
+
+  .rice-container .rice-sub-container .card #rice-link-name a {
+    text-decoration: none;
+    color: #00000091;
+  }
+
+  .rice-container .rice-sub-container .card {
+    height: 293px;
+    width: 243px;
+  }
+
+}
 
 @media (max-width:768px) {
   .rice-main-container {
@@ -17,6 +263,12 @@
     color: white;
     text-align: center;
     font-size: 20px;
+  }
+
+  ul.rice-menu li {
+    list-style: none;
+    font-size: 20px;
+    color: white;
   }
 
   ul.rice-menu li a {
@@ -48,29 +300,34 @@
     margin: 70px 304px -35px 304px;
     width: 160px;
   }
+
   .rice-container h2.rice-body-heading {
     font-size: 20px;
   }
+
   .rice-container p {
     text-align: justify;
     font-size: 15px;
-    margin: -20px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
   }
-  .rice-container .rice-sub-container, .rice-container .rice-sub-container {
+
+  .rice-container .rice-sub-container,
+  .rice-container .rice-sub-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0px 0px;
     gap: 15px;
-}
-.rice-container .rice-sub-container .card #rice-link-name {
-  margin: 0 auto;
-  font-size: 18px;
-}
+  }
+
+  .rice-container .rice-sub-container .card #rice-link-name {
+    margin: 0 auto;
+    font-size: 18px;
+  }
 }
 
-@media (max-width:424px) {
+@media (max-width:425px) {
   .rice-main-container {
-    max-width: 424px;
+    max-width: 425px;
     width: 100%;
     margin: 0 auto;
   }
@@ -94,10 +351,11 @@
     color: white;
   }
 
-  li.menu-rice {
-    font-size: 14px;
+  ul.rice-menu li {
+    list-style: none;
+    font-size: 15px;
     color: white;
-    padding: 3px 0px;
+    padding: 4px 0px;
   }
 
   .rice-content .rice-menu {
@@ -124,15 +382,15 @@
   .rice-container p {
     text-align: justify;
     font-size: 10px;
-    margin: -20px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
   }
 
   .rice-container .rice-sub-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0px 0px;
+    margin: 0px 24px;
     gap: 15px;
-}
+  }
 
   .rice-container .rice-sub-container .card {
     height: 200px;
@@ -147,7 +405,7 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   }
 
-  .rice-container .rice-sub-container  .card #rice-link-name {
+  .rice-container .rice-sub-container .card #rice-link-name {
     margin: 0 auto;
     font-size: 15px;
   }
@@ -179,10 +437,11 @@
     color: white;
   }
 
-  li.menu-rice {
-    font-size: 12px;
+  ul.rice-menu li {
+    list-style: none;
+    font-size: 13px;
     color: white;
-    padding: 5px 0px;
+    padding: 4px 0px;
   }
 
   .rice-content .rice-menu {
@@ -209,14 +468,14 @@
   .rice-container p {
     text-align: justify;
     font-size: 8px;
-    margin: -20px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
   }
 
-  .rice-container .rice-sub-container{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      margin: 0px 0px;
-      gap: 15px;
+  .rice-container .rice-sub-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 0px;
+    gap: 15px;
   }
 }
 
@@ -229,14 +488,14 @@
 
   .rice-main-container .rice-banner {
     margin-top: 121px;
-    width: 86%;
+    width: 100%;
   }
 
   .rice-content h1.rice-heading {
     margin: -55px 0px -63px 0px;
     color: white;
     font-size: 10px;
-    padding: 0px 45px 0px 0px;
+    text-align: center;
   }
 
   ul.rice-menu li a {
@@ -249,39 +508,41 @@
     display: flex;
     margin: 61px 0px 0px 0px;
     gap: 3px;
-    padding: 0px 0px 0px 105px;
+    padding: 0px 0px 0px 130px;
   }
 
-  li.menu-rice {
-    font-size: 10px;
+  ul.rice-menu li {
+    list-style: none;
+    font-size: 11px;
     color: white;
-    padding: 8px 0px;
+    padding: 4px 0px;
   }
 
   .rice-container {
-    width: 86%;
-    margin: 0px 0px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 280px;
   }
 
   .rice-icon .rice-body-icon {
-    margin: 15px 103px -15px 103px;
+    margin: 25px 103px -15px 103px;
     width: 70px;
   }
 
   .rice-container h2.rice-body-heading {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .rice-container p {
     text-align: justify;
     font-size: 6px;
-    margin: -20px 10px 10px 10px;
+    margin: 0px 0px;
   }
 
-  .rice-container .rice-sub-container{
+  .rice-container .rice-sub-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: 0px 45px;
     gap: 15px;
-}
+  }
 }

@@ -1,0 +1,206 @@
+@media (max-width:2560px){
+    .leaves-main-container{
+        max-width: 2560px;
+        width:100%;
+        margin:0 auto;
+    }
+    .leaves-main-container .leaves-banner{
+        width:100%;
+        margin-top:121px;
+    }
+    .leaves-main-container .leaves-content h1 {
+        margin: -200px 0px 0px 0px;
+        font-weight: 800;
+        text-align: center;
+        font-size: 80px;
+    }
+    .leaves-main-container .leaves-content h1 {
+        margin: -400px 0px 0px 0px;
+        font-size: 80px;
+    }
+    .leaves-main-container .leaves-content .leaves-menu {
+        margin: 10px 1118px;
+        padding: 15px 15px;
+    }
+    .leaves-main-container .leaves-content .leaves-menu a {
+        font-size: 40px;
+    }
+    .leaves-main-container .leaves-container {
+        max-width: 2200px;
+        width: 100%;
+        margin: 305px 180px 0px 180px;
+    }
+    .leaves-main-container .leaves-container .leaves-icon {
+        height: auto;
+        width: 20%;
+        margin: 20px 880px -90px 880px;
+    }
+    .leaves-main-container .leaves-container h1, .leaves-main-container .leaves-container h1 {
+        font-size: 70px;
+    }
+    .leaves-main-container .leaves-container p {
+        font-size: 40px;
+    }
+    .leaves-main-container .leaves-sub-container{
+        max-width: 2200px;
+        width:100%;
+        margin:0 auto;
+    }
+    .leaves-main-container .leaves-sub-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 50px 150px;
+        gap:100px;
+    }
+    .leaves-main-container .leaves-sub-container .card .leaves-pic{
+        height:480px;
+        width:400px;
+        border-radius: 10px;
+    }
+    .leaves-main-container .leaves-sub-container .card{
+        height:530px;
+        width:400px;
+    }
+    .leaves-main-container .leaves-sub-container .card #leaf-link-name{
+        margin: 0 auto;
+        font-size: 30px;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:1440px){
+    .leaves-main-container{
+        max-width: 1440px;
+        width:100%;
+        margin:0 auto;
+    }
+    .leaves-main-container .leaves-banner{
+        width:100%;
+        margin-top:121px;
+    }
+    .leaves-main-container .leaves-content h1 {
+        margin: -240px 0px 0px 0px;
+        font-size: 60px;
+    }
+    .leaves-main-container .leaves-content .leaves-menu {
+        margin: 10px 609px;
+        padding: 0px 0px;
+    }
+    .leaves-main-container .leaves-content .leaves-menu a {
+        font-size: 30px;
+    }
+    .leaves-main-container .leaves-container {
+        max-width: 1280px;
+        width: 100%;
+        margin: 150px 80px;
+    }
+    .leaves-main-container .leaves-container .leaves-icon {
+        height: auto;
+        width: 20%;
+        margin: 20px 510px -60px 510px;
+    }
+    .leaves-main-container .leaves-container h1, .leaves-main-container .leaves-container h1 {
+        font-size: 50px;
+    }
+    .leaves-main-container .leaves-container p {
+        font-size: 30px;
+    }
+    .leaves-main-container .leaves-sub-container{
+        max-width: 1280px;
+        width:100%;
+        margin:0 auto;
+    }
+    .leaves-main-container .leaves-sub-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0px 0px 50px 0px;
+        gap: 40px;
+    }
+}
+
+@media (max-width:1280px){
+    .leaves-main-container{
+        max-width: 1280px;
+        width:100%;
+        margin:0 auto;
+    }
+    .leaves-main-container .leaves-banner{
+        width:100%;
+        margin-top:121px;
+    }
+    .leaves-main-container .leaves-content h1 {
+        color: white;
+        margin: -200px 0px 0px 0px;
+        font-weight: 800;
+        text-align: center;
+        font-size: 50px;
+    }
+    .leaves-main-container .leaves-content .leaves-menu {
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+        list-style: none;
+        position: absolute;
+        margin: 10px 547px;
+        overflow: hidden;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 0px 0px;
+    }
+    .leaves-main-container .leaves-content .leaves-menu a{
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    .leaves-main-container .leaves-container {
+        max-width: 1100px;
+        width: 100%;
+        margin: 150px 82px 0px 82px;
+    }
+    .leaves-main-container .leaves-container .leaves-icon {
+        height: auto;
+        width: 200px;
+        margin: 0px 450px -35px 450px;
+    }
+    .leaves-main-container .leaves-container h1,.leaves-main-container .leaves-container h1{
+        text-align: center;
+        color: green;
+        font-size: 30px;
+        padding:5px 0px;
+    }
+    .leaves-main-container .leaves-container p{
+        text-align: justify;
+        margin: 25px auto;
+        font-size: 15px;
+    }
+    .leaves-main-container .leaves-sub-container{
+        max-width: 1100px;
+        width:100%;
+        margin:0 auto;
+    }
+    .leaves-main-container .leaves-sub-container {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content: space-between;
+        padding: 25px 0px;
+    }
+    .leaves-main-container .leaves-sub-container .card {
+        height: 243px;
+        width: 243px;
+    }
+    .leaves-main-container .leaves-sub-container .card .leaves-pic{
+        height:243px;
+        width:243px;
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 3px;
+    }
+    .leaves-main-container .leaves-sub-container .card #leaf-link-name{
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    .leaves-main-container .leaves-sub-container .card #leaf-link-name a{
+        text-decoration: none;
+        color: #00000091;
+    }
+}

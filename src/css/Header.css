@@ -37,6 +37,7 @@ body {
   text-decoration: none;
   color:#fff;
   font-weight: 800;
+  font-family: cursive;
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   --bs-gutter-x: -0.5rem !important;
