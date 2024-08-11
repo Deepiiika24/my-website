@@ -1,17 +1,193 @@
-@media (max-width:2560px){
-    .spices-container{
+@media(max-width:2560px){
+    .container{
         max-width: 2560px;
+        width: 100%;
+    }
+    .spices-banner {
+        background-image: ('../images/spices6.jpg');
+        background-size: cover;
+        padding: 248px 0px !important;
+        margin: 119px -639px 0px -640px !important;
+        position: relative;
+    }
+    .spices-logo-context img {
+        max-width: 298px;
+        margin: 62px 458px;
+    }
+    .spices-logo-context h4 {
+        text-align: center;
+        margin: -93px 0px;
+        color: green;
+        font-size: 37px;
+    }
+    .spices-logo-context p {
+        padding: 171px 0px !important;
+        text-align: justify !important;
+        font-size: 27px;
+    }
+    .spices-product {
+        height: 1432px !important;
+        width: 100%;
+        margin: 426px 0px !important;
+    }
+    .spices-img {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 3.5rem !important;
+        row-gap: 3.5rem !important;
+        column-gap: 3.5rem;
+        position: absolute;
+        left: 8px;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        margin: 235px 50px !important;
+    }
+}
+@media screen and (max-width:1440px){
+    .container{
+        max-width: 1440px;
         width: 100%;
         margin: 0 auto;
     }
-    .spices{
-        width:100%;
-    }
-    .spices-banner{
+    .spices-banner {
         background-image: ('../images/spices6.jpg');
         background-size: cover;
-        padding: 293px 0px;
-        margin: 121px 0px 0px 0px;
+        padding: 144px 81px !important;
+        margin: 121px -80px !important;
         position: relative;
+    }
+    .spices-logo-context p {
+        padding: 141px 90px;
+        text-align: center;
+        font-size: 24px !important;
+    }
+}
+@media screen and (max-width:1280px) {
+    .spices-banner {
+        background-image:('../images/spices6.jpg');
+        background-size: cover;
+        padding: 141px 81px !important;
+        margin: 119px 0px !important;
+        position: relative;
+    }
+    .spices-logo-context img {
+        max-width: 205px;
+        margin: 0px 529px;
+    }
+    .spices-logo-context h4 {
+        text-align: center;
+        margin: 0px 0px;
+        color: green;
+    }
+    .spices-logo-context p {
+        padding: 55px 90px !important;
+        text-align: justify !important;
+        font-size: 18px !important;
+    }
+    .spices-product{
+        height: 2300px !important;
+        width: 100%;
+        margin: 275px 0px !important;
+    }
+    .spices-img{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+        gap:2.5rem !important;
+        /* position: absolute; */
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        margin: 235px 125px !important;
+    }  
+}
+@media screen and (max-width:768px) {
+    .spices-banner {
+        background-image: ('../images/spices6.jpg');
+        background-size: cover;
+        padding: 72px 81px !important;
+        margin: 121px 0px !important;
+        position: relative;
+    }
+    .spices-logo-context img {
+        max-width: 158px !important;
+        margin: -51px 305px !important;
+    }
+    .spices-logo-context h4 {
+        text-align: center;
+        margin: 0px 0px;
+        font-size: 15px;
+        color: green;
+    }
+    .spices-logo-context p {
+        padding: 55px 90px !important;
+        text-align: justify ;
+        font-size: 13px !important;
+    }
+    .spices-product {
+        height: 3077px !important;
+        width: 100%;
+        margin: -72px -5px !important;
+    }
+    .spices-img{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+        gap:2.5rem !important;
+        /* position: absolute; */
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        margin: 235px 125px !important;
+    }  
+    .spices-banner h1 {
+        color: #f4efef;
+        font-size: 22px;
+        position: absolute;
+        margin: -26px 64px;
+    }
+}
+@media screen and (max-width:375px){
+    .spices-banner {
+        background-image:('../images/spices6.jpg');
+        background-size: cover;
+        padding: 24px 0px !important;
+        margin: 120px -1px !important;
+        position: relative;
+    }
+    .spices-banner h1 {
+        color: #f4efef;
+        font-size: 15px !important;
+        position: absolute;
+        margin: -8px 39px !important;
+    }
+    .spices-banner ul span a {
+        color: #f4efef;
+        font-size: 9px !important;
+        margin: 80px 2px !important;
+        text-decoration: none;
+        padding: 10px -98px !important;
+    }
+    .spices-logo-context img {
+        max-width: 109px !important;
+        margin: -122px 146px 0px 120px !important;
+        margin-top: -6px;
+    }
+    .spices-logo-context h4 {
+        text-align: center;
+        margin: -52px 33px !important;
+        font-size: 9px !important;
+        color: green;
+    }
+    .spices-logo-context p {
+        padding: 77px 42px !important;
+        text-align: justify;
+        font-size: 7px !important;
+    }
+    .spices-product {
+        height: 6777px !important;
+        width: 100%;
+        margin: -374px -55px !important;
     }
 }
