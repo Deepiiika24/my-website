@@ -1,6 +1,7 @@
 import React from 'react';
 import anise from '../images/spices/staranise-banner.jpg'
 import '../css/spices/Spicespage.css'
+import '../css/Responsive/SpicespageResponsive.css'
 function Spistaranice() {
   return (
     <div>

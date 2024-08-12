@@ -1,6 +1,7 @@
 import React from 'react';
 import ginger from '../images/spices/ginger-banner1.jpg'
 import '../css/spices/Spicespage.css'
+import '../css/Responsive/SpicespageResponsive.css'
 function Ginger() {
   return (
     <div>

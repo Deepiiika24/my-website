@@ -1,6 +1,7 @@
 import React from 'react';
 import cinnamon from '../images/spices/cinnamon-banner.jpg'
 import '../css/spices/Spicespage.css'
+import '../css/Responsive/SpicespageResponsive.css'
 function Cinnamon() {
   return (
     <div>

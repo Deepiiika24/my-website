@@ -1,6 +1,7 @@
 import React from 'react';
 import garlic from '../images/spices/blackpepper-banner.jpg'
 import '../css/spices/Spicespage.css'
+import '../css/Responsive/SpicespageResponsive.css'
 function Blackpepper() {
   return (
     <div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import nut from '../images/spices/nutmeg-banner.jpg'
 import '../css/spices/Spicespage.css'
+import '../css/Responsive/SpicespageResponsive.css'
 function Nutmeg() {
   return (
     <div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import garlic from '../images/spices/mustard-banner.jpg'
 import '../css/spices/Spicespage.css'
+import '../css/Responsive/SpicespageResponsive.css'
 function Mustardseeds() {
   return (
     <div>

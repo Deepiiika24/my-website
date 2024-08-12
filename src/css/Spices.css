@@ -48,21 +48,22 @@
     padding-top: 80px;
     color: green;
     text-align: center;
+    font-size: 20px;
 }
 .spices-logo-context p {
     padding: 20px 0px;
     text-align: justify;
+    font-size: 15px;
 }
-.spices-img{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
-    gap:2.5rem;
-    /* position: absolute; */
+.spices-img {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
     left: 0;
     right: 0;
     bottom: 0;
     position: relative;
-}  
+    margin: 50px -20px;
+}
 .spices-product{
     max-width: 1100px;
     width: 100%;
@@ -71,12 +72,18 @@
 img.spices-pic{
     box-shadow: 0px 0px 13px #808080a6;
     border-radius:3px;
+    height:243px;
+    width:243px;
 }
-h3.link-name a {
+h3#link-name a {
     text-decoration: none;
     color: #00000091;
     margin: 39px 81px;
     font-size: 23px;
+}
+.spices-img .card{
+    height:293px;
+    width:243px;
 }
 
 .h3, h3 {

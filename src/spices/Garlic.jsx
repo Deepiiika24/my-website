@@ -1,12 +1,13 @@
 import React from 'react';
 import garlic from '../images/spices/garlic-banner2.jpg'
 import '../css/spices/Spicespage.css'
+import '../css/Responsive/SpicespageResponsive.css'
 function Garlic() {
   return (
     <div className='spices-page-container'>
       <section className='Spices-type-banner'>
         <div className='container'>
-          <img src={garlic} className='banner'></img>
+          <img src={garlic} className='spices-page-banner'></img>
         </div>
       </section>
       <section className='spices-type-content'>

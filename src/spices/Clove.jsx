@@ -1,6 +1,7 @@
 import React from 'react';
 import clove from '../images/spices/clove-banner.jpg'
 import '../css/spices/Spicespage.css'
+import '../css/Responsive/SpicespageResponsive.css'
 function Clove() {
   return (
     <div>

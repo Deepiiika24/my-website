@@ -1,6 +1,7 @@
 import React from 'react';
 import saffron from '../images/spices/saffron-banner.jpg'
 import '../css/spices/Spicespage.css'
+import '../css/Responsive/SpicespageResponsive.css'
 function Spicessaffron() {
   return (
     <div>

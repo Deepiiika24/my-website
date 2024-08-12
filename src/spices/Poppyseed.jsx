@@ -1,6 +1,7 @@
 import React from 'react';
 import garlic from '../images/spices/poppy-banner.jpg'
 import '../css/spices/Spicespage.css'
+import '../css/Responsive/SpicespageResponsive.css'
 function Poppyseed() {
   return (
     <div>

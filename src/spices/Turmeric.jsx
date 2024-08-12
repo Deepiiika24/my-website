@@ -1,6 +1,7 @@
 import React from 'react';
 import turmeric from '../images/spices/turmeric-banner.jpg'
 import '../css/spices/Spicespage.css'
+import '../css/Responsive/SpicespageResponsive.css'
 function Turmeric() {
   return (
     <div>

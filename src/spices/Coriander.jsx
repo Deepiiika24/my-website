@@ -1,6 +1,7 @@
 import React from 'react';
 import corianter from '../images/spices/corianter-banner.jpg'
 import '../css/spices/Spicespage.css'
+import '../css/Responsive/SpicespageResponsive.css'
 function Coriander() {
   return (
     <div>

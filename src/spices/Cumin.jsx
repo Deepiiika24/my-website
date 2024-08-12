@@ -1,6 +1,7 @@
 import React from 'react';
 import cumin from '../images/spices/cumin-banner.jpg'
 import '../css/spices/Spicespage.css'
+import '../css/Responsive/SpicespageResponsive.css'
 function Cumin() {
   return (
     <div>

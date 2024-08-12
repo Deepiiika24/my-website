@@ -1,6 +1,7 @@
 import React from 'react';
 import payleaf from '../images/spices/payleaf-banner.jpg'
 import '../css/spices/Spicespage.css'
+import '../css/Responsive/SpicespageResponsive.css'
 function Bayleaf() {
   return (
     <div>
