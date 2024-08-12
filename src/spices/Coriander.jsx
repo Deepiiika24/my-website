@@ -7,7 +7,7 @@ function Coriander() {
     <div>
       <section className='Spices-type-banner'>
         <div className='container'>
-          <img src={corianter} className='banner'></img>
+          <img src={corianter} className='spices-page-banner'></img>
         </div>
       </section>
       <section className='spices-type-content coriander'>

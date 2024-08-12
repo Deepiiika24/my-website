@@ -7,7 +7,7 @@ function Cumin() {
     <div>
       <section className='Spices-type-banner'>
         <div className='container'>
-          <img src={cumin} className='banner'></img>
+          <img src={cumin} className='spices-page-banner'></img>
         </div>
       </section>
       <section className='spices-type-content'>

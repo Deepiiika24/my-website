@@ -7,7 +7,7 @@ function Mace() {
     <div>
       <section className='Spices-type-banner'>
         <div className='container'>
-          <img src={garlic} className='banner'></img>
+          <img src={garlic} className='spices-page-banner'></img>
         </div>
       </section>
       <section className='spices-type-content'>

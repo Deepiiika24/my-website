@@ -7,7 +7,7 @@ function Bayleaf() {
     <div>
       <section className='Spices-type-banner'>
         <div className='container'>
-          <img src={payleaf} className='banner'></img>
+          <img src={payleaf} className='spices-page-banner'></img>
         </div>
       </section>
       <section className='spices-type-content'>

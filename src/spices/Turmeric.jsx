@@ -7,7 +7,7 @@ function Turmeric() {
     <div>
       <section className='Spices-type-banner'>
         <div className='container'>
-          <img src={turmeric} className='banner'></img>
+          <img src={turmeric} className='spices-page-banner'></img>
         </div>
       </section>
       <section className='spices-type-content'>

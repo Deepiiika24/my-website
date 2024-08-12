@@ -178,7 +178,7 @@
         font-size: 15px;
     }
     table.table.table-hover.table-responsive.table-bordered th {
-        padding: 0px 0px;
+        padding: 0px 0px !important;
         font-size: 15px;
     }
     table.table.table-hover.table-responsive.table-bordered {
@@ -225,7 +225,7 @@
         font-size: 12px;
     }
     table.table.table-hover.table-responsive.table-bordered th {
-        padding: 0px 0px;
+        padding: 0px 0px !important;
         font-size: 12px;
     }
     table.table.table-hover.table-responsive.table-bordered {
@@ -272,7 +272,7 @@
         font-size: 12px;
     }
     table.table.table-hover.table-responsive.table-bordered th {
-        padding: 0px 0px;
+        padding: 0px 0px !important;
         font-size: 10px;
     }
     table.table.table-hover.table-responsive.table-bordered {
@@ -319,7 +319,7 @@
         font-size: 12px;
     }
     table.table.table-hover.table-responsive.table-bordered th {
-        padding: 0px 0px;
+        padding: 0px 0px !important;
         font-size: 10px;
     }
     table.table.table-hover.table-responsive.table-bordered {

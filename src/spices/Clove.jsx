@@ -7,7 +7,7 @@ function Clove() {
     <div>
       <section className='Spices-type-banner'>
         <div className='container'>
-          <img src={clove} className='banner'></img>
+          <img src={clove} className='spices-page-banner'></img>
         </div>
       </section>
       <section className='spices-type-content'>

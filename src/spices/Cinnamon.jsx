@@ -7,7 +7,7 @@ function Cinnamon() {
     <div>
       <section className='Spices-type-banner'>
         <div className='container'>
-          <img src={cinnamon} className='banner'></img>
+          <img src={cinnamon} className='spices-page-banner'></img>
         </div>
       </section>
       <section className='spices-type-content'>

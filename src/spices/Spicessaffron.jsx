@@ -7,7 +7,7 @@ function Spicessaffron() {
     <div>
       <section className='Spices-type-banner'>
         <div className='container'>
-          <img src={saffron} className='banner'></img>
+          <img src={saffron} className='spices-page-banner'></img>
         </div>
       </section>
       <section className='spices-type-content'>
