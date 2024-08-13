@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
   }
 
   .header-container .navbar {
@@ -37,13 +38,15 @@
     gap: 100px;
     list-style: none;
     font-size: 30px;
-    font-family: monospace;
   }
 
   .container-fluid .collapse .navbar-nav a {
     text-decoration: none;
     color: #fff;
-    font-weight: 800;
+    font-weight: normal;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
   }
 
   .container,
@@ -76,7 +79,7 @@
   }
 
   .header-container .navbar {
-    height: 120px;
+    height: 100px;
     width: 100% !important;
     position: fixed !important;
     top: 0;
@@ -86,8 +89,8 @@
   }
 
   .logo-img {
-    height: 100px;
-    width: 200px;
+    height: 75px;
+    width: 150px;
     margin: 10px 80px !important;
     background-color: white;
     border-radius: 50%;
@@ -101,7 +104,15 @@
     gap: 60px !important;
     list-style: none;
     font-size: 28px !important;
-    font-family: monospace;
+  }
+
+  .container-fluid .collapse .navbar-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
   }
 
 
@@ -124,10 +135,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
   }
 
   .header-container .navbar {
-    height: 120px;
+    height: 80px;
     width: 100% !important;
     position: fixed !important;
     top: 0;
@@ -137,8 +149,8 @@
   }
 
   .logo-img {
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 100px;
     margin: 10px 30px;
     background-color: white;
     border-radius: 50%;
@@ -158,8 +170,10 @@
   .container-fluid .collapse .navbar-nav a {
     text-decoration: none;
     color: #fff;
-    font-weight: 800;
-    font-size: 20px;
+    font-weight: normal;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
   }
 
   .container,
@@ -192,7 +206,7 @@
   }
 
   .header-container .navbar {
-    height: 120px;
+    height: 80px;
     width: 100% !important;
     position: fixed !important;
     top: 0;
@@ -202,8 +216,8 @@
   }
 
   .logo-img {
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 100px;
     margin: 10px 40px !important;
     background-color: white;
     border-radius: 50%;
@@ -220,6 +234,14 @@
     font-family: monospace;
   }
 
+  .container-fluid .collapse .navbar-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+  }
 
   .container-fluid {
     max-width: 1024px !important;
@@ -236,7 +258,7 @@
   }
 
   .header-container .navbar {
-    height: 120px;
+    height: 60px;
     width: 100% !important;
     position: fixed !important;
     top: 0;
@@ -258,24 +280,58 @@
   }
 
   .logo-img {
-    height: 100px;
-    width: 200px;
+    height: 40px;
+    width: 80px;
     margin: 0px 40px !important;
     background-color: white;
     border-radius: 50%;
   }
-
   .container-fluid .collapse .navbar-nav {
-    display: flex;
-    position: absolute;
-    margin: 0px 25px !important;
-    justify-content: space-between;
-    gap: 0px !important;
-    list-style: none;
-    font-size: 20px !important;
-    font-family: monospace;
+    background: #f8f8f8 none repeat scroll 0 0;
+    color: #666666;
+    display: block;
+    float: left;
+    font-size: 12px !important;
+    margin: 10px 39px 0px 39px !important;
+    padding: 0px 0px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 90%;
+    font-weight: bold;
   }
 
+  .container-fluid .collapse .navbar-nav .nav-item {
+    background: #f8f8f8 none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 100%;
+    border-top: 1px solid #ddd;
+  }
+
+  .container-fluid .collapse .navbar-nav .nav-item a {
+    background: #f8f8f8 none repeat scroll 0 0;
+    color: #666666;
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin: 0;
+    padding: 1em 5% !important;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  a#navbarDropdown {
+    padding: 1em 9% !important;
+  }
+
+  .dropdown-toggle::after {
+    display: inline-block;
+    margin: 0px 0px 0px 590px;
+  }
 
   .container-fluid {
     max-width: 768px !important;
@@ -292,7 +348,7 @@
   }
 
   .header-container .navbar {
-    height: 120px;
+    height: 60px;
     width: 100% !important;
     position: fixed !important;
     top: 0;
@@ -314,23 +370,25 @@
   }
 
   .logo-img {
-    height: 100px;
-    width: 200px;
+    height: 40px;
+    width: 80px;
     margin: 0px 40px !important;
     background-color: white;
     border-radius: 50%;
   }
-
   .container-fluid .collapse .navbar-nav {
-    display: flex;
-    position: absolute;
-    margin: 0px 25px !important;
-    justify-content: space-between;
-    gap: 0px !important;
-    list-style: none;
-    font-size: 20px !important;
-    font-family: monospace;
-  }
+    background: #f8f8f8 none repeat scroll 0 0;
+    color: #666666;
+    display: block;
+    float: left;
+    font-size: 12px !important;
+    margin: 10px 22px 0px 22px !important;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 90%;
+    font-weight: bold;
+}
 
 
   .container-fluid {
@@ -338,12 +396,30 @@
     width: 100% !important;
     margin: 0 auto;
   }
-  .container-fluid .collapse .navbar-nav a {
-    text-decoration: none;
-    color: black;
-    font-weight: 800;
-    font-size: 20px;
+
+  .container-fluid .collapse .navbar-nav .nav-item {
+    background: #f8f8f8 none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 100%;
+    border-top: 1px solid #ddd;
   }
+
+  .container-fluid .collapse .navbar-nav .nav-item a {
+    background: #f8f8f8 none repeat scroll 0 0;
+    color: #666666;
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin: 0;
+    padding: 1em 5% !important;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: bold;
+  }
+
 }
 
 @media (max-width:375px) {
@@ -354,7 +430,7 @@
   }
 
   .header-container .navbar {
-    height: 120px;
+    height: 60px;
     width: 100% !important;
     position: fixed !important;
     top: 0;
@@ -376,35 +452,30 @@
   }
 
   .logo-img {
-    height: 65px;
-    width: 130px;
+    height: 40px;
+    width: 80px;
     margin: 0px 40px !important;
     background-color: white;
     border-radius: 50%;
   }
-
   .container-fluid .collapse .navbar-nav {
-    display: flex;
-    position: absolute;
-    margin: 0px 25px !important;
-    justify-content: space-between;
-    gap: 0px !important;
-    list-style: none;
-    font-size: 20px !important;
-    font-family: monospace;
-  }
-
+    background: #f8f8f8 none repeat scroll 0 0;
+    color: #666666;
+    display: block;
+    float: left;
+    font-size: 12px !important;
+    margin: 10px 19px 0px 19px !important;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 90%;
+    font-weight: bold;
+}
 
   .container-fluid {
     max-width: 375px !important;
     width: 100% !important;
     margin: 0 auto;
-  }
-  .container-fluid .collapse .navbar-nav a {
-    text-decoration: none;
-    color: black;
-    font-weight: 800;
-    font-size: 20px;
   }
 }
 
@@ -416,7 +487,7 @@
   }
 
   .header-container .navbar {
-    height: 120px;
+    height: 60px;
     width: 100% !important;
     position: fixed !important;
     top: 0;
@@ -438,23 +509,26 @@
   }
 
   .logo-img {
-    height: 50px;
-    width: 100px;
+    height: 40px;
+    width: 80px;
     margin: 0px 30px !important;
     background-color: white;
     border-radius: 50%;
   }
 
   .container-fluid .collapse .navbar-nav {
-    display: flex;
-    position: absolute;
-    margin: 0px 25px !important;
-    justify-content: space-between;
-    gap: 0px !important;
-    list-style: none;
-    font-size: 20px !important;
-    font-family: monospace;
-  }
+    background: #f8f8f8 none repeat scroll 0 0;
+    color: #666666;
+    display: block;
+    float: left;
+    font-size: 12px !important;
+    margin: 10px 16px 0px 16px !important;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 90%;
+    font-weight: bold;
+}
 
 
   .container-fluid {
@@ -462,10 +536,6 @@
     width: 100% !important;
     margin: 0 auto;
   }
-  .container-fluid .collapse .navbar-nav a {
-    text-decoration: none;
-    color: black;
-    font-weight: 800;
-    font-size: 20px;
-  }
+
+  
 }
