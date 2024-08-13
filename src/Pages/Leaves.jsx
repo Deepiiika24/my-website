@@ -26,13 +26,6 @@ function Leaves() {
       <div>
         <img src={banner} alt="banner" className='leaves-banner'/>
       </div>
-      <div class="leaves-content">
-        <h1>Leaves</h1>
-        <ul className='leaves-menu'>
-          <li><Link to="/">HOME</Link></li>
-          <li classname='leaf-sub-menu'><a>/ LEAVES</a></li>
-        </ul>
-      </div>
       <div className="leaves-container">
           <img src={icon} alt="icon" className='leaves-icon'/>
           <h1>EXPORTING PREMIUM QUALITY LEAVES FOR ALL YOUR NEEDS</h1>

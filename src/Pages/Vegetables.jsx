@@ -17,14 +17,9 @@ import spiceslogo from '../images/l.png'
 function Vegetables() {
    return (
       <div>
-         <div className='container'>
+         <div className='vegetable-container'>
             <section className='vegetable'>
                <div className='vegetable-banner'>
-                  <h1>vegetables</h1>
-                  <ul>
-                     <span><Link to="/">Home /</Link></span>
-                     <span><Link to="/vegetables">vegetables</Link></span>
-                  </ul>
                </div>
             </section>
             <div className="vegetable-body-container">

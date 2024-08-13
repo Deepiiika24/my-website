@@ -38,21 +38,14 @@ import String4 from '../images/Marigold-string.webp'
 
 function Flower() {
   return (
-    <div className='container'>
+    <div className='flower-container'>
       <section className="flowers">
         <div className="flower-banner">
-          <img src={flower1} alt="" />
-          <div class="main-flower-content">
-            <h1>Flowers</h1>
-            <ul className='menu'>
-              <li><Link to="/">HOME</Link></li>
-              <li style={{ fontSize: "17px" }}> / FLOWER</li>
-            </ul>
-          </div>
+          <img src={flower1} />
         </div>
       </section>
       <section className="flower-content">
-        <img src={icon} alt="" />
+        <img src={icon} />
         <h1>TRUSTED PARTNER IN FLORICULTURE EXPORTS</h1>
         <h1>_______</h1>
         <p>Floriculture in India primarily means the cultivation of flowers or flower farming. Known for its rich diversity, India's floriculture sector thrives with a wide variety of flowers, making it a prominent player in the global flower market. At Koogul Industries, we take pride in being one of the leading exporters of exquisite flowers from India, ensuring that the beauty of Indian floriculture reaches every corner of the world.</p>

@@ -26,6 +26,7 @@
 .contact-container .contact-form-body .contact-form h3,.contact-container .contact-form-body .contact-address h3{
     text-align: start;
     padding:20px 0px;
+    font-size: 30px;
 }
 button.btn.btn-primary {
     margin: 0px 0px 0px 300px;
@@ -33,24 +34,4 @@ button.btn.btn-primary {
 }
 .contact-form-body .contact-address .reg-add .row{
     margin:20px 0px;
-}
-.contact-container .contact-content h1.contact-heading {
-    margin: -210px auto !important;
-    color: white;
-    text-align: end;
-    padding: 15px 70px;
-}
-ul.contact-menu {
-    display: flex;
-    align-items: normal;
-    justify-content: end;
-    padding: 210px 95px 0px 0px;
-}
-ul.contact-menu li {
-    list-style: none;
-}
-ul.contact-menu li a{
-    text-decoration: none;
-    font-size: 18px;
-    color:white;
 }

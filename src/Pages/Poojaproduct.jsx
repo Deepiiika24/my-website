@@ -49,11 +49,6 @@ function Poojaproduct() {
     <>
       <section className='pooja'>
         <div className='pooja-banner'>
-          <h1>Pooja Product</h1>
-          <ul>
-            <span><Link to="/">HOME /</Link></span>
-            <span><Link to="/Poojaproduct">POOJA-PRODUCT</Link></span>
-          </ul>
         </div>
       </section>
       <div className='pooja-main-container'>

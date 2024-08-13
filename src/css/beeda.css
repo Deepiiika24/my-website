@@ -1,4 +1,4 @@
-.container{
+.beeda-container{
     max-width: 1280px;
     width: 100%;
 }
@@ -17,19 +17,6 @@
     padding: 141px 81px;
     margin: 119px 0px;
     position: relative;
-}
-.beeda-banner h1 {
-    color: #f4efef;
-    font-size: 44px;
-    position: absolute;
-    margin: -61px 14px;
-}
-.beeda-banner ul span a {
-    color: #f4efef;
-    font-size: 21px;
-    margin: 75px 4px;
-    text-decoration: none;
-    padding: 10px -31px;
 }
 .beeda-content {
     width: 100%;

@@ -28,11 +28,6 @@ function Spices() {
       <div className='spices-container'>
          <section className='spices'>
             <div className='spices-banner'>
-               <h1>Spices</h1>
-               <ul>
-                  <span><Link to="/">HOME /</Link></span>
-                  <span><Link to="/Spices">SPICES</Link></span>
-               </ul>
             </div>
          </section>
          <div className="spices-body-container">

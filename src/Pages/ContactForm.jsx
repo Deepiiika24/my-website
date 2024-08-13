@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import {Link} from 'react-router-dom'
 import emailjs from 'emailjs-com';
 import banner from '../images/Contact-banner.png'
 import '../css/ContactForm.css'
+import '../css/Responsive/ContactFormResponsive.css'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -47,13 +47,6 @@ const ContactForm = () => {
       <div className="contact-banner">
         <img src={banner} />
       </div>
-      <div class="contact-content">
-          <h1 className='contact-heading'>CONTACT-US</h1>
-          <ul className='contact-menu'>
-            <li><Link to="/">HOME</Link></li>
-            <li style={{ fontSize: "17px", color: "white" }}> / CONTACT-US</li>
-          </ul>
-        </div>
       <div className="contact-form-body">
         <div className='contact-address'>
           <h3>REGISTERED ADDRESS</h3>

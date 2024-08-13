@@ -27,13 +27,6 @@ function Snacks() {
         <img src={rice} className='snacks-banner' />
       </div>
       <div className="snacks-container">
-        <div class="snacks-content">
-          <h1 className='snacks-heading'>Snacks</h1>
-          <ul className='snacks-menu'>
-            <li><Link to="/">HOME</Link></li>
-            <li style={{ fontSize: "17px", color: "white" }}> / SNACKS</li>
-          </ul>
-        </div>
         <div className="snacks-icon">
           <img src={icon} className='snacks-body-icon' />
         </div>

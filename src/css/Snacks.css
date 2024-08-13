@@ -17,24 +17,6 @@
     width:200px;
     margin:-50px 450px;
 }
-.snacks-container .snacks-content h1.snacks-heading{
-    margin: -210px auto;
-    padding: 15px 490px;
-    color: white;
-}
-.snacks-container .snacks-content .snacks-menu {
-    display: flex;
-    margin: 205px 452px 195px 452px;
-    gap: 15px;
-}
-ul.snacks-menu li {
-    list-style: none;
-}
-ul.snacks-menu li a{
-    text-decoration: none;
-    font-size: 18px;
-    color:white;
-}
 .snacks-container h1{
     text-align: center;
     color:Green;

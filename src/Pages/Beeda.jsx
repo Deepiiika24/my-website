@@ -13,14 +13,9 @@ import spiceslogo from '../images/l.png'
 function Beeda() {
    return (
       <div>
-         <div className='container'>
+         <div className='beeda-container'>
             <section className='beeda'>
                <div className='beeda-banner'>
-                  <h1>PAN BEEDA</h1>
-                  <ul>
-                     <span><Link to="/">HOME /</Link></span>
-                     <span><Link to="/Beeda">PAN BEEDA</Link></span>
-                  </ul>
                </div>
             </section>
             <div className="beeda-body-container">

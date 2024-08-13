@@ -7,7 +7,7 @@
 .pooja {
     max-width: 1280px;
     width: 100%;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .pooja-banner {
@@ -18,21 +18,8 @@
     position: relative;
 }
 
-.pooja-banner ul span a {
-    color: white;
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-.pooja-banner h1 {
-    color: #f4efef;
-    font-size: 44px;
-    position: absolute;
-    margin: -61px 5px;
-}
 
 .pooja-content {
-    height: 200px;
     width: 100%;
 }
 
@@ -67,12 +54,15 @@
     width: 100%;
     margin-top: 100px;
 }
-.brass-swiper1{
-    width:100%;
-    margin:0 auto;
-    padding:10px 0px;
+
+.brass-swiper1 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0px;
 }
-.brass-swiper h2 ,.brass-swiper1 h2{
+
+.brass-swiper h2,
+.brass-swiper1 h2 {
     padding: 0px;
     font-size: 30px;
 }
@@ -139,7 +129,7 @@
 }
 
 .pooja-img {
-    padding:20px 0px;
+    padding: 20px 0px;
 }
 
 .Spiritual-and-religious {
@@ -148,7 +138,7 @@
 }
 
 .pooja-img-spiritual {
-    padding:20px 0px;
+    padding: 20px 0px;
 }
 
 .Spiritual-and-religious h2 {
@@ -184,16 +174,16 @@
 
 .Medical-and-herbal {
     width: 100%;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .Medical-and-herbal h2 {
-    padding:0px;
+    padding: 0px;
     font-size: 30px;
 }
 
 .pooja-img-Medical {
-    padding:20px 0px;
+    padding: 20px 0px;
 }
 
 .link2-namepooja {
@@ -224,7 +214,7 @@
 
 .Agricultural-and-natural {
     width: 100%;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .Agricultural-and-natural h2 {
@@ -233,7 +223,7 @@
 }
 
 .pooja-img-Agricultural {
-    padding:20px 0px;
+    padding: 20px 0px;
 }
 
 .link1-namepooja-108 {
