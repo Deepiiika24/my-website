@@ -338,6 +338,12 @@
     width: 100% !important;
     margin: 0 auto;
   }
+  .container-fluid .collapse .navbar-nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+  }
 }
 
 @media (max-width:375px) {
@@ -394,6 +400,12 @@
     width: 100% !important;
     margin: 0 auto;
   }
+  .container-fluid .collapse .navbar-nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+  }
 }
 
 @media (max-width:320px) {
@@ -449,5 +461,11 @@
     max-width: 320px !important;
     width: 100% !important;
     margin: 0 auto;
+  }
+  .container-fluid .collapse .navbar-nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
   }
 }
