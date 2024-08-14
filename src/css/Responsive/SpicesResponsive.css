@@ -53,17 +53,26 @@
 
     .spices-img {
         display: grid !important;
-        grid-template-columns: repeat(4, 1fr) !important;
-        gap: 3.5rem !important;
-        column-gap: 3.5rem;
+        grid-template-columns: repeat(5, 1fr) !important;
+        gap: 50px 0px;
+        column-gap: 0em;
         position: relative;
-        margin: 50px 40px;
+        margin: 50px 0px;
     }
-
+    img.spices-pic {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 3px;
+        height: 400px;
+        width: 400px;
+    }
+    .spices-img .card {
+        height: 450px;
+        width: 400px;
+    }
     #link-name {
         margin: 0 auto;
-        font-size: 30px;
-        padding: 10px 0px;
+        padding: 0px;
+        font-size: 35px;
     }
 }
 
@@ -78,7 +87,7 @@
         background-image: ('../images/spices6.jpg');
         background-size: cover;
         padding: 174px 81px !important;
-        margin: 121px 0px 0px 0px !important;
+        margin: 101px 0px 0px 0px !important;
         position: relative;
     }
 
@@ -111,17 +120,27 @@
         margin: 0 auto;
     }
 
-    .spices-img .card,
-    .spices-pic {
-        height: 480px;
-        width: 400px;
+    .spices-img .card{
+        height: 293px;
+        width: 243px;
     }
-
+    img.spices-pic {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 3px;
+        height: 243px;
+        width: 243px;
+    }
     .spices-img {
         display: grid !important;
-        grid-template-columns: repeat(3, 1fr) !important;
+        grid-template-columns: repeat(4, 1fr) !important;
         justify-content: space-between;
-        margin: 50px -22px;
+        margin: 50px 0px;
+        gap: 40px;
+    }
+    #link-name {
+        margin: 0 auto;
+        padding: 5px 0px;
+        font-size: 30px;
     }
 
 }
@@ -146,8 +165,8 @@
     .spices-banner {
         background-image: ('../images/spices6.jpg');
         background-size: cover;
-        padding: 141px 81px;
-        margin: 121px 0px 0px 0px;
+        padding: 158px 81px !important;
+        margin: 81px 0px 0px 0px !important;
         position: relative;
     }
 
@@ -247,8 +266,8 @@
     .spices-banner {
         background-image: ('../images/spices6.jpg');
         background-size: cover;
-        padding: 103px 81px !important;
-        margin: 121px 0px 0px 0px !important;
+        padding: 126px 0px !important;
+        margin: 81px 0px 0px 0px !important;
         position: relative;
     }
 
@@ -312,8 +331,8 @@
     .spices-banner {
         background-image: ('../images/spices6.jpg');
         background-size: cover;
-        padding: 71px 0px !important;
-        margin: 121px 0px 0px 0px !important;
+        padding: 95px 0px !important;
+        margin: 61px 0px 0px 0px !important;
         position: relative;
     }
 
@@ -344,7 +363,17 @@
     .spices-img {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
-        margin: 0px 35px;
+        margin: 0px 35px 50px 35px;
+    }
+    img.spices-pic {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 3px;
+        height: 243px;
+        width: 243px;
+    }
+    .spices-img .card {
+        height: 293px;
+        width: 243px;
     }
 
     #link-name a {
@@ -384,8 +413,8 @@
     .spices-banner {
         background-image: ('../images/spices6.jpg');
         background-size: cover;
-        padding: 32px 0px !important;
-        margin: 121px 0px 0px 0px !important;
+        padding: 52px 0px !important;
+        margin: 61px 0px 0px 0px !important;
         position: relative;
     }
 
@@ -435,8 +464,8 @@
     .spices-banner {
         background-image: ('../images/spices6.jpg');
         background-size: cover;
-        padding: 26px 0px !important;
-        margin: 121px 0px 0px 0px !important;
+        padding: 46px 0px !important;
+        margin: 61px 0px 0px 0px !important;
         position: relative;
     }
 
@@ -486,8 +515,8 @@
     .spices-banner {
         background-image: ('../images/spices6.jpg');
         background-size: cover;
-        padding: 19px 0px !important;
-        margin: 121px 0px 0px 0px !important;
+        padding: 39px 0px !important;
+        margin: 61px 0px 0px 0px !important;
         position: relative;
     }
     .spices-banner h1 {

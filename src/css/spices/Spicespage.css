@@ -4,7 +4,7 @@
     margin:0 auto;
 }
 section.Spices-type-banner {
-    margin-top: 121px;
+    margin-top: 81px;
     width: 100%;
 }
 section.spices-type-content,section.Spices-type-table {
@@ -15,7 +15,14 @@ section.spices-type-content,section.Spices-type-table {
 .spices-type-text h1 {
     text-align: center;
     padding: 10px 0px;
+    font-size: 30px;
 }
 .spices-type-text p {
     text-align: justify;
+}
+
+.Spices-table-heading h1 {
+    text-align: start;
+    padding: 10px 0px;
+    font-size: 30px;
 }
