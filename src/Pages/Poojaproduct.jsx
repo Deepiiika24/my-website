@@ -79,7 +79,7 @@ function Poojaproduct() {
                   slidesPerView: 1,
                 },
                 424: {
-                  slidesPerView: 1,
+                  slidesPerView: 2,
                 },
                 768: {
                   slidesPerView: 2,
@@ -168,7 +168,7 @@ function Poojaproduct() {
                   slidesPerView: 1,
                 },
                 424: {
-                  slidesPerView: 1,
+                  slidesPerView: 2,
                 },
                 768: {
                   slidesPerView: 2,
@@ -239,7 +239,7 @@ function Poojaproduct() {
                   slidesPerView: 1,
                 },
                 424: {
-                  slidesPerView: 1,
+                  slidesPerView: 2,
                 },
                 768: {
                   slidesPerView: 2,
@@ -322,7 +322,7 @@ function Poojaproduct() {
                   slidesPerView: 1,
                 },
                 424: {
-                  slidesPerView: 1,
+                  slidesPerView: 2,
                 },
                 768: {
                   slidesPerView: 2,
@@ -429,7 +429,7 @@ function Poojaproduct() {
                   slidesPerView: 1,
                 },
                 424: {
-                  slidesPerView: 1,
+                  slidesPerView: 2,
                 },
                 768: {
                   slidesPerView: 2,
