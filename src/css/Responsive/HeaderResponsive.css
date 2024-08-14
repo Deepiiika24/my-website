@@ -315,14 +315,14 @@
     display: block;
     float: left;
     font-size: 12px;
-    margin: 0;
-    padding: 1em 5% !important;
+    padding: .5em 5%;
     text-align: left;
     text-decoration: none;
     text-transform: uppercase;
     width: 100%;
     font-weight: bold;
-  }
+    margin: 0px 0px;
+}
 
   a#navbarDropdown {
     padding: 1em 9% !important;
@@ -412,7 +412,7 @@
     float: left;
     font-size: 12px;
     margin: 0;
-    padding: 1em 5% !important;
+    padding: .5em 5% !important;
     text-align: left;
     text-decoration: none;
     text-transform: uppercase;
