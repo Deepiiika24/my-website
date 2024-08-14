@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/poojaitem.css'
+import '../css/Responsive/PoojaitemResponsive.css'
 import { Link } from 'react-router-dom'
 import poojalogo from '../images/l.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -65,9 +66,37 @@ function Poojaproduct() {
         <section className='brass-swiper'>
           <h2>SPECIAL POOJA KIT</h2>
           <div className="pooja-img">
-            <Swiper slidesPerView={4} spaceBetween={10} freeMode={true} loop={true} pagination={{ clickable: true, }} autoplay={{
-              delay: 2500, disableOnInteraction: false,
-            }} modules={[FreeMode, Pagination, Autoplay]} className="pooja-Swiper">
+            <Swiper slidesPerView={4} spaceBetween={10} freeMode={true} loop={true} pagination={{ clickable: true, }}
+              autoplay={{
+                delay: 2500, disableOnInteraction: false,
+              }}
+              modules={[FreeMode, Pagination, Autoplay]} className="pooja-Swiper"
+              breakpoints={{
+                320: {
+                  slidesPerView: 1,
+                },
+                374: {
+                  slidesPerView: 1,
+                },
+                424: {
+                  slidesPerView: 1,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
+                1280: {
+                  slidesPerView: 4,
+                },
+                1440: {
+                  slidesPerView: 4,
+                },
+                2560: {
+                  slidesPerView: 5,
+                }
+              }}>
               <SwiperSlide className='pooja-swiper-slide'>
                 <div className='card'>
                   <img className='pooja-slide-img' src={special1} alt="" />
@@ -130,7 +159,33 @@ function Poojaproduct() {
           <div className="pooja-img">
             <Swiper slidesPerView={4} spaceBetween={10} freeMode={true} loop={true} pagination={{ clickable: true, }} autoplay={{
               delay: 2500, disableOnInteraction: false,
-            }} modules={[FreeMode, Pagination, Autoplay]} className="pooja-Swiper">
+            }} modules={[FreeMode, Pagination, Autoplay]} className="pooja-Swiper"
+              breakpoints={{
+                320: {
+                  slidesPerView: 1,
+                },
+                374: {
+                  slidesPerView: 1,
+                },
+                424: {
+                  slidesPerView: 1,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
+                1280: {
+                  slidesPerView: 4,
+                },
+                1440: {
+                  slidesPerView: 4,
+                },
+                2560: {
+                  slidesPerView: 5,
+                }
+              }}>
               <SwiperSlide className='pooja-swiper-slide'>
                 <div className='card'>
                   <img className='pooja-slide-img' src={swiper1} alt="" />
@@ -175,7 +230,33 @@ function Poojaproduct() {
           <div className="pooja-img-spiritual">
             <Swiper slidesPerView={4} spaceBetween={10} freeMode={true} loop={true} pagination={{ clickable: true, }} autoplay={{
               delay: 2500, disableOnInteraction: false,
-            }} modules={[FreeMode, Pagination, Autoplay]} className="pooja-Swiper">
+            }} modules={[FreeMode, Pagination, Autoplay]} className="pooja-Swiper"
+              breakpoints={{
+                320: {
+                  slidesPerView: 1,
+                },
+                374: {
+                  slidesPerView: 1,
+                },
+                424: {
+                  slidesPerView: 1,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
+                1280: {
+                  slidesPerView: 4,
+                },
+                1440: {
+                  slidesPerView: 4,
+                },
+                2560: {
+                  slidesPerView: 5,
+                }
+              }}>
               <SwiperSlide className='pooja-swiper-slide'>
                 <div className='card'>
                   <img className='pooja-slide-img' src={spiritual1} alt="" />
@@ -232,7 +313,33 @@ function Poojaproduct() {
           <div className="pooja-img-Medical">
             <Swiper slidesPerView={4} spaceBetween={10} freeMode={true} loop={true} pagination={{ clickable: true, }} autoplay={{
               delay: 2500, disableOnInteraction: false,
-            }} modules={[FreeMode, Pagination, Autoplay]} className="pooja-Swiper">
+            }} modules={[FreeMode, Pagination, Autoplay]} className="pooja-Swiper"
+              breakpoints={{
+                320: {
+                  slidesPerView: 1,
+                },
+                374: {
+                  slidesPerView: 1,
+                },
+                424: {
+                  slidesPerView: 1,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
+                1280: {
+                  slidesPerView: 4,
+                },
+                1440: {
+                  slidesPerView: 4,
+                },
+                2560: {
+                  slidesPerView: 5,
+                }
+              }}>
               <SwiperSlide className='pooja-swiper-slide'>
                 <div className='card'>
                   <img className='pooja-slide-img' src={Medical1} alt="" />
@@ -313,7 +420,33 @@ function Poojaproduct() {
           <div className="pooja-img-Agricultural">
             <Swiper slidesPerView={4} spaceBetween={10} freeMode={true} loop={true} pagination={{ clickable: true, }} autoplay={{
               delay: 2500, disableOnInteraction: false,
-            }} modules={[FreeMode, Pagination, Autoplay]} className="pooja-Swiper">
+            }} modules={[FreeMode, Pagination, Autoplay]} className="pooja-Swiper"
+              breakpoints={{
+                320: {
+                  slidesPerView: 1,
+                },
+                374: {
+                  slidesPerView: 1,
+                },
+                424: {
+                  slidesPerView: 1,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
+                1280: {
+                  slidesPerView: 4,
+                },
+                1440: {
+                  slidesPerView: 4,
+                },
+                2560: {
+                  slidesPerView: 5,
+                }
+              }}>
               <SwiperSlide className='pooja-swiper-slide'>
                 <div className='card'>
                   <img className='pooja-slide-img' src={agricalture1} alt="" />

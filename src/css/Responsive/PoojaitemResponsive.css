@@ -1,0 +1,766 @@
+@media (max-width:2560px) {
+    .pooja {
+        max-width: 2560px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pooja-banner {
+        background-image: ('../images/pooja/pooja-product-banner.jpg');
+        background-size: cover;
+        padding: 350px 0px;
+        margin: 121px 0px 0px 0px;
+        position: relative;
+    }
+
+    .pooja-main-container {
+        max-width: 2200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pooja-logo-content img {
+        width: 20%;
+        margin: 0px 880px -70px 880px;
+    }
+
+    .pooja-logo-content h4 {
+        text-align: center;
+        color: green;
+        font-size: 70px;
+    }
+
+    .pooja-logo-content p {
+        text-align: justify;
+        font-size: 35px;
+    }
+
+    .brass-swiper h2,
+    .brass-swiper1 h2,
+    .Agricultural-and-natural h2,
+    .Spiritual-and-religious h2,
+    .Medical-and-herbal h2 {
+        padding: 0px;
+        font-size: 50px;
+    }
+    .pooja-swiper-slide .card{
+        height:450px;
+        width:400px;
+    }
+    .swiper .swiper-wrapper .swiper-slide .pooja-slide-img {
+        height: 400px;
+        width: 400px;
+        box-shadow: 0px 0px 20px #585757a6;
+        border-radius: 5px;
+        border: none;
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        margin-bottom: -13px;
+    }
+    .brass-swiper1 {
+        width: 100%;
+        margin: 100px 0px;
+        padding: 10px 0px;
+    }
+    .Spiritual-and-religious {
+        width: 100%;
+        margin: 100px 0px;
+    }
+    .Agricultural-and-natural {
+        width: 100%;
+        margin: 100px 0px;
+    }
+}
+
+@media (max-width:1440px) {
+    .pooja {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pooja-banner {
+        background-image: ('../images/pooja/pooja-product-banner.jpg');
+        background-size: cover;
+        padding: 197px 0px;
+        margin: 101px 0px 0px 0px;
+        position: relative;
+    }
+
+    .pooja-main-container {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pooja-logo-content img {
+        width: 20%;
+        margin: 0px 510px -50px 510px;
+    }
+    .pooja-logo-content h4 {
+        text-align: center;
+        color: green;
+        font-size: 40px;
+    }
+
+    .pooja-logo-content p {
+        text-align: justify;
+        font-size: 25px;
+    }
+
+    .brass-swiper h2,
+    .brass-swiper1 h2,
+    .Agricultural-and-natural h2,
+    .Spiritual-and-religious h2,
+    .Medical-and-herbal h2 {
+        padding: 0px;
+        font-size: 40px;
+    }
+    .pooja-swiper-slide .card{
+        height:293px;
+        width:243px;
+    }
+    .swiper .swiper-wrapper .swiper-slide .pooja-slide-img {
+        height: 243px;
+        width: 243px;
+        box-shadow: 0px 0px 20px #585757a6;
+        border-radius: 5px;
+        border: none;
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        margin-bottom: -13px;
+    }
+}
+
+@media (max-width:1280px){
+    .pooja-main-container {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .pooja {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .pooja-banner {
+        background-image: ('../images/pooja/pooja-product-banner.jpg');
+        background-size: cover;
+        padding: 175px 0px;
+        margin: 81px 0px 0px 0px;
+        position: relative;
+    }
+    
+    
+    .pooja-content {
+        width: 100%;
+    }
+    
+    .pooja-content {
+        width: 100%;
+        background-color: white;
+        margin: 0px 0px;
+    }
+    
+    .pooja-logo-content img {
+        width: 200px;
+        margin: 15px 450px -30px 450px;
+    }
+    
+    .pooja-logo-content h4 {
+        text-align: center;
+        color: green;
+        font-size: 30px;
+    }
+    
+    .pooja-logo-content h1 {
+        color: green;
+        text-align: center;
+        margin: -30px 0px 30px 0px;
+    }
+    
+    .pooja-logo-content p {
+        text-align: justify;
+        font-size: 15px;
+    }
+    
+    .brass-swiper {
+        width: 100%;
+        margin-top: 100px;
+    }
+    
+    .brass-swiper1 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 0px;
+    }
+    
+    .brass-swiper h2,
+    .brass-swiper1 h2,.Agricultural-and-natural h2,.Spiritual-and-religious h2,.Medical-and-herbal h2 {
+        padding: 0px;
+        font-size: 30px;
+    }
+    
+    .pooja-swiper {
+        max-width: 1100px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .pooja-swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .pooja-swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        margin: -13px 0px;
+    }
+    
+    .pooja-swiper-slide img {
+        display: block;
+        width: 243px;
+        height: 243px;
+        object-fit: cover;
+    
+    }
+    
+    .swiper .swiper-wrapper .swiper-slide .pooja-slide-img {
+        height: 243px;
+        width: 243px;
+        box-shadow: 0px 0px 20px #585757a6;
+        border-radius: 5px;
+        /* grid-template-columns: repeat(auto-fit,minmax(200px,auto)); */
+        border: none;
+    }
+    
+    .card {
+        height: 300px;
+        width: 243px;
+    }
+    
+    .card .pooja-slide-img {
+        height: 243px;
+        width: 243px;
+    }
+    
+    .link1-namepooja {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    
+    .link1-namepooja a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 36px 34px;
+        font-size: 23px;
+    }
+    
+    .pooja-img {
+        padding: 20px 0px;
+    }
+    
+    .Spiritual-and-religious {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .pooja-img-spiritual {
+        padding: 20px 0px
+    }
+    
+    .link2-namepooja {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    
+    .link2-namepooja a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 36px 30px;
+        font-size: 23px;
+    }
+    
+    .link4-namepooja {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    
+    .link4-namepooja a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 36px 30px;
+        font-size: 23px;
+    }
+    
+    .Medical-and-herbal {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .pooja-img-Medical {
+        padding: 20px 0px;
+    }
+    
+    .link2-namepooja {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    
+    .link2-namepooja a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 36px 25px;
+        font-size: 23px;
+    }
+    
+    .link3-namepooja {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    
+    .link3-namepooja a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 36px 15px;
+        font-size: 23px;
+    }
+    
+    .Agricultural-and-natural {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    
+    
+    .pooja-img-Agricultural {
+        padding: 20px 0px;
+    }
+    
+    .link1-namepooja-108 {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 0px 0px;
+    }
+    
+    .link1-namepooja-108 a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 10px 5px;
+        font-size: 23px;
+    }
+    
+    .link1-namepooja-hari {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    
+    .link1-namepooja-hari a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 35px 5px;
+        font-size: 23px;
+    }
+    
+    .link1-namepooja-navgraha {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    
+    .link1-namepooja-navgraha a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 35px 5px;
+        font-size: 23px;
+    }
+    
+    .link4-namepooja-satya {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    
+    .link4-namepooja-satya a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 35px 5px;
+        font-size: 23px;
+    }
+    
+    .link1-namepooja-varalakshmi {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    
+    .link1-namepooja-varalakshmi a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 35px 5px;
+        font-size: 23px;
+    }
+    
+    .link1-namepooja-sudrashana {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    
+    .link1-namepooja-sudrashana a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 35px 5px;
+        font-size: 23px;
+    }
+    
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        margin-bottom: -10px;
+    }
+    
+    h1.pooja-kit-heading {
+        margin: -91px -14px;
+        font-size: 27px;
+    }
+    .brass-swiper1,.Spiritual-and-religious,.Agricultural-and-natural {
+        width: 100%;
+        margin: 80px 0px;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:1024px){
+    .pooja {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pooja-banner {
+        background-image: ('../images/pooja/pooja-product-banner.jpg');
+        background-size: cover;
+        padding: 140px 0px;
+        margin: 81px 0px 0px 0px;
+        position: relative;
+    }
+
+    .pooja-main-container {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pooja-logo-content img {
+        width: 20%;
+        margin: 0px 360px -30px 360px;
+    }
+    .pooja-logo-content h4 {
+        text-align: center;
+        color: green;
+        font-size: 30px;
+    }
+
+    .pooja-logo-content p {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .brass-swiper h2,
+    .brass-swiper1 h2,
+    .Agricultural-and-natural h2,
+    .Spiritual-and-religious h2,
+    .Medical-and-herbal h2 {
+        padding: 0px;
+        font-size: 30px;
+    }
+    .pooja-swiper-slide .card{
+        height:293px;
+        width:243px;
+    }
+    .pooja-swiper-slide .card .pooja-slide-img{
+        height: 243px;
+        width: 243px;
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        margin-bottom: -13px;
+    }
+}
+
+@media (max-width:768px){
+    .pooja {
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pooja-banner {
+        background-image: ('../images/pooja/pooja-product-banner.jpg');
+        background-size: cover;
+        padding: 105px 0px;
+        margin: 61px 0px 0px 0px;
+        position: relative;
+    }
+
+    .pooja-main-container {
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pooja-logo-content img {
+        width: 20%;
+        margin: 0px 280px -30px 280px;
+    }
+    .pooja-logo-content h4 {
+        text-align: center;
+        color: green;
+        font-size: 25px;
+    }
+
+    .pooja-logo-content p {
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    .brass-swiper h2,
+    .brass-swiper1 h2,
+    .Agricultural-and-natural h2,
+    .Spiritual-and-religious h2,
+    .Medical-and-herbal h2 {
+        padding: 0px;
+        font-size: 25px;
+    }
+    .pooja-swiper-slide .card{
+        height:293px;
+        width:243px;
+    }
+    .pooja-swiper-slide .card .pooja-slide-img{
+        height: 243px;
+        width: 243px;
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        margin-bottom: -13px;
+    }
+    .brass-swiper1,.Spiritual-and-religious,.Agricultural-and-natural {
+        width: 100%;
+        margin: 50px 0px;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:425px){
+    .pooja {
+        max-width: 425px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pooja-banner {
+        background-image: ('../images/pooja/pooja-product-banner.jpg');
+        background-size: cover;
+        padding: 58px 0px;
+        margin: 61px 0px 0px 0px;
+        position: relative;
+    }
+
+    .pooja-main-container {
+        max-width: 375px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pooja-logo-content img {
+        width: 40%;
+        margin: 0px 112px -30px 112px;
+    }
+    .pooja-logo-content h4 {
+        text-align: center;
+        color: green;
+        font-size: 20px;
+    }
+    .pooja-logo-content h1 {
+        color: green;
+        text-align: center;
+        margin: -30px 0px 0px 0px;
+    }
+    .pooja-logo-content p {
+        text-align: justify;
+        font-size: 15px;
+    }
+    .brass-swiper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .brass-swiper h2,
+    .brass-swiper1 h2,
+    .Agricultural-and-natural h2,
+    .Spiritual-and-religious h2,
+    .Medical-and-herbal h2 {
+        padding: 0px;
+        font-size: 20px;
+    }
+    .pooja-swiper-slide .card{
+        height:293px;
+        width:243px;
+    }
+    .pooja-swiper-slide .card .pooja-slide-img{
+        height: 243px;
+        width: 243px;
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        margin-bottom: -13px;
+    }
+    .pooja-img,.pooja-img-spiritual,.pooja-img-Medical,.pooja-img-Agricultural {
+        padding: 20px 0px;
+        margin: 0px 65px;
+    }
+}
+
+@media (max-width:375px){
+    .pooja {
+        max-width: 375px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pooja-banner {
+        background-image: ('../images/pooja/pooja-product-banner.jpg');
+        background-size: cover;
+        padding: 51px 0px;
+        margin: 61px 0px 0px 0px;
+        position: relative;
+    }
+
+    .pooja-main-container {
+        max-width: 325px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pooja-logo-content img {
+        width: 40%;
+        margin: 0px 97px -30px 97px;
+    }
+    .pooja-logo-content h4 {
+        text-align: center;
+        color: green;
+        font-size: 20px;
+    }
+    .pooja-logo-content h1 {
+        color: green;
+        text-align: center;
+        margin: -30px 0px 0px 0px;
+    }
+    .pooja-logo-content p {
+        text-align: justify;
+        font-size: 15px;
+    }
+    .brass-swiper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .brass-swiper h2,
+    .brass-swiper1 h2,
+    .Agricultural-and-natural h2,
+    .Spiritual-and-religious h2,
+    .Medical-and-herbal h2 {
+        padding: 0px;
+        font-size: 20px;
+    }
+    .pooja-swiper-slide .card{
+        height:293px;
+        width:243px;
+    }
+    .pooja-swiper-slide .card .pooja-slide-img{
+        height: 243px;
+        width: 243px;
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        margin-bottom: -13px;
+    }
+    .pooja-img,.pooja-img-spiritual,.pooja-img-Medical,.pooja-img-Agricultural {
+        padding: 20px 0px;
+        margin: 0px 40px;
+    }
+}
+
+@media (max-width:320px){
+    .pooja {
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pooja-banner {
+        background-image: ('../images/pooja/pooja-product-banner.jpg');
+        background-size: cover;
+        padding: 43px 0px;
+        margin: 61px 0px 0px 0px;
+        position: relative;
+    }
+
+    .pooja-main-container {
+        max-width: 280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pooja-logo-content img {
+        width: 40%;
+        margin: 0px 84px -20px 84px;
+    }
+    .pooja-logo-content h4 {
+        text-align: center;
+        color: green;
+        font-size: 20px;
+    }
+    .pooja-logo-content h1 {
+        color: green;
+        text-align: center;
+        margin: -30px 0px 0px 0px;
+    }
+    .pooja-logo-content p {
+        text-align: justify;
+        font-size: 15px;
+    }
+    .brass-swiper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .brass-swiper h2,
+    .brass-swiper1 h2,
+    .Agricultural-and-natural h2,
+    .Spiritual-and-religious h2,
+    .Medical-and-herbal h2 {
+        padding: 0px;
+        font-size: 20px;
+    }
+    .pooja-swiper-slide .card{
+        height:293px;
+        width:243px;
+    }
+    .pooja-swiper-slide .card .pooja-slide-img{
+        height: 243px;
+        width: 243px;
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        margin-bottom: -13px;
+    }
+    .pooja-img,.pooja-img-spiritual,.pooja-img-Medical,.pooja-img-Agricultural {
+        padding: 20px 0px;
+        margin: 0px 18px;
+    }
+}
