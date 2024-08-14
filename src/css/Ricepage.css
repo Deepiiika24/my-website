@@ -19,13 +19,18 @@
 .ricepage-main-container .ricepage-container .ricepage-content h2 {
     text-align: center;
     padding: 5px 0px;
+    font-size: 30px;
 }
 
 .ricepage-main-container .ricepage-container .ricepage-content p {
     text-align: justify;
+    font-size: 15px;
 }
 .ricepage-type-table{
     margin:50px auto;
+}
+.ricepage-table-heading h2 {
+    font-size: 30px;
 }
 .ricepage-type-table .ricepage-table-heading table.table.table-hover.table-responsive.table-bordered {
     width: 80%;

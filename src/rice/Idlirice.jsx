@@ -1,6 +1,7 @@
 import React from 'react'
 import banner from '../images/rice/Idli-rice-banner.jpg'
 import '../css/Ricepage.css'
+import '../css/Responsive/RicePageResponsive.css'
 
 function Idlirice() {
   return (

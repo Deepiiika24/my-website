@@ -1,6 +1,7 @@
 import React from 'react'
 import banner from '../images/rice/seeraga-samba-banner.webp'
 import '../css/Ricepage.css'
+import '../css/Responsive/RicePageResponsive.css'
 
 function Seeraghasamba() {
   return (
