@@ -6,7 +6,7 @@ function Spistaranice() {
   return (
     <div>
       <section className='Spices-type-banner'>
-        <div className='container'>
+        <div className='spices-page-container'>
           <img src={anise} className='spices-page-banner'></img>
         </div>
       </section>

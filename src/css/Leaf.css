@@ -5,12 +5,12 @@
 }
 .leaves-main-container .leaves-banner{
     width:100%;
-    margin-top:121px;
+    margin-top:81px;
 }
 .leaves-main-container .leaves-container {
     max-width: 1100px;
     width: 100%;
-    margin: 150px 82px 0px 82px;
+    margin: 0 auto;
 }
 .leaves-main-container .leaves-container .leaves-icon {
     height: auto;

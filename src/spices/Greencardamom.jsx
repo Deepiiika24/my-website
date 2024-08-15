@@ -6,7 +6,7 @@ function Greencardamom() {
   return (
     <div>
       <section className='Spices-type-banner'>
-        <div className='container'>
+        <div className='spices-page-container'>
           <img src={garlic} className='spices-page-banner'></img>
         </div>
       </section>

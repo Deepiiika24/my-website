@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/poojapages.css'
+import '../css/Responsive/PoojaPageResponsive.css'
 import navgraha from '../images/pooja/kit6.jpg'
 function Navgrahapooja() {
   return (

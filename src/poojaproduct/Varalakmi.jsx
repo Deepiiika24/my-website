@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/poojapages.css'
+import '../css/Responsive/PoojaPageResponsive.css'
 import varalakshmi from '../images/pooja/kit2.jpg'
 function Varalakmi() {
   return (

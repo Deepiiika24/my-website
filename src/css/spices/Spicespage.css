@@ -26,3 +26,10 @@ section.spices-type-content,section.Spices-type-table {
     padding: 10px 0px;
     font-size: 30px;
 }
+.Spices-type-table .Spices-table-heading th#quantity{
+    border-left-color: white;
+    border-right-color: white;
+}
+.Spices-type-table .Spices-table-heading th#Quantity{
+    border-right-color: white;
+}

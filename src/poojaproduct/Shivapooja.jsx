@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/poojapages.css'
+import '../css/Responsive/PoojaPageResponsive.css'
 import siva from '../images/pooja/kit3.jpg'
 function Shivapooja() {
   return (

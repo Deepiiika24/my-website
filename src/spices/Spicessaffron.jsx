@@ -6,7 +6,7 @@ function Spicessaffron() {
   return (
     <div>
       <section className='Spices-type-banner'>
-        <div className='container'>
+        <div className='spices-page-container'>
           <img src={saffron} className='spices-page-banner'></img>
         </div>
       </section>

@@ -6,7 +6,7 @@ function Turmeric() {
   return (
     <div>
       <section className='Spices-type-banner'>
-        <div className='container'>
+        <div className='spices-page-container'>
           <img src={turmeric} className='spices-page-banner'></img>
         </div>
       </section>
@@ -23,8 +23,8 @@ Although long used in Ayurvedic medicine, there is no high-quality clinical evid
           <table class="table table-hover table-responsive table-bordered">
             <thead>
              <th>   </th>
-             <th scope='row'>Quantity<br></br>Per<span>Serving</span></th>
-             <th scope='row'>Quantity<br></br>Per<span>100g</span></th>
+             <th className='Quantity' scope='row'>Quantity<br></br>Per<span>Serving</span></th>
+             <th className='quantity' scope='row'>Quantity<br></br>Per<span>100g</span></th>
             </thead>
             <tbody>
               <tr>

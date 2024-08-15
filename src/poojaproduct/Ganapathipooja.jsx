@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/poojapages.css'
+import '../css/Responsive/PoojaPageResponsive.css'
 import ganapathi from '../images/pooja/kit7.jpg'
 
 function Ganapathipooja() {

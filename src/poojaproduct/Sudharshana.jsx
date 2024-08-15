@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/poojapages.css'
+import '../css/Responsive/PoojaPageResponsive.css'
 import sudharshana from '../images/pooja/kit1.jpg'
 function Sudharshana() {
   return (

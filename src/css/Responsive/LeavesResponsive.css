@@ -8,27 +8,10 @@
         width:100%;
         margin-top:121px;
     }
-    .leaves-main-container .leaves-content h1 {
-        margin: -200px 0px 0px 0px;
-        font-weight: 800;
-        text-align: center;
-        font-size: 80px;
-    }
-    .leaves-main-container .leaves-content h1 {
-        margin: -400px 0px 0px 0px;
-        font-size: 80px;
-    }
-    .leaves-main-container .leaves-content .leaves-menu {
-        margin: 10px 1118px;
-        padding: 15px 15px;
-    }
-    .leaves-main-container .leaves-content .leaves-menu a {
-        font-size: 40px;
-    }
     .leaves-main-container .leaves-container {
         max-width: 2200px;
         width: 100%;
-        margin: 305px 180px 0px 180px;
+        margin: 0 auto;
     }
     .leaves-main-container .leaves-container .leaves-icon {
         height: auto;
@@ -41,24 +24,20 @@
     .leaves-main-container .leaves-container p {
         font-size: 40px;
     }
-    .leaves-main-container .leaves-sub-container{
-        max-width: 2200px;
-        width:100%;
-        margin:0 auto;
-    }
     .leaves-main-container .leaves-sub-container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        padding: 50px 150px;
-        gap:100px;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 40px;
+        padding: 0px 0px;
+        max-width: 2200px;
     }
     .leaves-main-container .leaves-sub-container .card .leaves-pic{
-        height:480px;
+        height:400px;
         width:400px;
         border-radius: 10px;
     }
     .leaves-main-container .leaves-sub-container .card{
-        height:530px;
+        height:450px;
         width:400px;
     }
     .leaves-main-container .leaves-sub-container .card #leaf-link-name{
@@ -126,36 +105,12 @@
     }
     .leaves-main-container .leaves-banner{
         width:100%;
-        margin-top:121px;
-    }
-    .leaves-main-container .leaves-content h1 {
-        color: white;
-        margin: -200px 0px 0px 0px;
-        font-weight: 800;
-        text-align: center;
-        font-size: 50px;
-    }
-    .leaves-main-container .leaves-content .leaves-menu {
-        display: flex;
-        justify-content: space-between;
-        gap: 5px;
-        list-style: none;
-        position: absolute;
-        margin: 10px 547px;
-        overflow: hidden;
-        text-decoration: none;
-        font-weight: bold;
-        padding: 0px 0px;
-    }
-    .leaves-main-container .leaves-content .leaves-menu a{
-        color: white;
-        text-decoration: none;
-        font-size: 25px;
+        margin-top:81px;
     }
     .leaves-main-container .leaves-container {
         max-width: 1100px;
         width: 100%;
-        margin: 150px 82px 0px 82px;
+        margin: 0 auto;
     }
     .leaves-main-container .leaves-container .leaves-icon {
         height: auto;
@@ -184,7 +139,7 @@
         justify-content: space-between;
         padding: 25px 0px;
     }
-    .leaves-main-container .leaves-sub-container .card {
+    .leaves-sub-container .card {
         height: 243px;
         width: 243px;
     }
@@ -193,6 +148,7 @@
         width:243px;
         box-shadow: 0px 0px 13px #808080a6;
         border-radius: 3px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     }
     .leaves-main-container .leaves-sub-container .card #leaf-link-name{
         margin: 0 auto;

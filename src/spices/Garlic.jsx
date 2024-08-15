@@ -6,7 +6,7 @@ function Garlic() {
   return (
     <div className='spices-page-container'>
       <section className='Spices-type-banner'>
-        <div className='container'>
+        <div className='spices-page-container'>
           <img src={garlic} className='spices-page-banner'></img>
         </div>
       </section>

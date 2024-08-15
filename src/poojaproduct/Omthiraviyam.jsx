@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/poojapages.css'
+import '../css/Responsive/PoojaPageResponsive.css'
 import haridarshan from '../images/pooja/kit8.jpg'
 function Omthiraviyam() {
     return (
