@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/LeavesPage.css'
+import '../css/Responsive/LeavesPageResponsive.css'
 import toren1 from '../images/Leaf/Mangoleaf-toran.png'
 import toren2 from '../images/Leaf/Mangoleaf-toran.jpg'
 import toren3 from '../images/Leaf/Marigold-toran.jpg'

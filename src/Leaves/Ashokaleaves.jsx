@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/LeavesPage.css'
-import '../css/Responsive/LeavesResponsive.css'
+import '../css/Responsive/LeavesPageResponsive.css'
 import banner from '../images/Leaf/Ashoka-banner.jpg'
 
 function Ashokaleaves() {

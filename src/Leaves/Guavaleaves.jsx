@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/LeavesPage.css'
+import '../css/Responsive/LeavesPageResponsive.css'
 import banner from '../images/Leaf/Guava-banner.jpg'
 
 function Guavaleaves() {

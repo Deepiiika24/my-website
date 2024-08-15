@@ -1,0 +1,620 @@
+@media (max-width:2560px){
+    .leaf-page-container{
+        max-width: 2560px;
+        width:100%;
+        margin:0 auto;
+    }
+    .leaf-page-container .subpage-container {
+        max-width: 2200px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 150px;
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+    }
+    .leaf-page-container .subpage-container .leaf-sub-banner .leaf-subpage-img {
+        height: 700px;
+        width: 1000px;
+        border-radius: 30px;
+    }
+    .leaf-page-container .subpage-container #leaf-banner-content h2 {
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 50px;
+    }
+    .leaf-page-container .subpage-container #leaf-banner-content p {
+        text-align: justify;
+        line-height: inherit;
+        font-size: 35px;
+    }
+    .leaf-page-container .leaves-type-table{
+        max-width: 2200px;
+        width:100%;
+        margin:50px auto;
+    }
+    .toren-main-container{
+        max-width: 2200px;
+        width: 100%;
+        margin:0 auto;
+    }
+    .toren-main-container h2 {
+        text-align: center;
+        padding: 150px 0px 50px 0px;
+        color: green;
+        font-size: 70px;
+    }
+    .toren-main-container .toren-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        line-height: inherit;
+        text-align: justify;
+        max-width: 2200px;
+    }
+    .toren-container .toren-banner img {
+        height: 700px;
+        width: 900px;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+    .toren-main-container .toren-container .toren-content h3 {
+        padding: 20px 0px;
+        color: Red;
+        font-size: 50px;
+    }
+    .toren-main-container .toren-container .toren-content p {
+        font-size: 40px;
+        text-align: justify;
+        line-height: inherit;
+    }
+}
+
+@media (max-width:1440px){
+        .leaf-page-container{
+            max-width: 1440px;
+            width:100%;
+            margin:0 auto;
+        }
+        .leaf-page-container .subpage-container {
+            max-width: 1280px;
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 150px;
+            display: flex;
+            justify-content: space-between;
+            gap: 80px;
+        }
+        .leaf-page-container .subpage-container .leaf-sub-banner .leaf-subpage-img {
+            height: 700px;
+            width: 600px;
+            border-radius: 30px;
+        }
+        .leaf-page-container .subpage-container #leaf-banner-content h2 {
+            text-align: center;
+            padding: 00px 0px;
+            font-size: 40px;
+        }
+        .leaf-page-container .subpage-container #leaf-banner-content p {
+            text-align: justify;
+            line-height: inherit;
+            font-size: 25px;
+        }
+        .leaf-page-container .leaves-type-table{
+            max-width: 1280px;
+            width:100%;
+            margin:50px auto;
+        }
+        .toren-main-container{
+            max-width: 1280px;
+            width: 100%;
+            margin:0 auto;
+        }
+        .toren-main-container h2 {
+            text-align: center;
+            padding: 150px 0px 50px 0px;
+            color: green;
+            font-size: 60px;
+        }
+        .toren-main-container .toren-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            line-height: inherit;
+            text-align: justify;
+            max-width: 1280px;
+        }
+        .toren-container .toren-banner img {
+            height: 500px;
+            width: 500px;
+            border-radius: 20px;
+            border: 1px solid black;
+        }
+        .toren-main-container .toren-container .toren-content h3 {
+            padding: 20px 0px;
+            color: Red;
+            font-size: 40px;
+        }
+        .toren-main-container .toren-container .toren-content p {
+            font-size: 30px;
+            text-align: justify;
+            line-height: inherit;
+        }
+}
+
+@media (max-width:1280px){
+    .leaf-page-container{
+        max-width: 1280px;
+        width:100%;
+        margin:0 auto;
+    }
+    .leaf-page-container .subpage-container{
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 150px;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .leaf-page-container .subpage-container .leaf-sub-banner .leaf-subpage-img{
+        height:400px;
+        width:500px;
+        border-radius: 32px;
+    }
+    .leaf-page-container .subpage-container #leaf-banner-content h2 {
+        text-align: center;
+        padding: 15px 0px;
+        font-size: 30px;
+    }
+    .leaf-page-container .subpage-container #leaf-banner-content p {
+        text-align: justify;
+        line-height: inherit;
+        font-size: 15px;
+    }
+    .leaf-page-container .leaves-type-table{
+        max-width: 1100px;
+        width:100%;
+        margin:50px auto;
+    }
+    table.table.table-hover.table-responsive.table-bordered {
+        width: 80%;
+        margin: 45px auto;
+    }
+    .toren-main-container{
+        max-width: 1100px;
+        width: 100%;
+        margin:0 auto;
+    }
+    .toren-main-container h2{
+        text-align: center;
+        padding:150px 0px 50px 0px;
+        color:green;
+        font-size: 30px;
+    }
+    .toren-container{
+        max-width: 1100px;
+        width:100%;
+        margin:50px auto;
+    }
+    .toren-container .toren-banner img{
+        height:250px;
+        width:250px;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+    .toren-main-container .toren-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        line-height: inherit;
+        text-align: justify;
+        max-width: 1100px;
+    }
+    .toren-main-container .toren-container .toren-content h3{
+        padding:20px 0px;
+        color:Red;
+        font-size: 30px;
+    }
+    .toren-main-container .toren-container .toren-content p {
+        font-size: 15px;
+        text-align: justify;
+        line-height: inherit;
+        font-size:15px
+    }
+    .toren-main-container .table-heading{
+        color:black;
+        text-align: start;
+        padding:30px 0px;
+        font-size: 30px;
+    }
+    table.table.table-hover.table-responsive.table-bordered th {
+        padding: 10px 25px;
+        text-align: justify;
+    }
+}
+
+@media (max-width:1024px){
+        .leaf-page-container{
+            max-width: 1024px;
+            width:100%;
+            margin:0 auto;
+        }
+        .leaf-page-container .subpage-container {
+            max-width: 900px;
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 150px;
+            display: flex;
+            justify-content: space-between;
+            gap: 60px;
+        }
+        .leaf-page-container .subpage-container .leaf-sub-banner .leaf-subpage-img {
+            height: 450px;
+            width: 450px;
+            border-radius: 30px;
+        }
+        .leaf-page-container .subpage-container #leaf-banner-content h2 {
+            text-align: center;
+            padding: 00px 0px;
+            font-size: 30px;
+        }
+        .leaf-page-container .subpage-container #leaf-banner-content p {
+            text-align: justify;
+            line-height: inherit;
+            font-size: 15px;
+        }
+        .leaf-page-container .leaves-type-table{
+            max-width: 900px;
+            width:100%;
+            margin:50px auto;
+        }
+        .toren-main-container{
+            max-width: 900px;
+            width: 100%;
+            margin:0 auto;
+        }
+        .toren-main-container h2 {
+            text-align: center;
+            padding: 80px 0px 50px 0px;
+            color: green;
+            font-size: 40px;
+        }
+        .toren-main-container .toren-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            line-height: inherit;
+            text-align: justify;
+            max-width: 900px;
+        }
+        .toren-container .toren-banner img {
+            height: 350px;
+            width: 350px;
+            border-radius: 20px;
+            border: 1px solid black;
+        }
+        .toren-main-container .toren-container .toren-content h3 {
+            padding: 20px 0px;
+            color: Red;
+            font-size: 30px;
+        }
+        .toren-main-container .toren-container .toren-content p {
+            font-size: 18px;
+            text-align: justify;
+            line-height: inherit;
+        }
+}
+
+@media (max-width:768px){
+        .leaf-page-container{
+            max-width: 768px;
+            width:100%;
+            margin:0 auto;
+        }
+        .leaf-page-container .subpage-container {
+            max-width: 700px;
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 150px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 40px;
+        }
+        .leaf-page-container .subpage-container .leaf-sub-banner .leaf-subpage-img {
+            height: 400px;
+            width: 600px;
+            border-radius: 30px;
+            margin: 0px 50px;
+        }
+        .leaf-page-container .subpage-container #leaf-banner-content h2 {
+            text-align: center;
+            padding: 00px 0px;
+            font-size: 28px;
+        }
+        .leaf-page-container .subpage-container #leaf-banner-content p {
+            text-align: justify;
+            line-height: inherit;
+            font-size: 14px;
+        }
+        .leaf-page-container .leaves-type-table{
+            max-width: 700px;
+            width:100%;
+            margin:50px auto;
+        }
+        .toren-main-container{
+            max-width: 600px;
+            width: 100%;
+            margin:0 auto;
+        }
+        .toren-main-container h2 {
+            text-align: center;
+            padding: 80px 0px 50px 0px;
+            color: green;
+            font-size: 30px;
+        }
+        .toren-main-container .toren-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            line-height: inherit;
+            text-align: justify;
+            max-width: 600px;
+        }
+        .toren-container .toren-banner img {
+            height: 300px;
+            width: 300px;
+            border-radius: 20px;
+            border: 1px solid black;
+        }
+        .toren-main-container .toren-container .toren-content h3 {
+            padding: 0px 0px;
+            color: Red;
+            font-size: 22px;
+        }
+        .toren-main-container .toren-container .toren-content p {
+            font-size: 15px;
+            text-align: justify;
+            line-height: inherit;
+        }
+}
+
+@media (max-width:425px){
+        .leaf-page-container{
+            max-width: 425px;
+            width:100%;
+            margin:0 auto;
+        }
+        .leaf-page-container .subpage-container {
+            max-width: 375px;
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 80px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 40px;
+        }
+        .leaf-page-container .subpage-container .leaf-sub-banner .leaf-subpage-img {
+            height: 300px;
+            width: 350px;
+            border-radius: 30px;
+            margin: 0px 15px;
+        }
+        .leaf-page-container .subpage-container #leaf-banner-content h2 {
+            text-align: center;
+            padding: 0px 0px;
+            font-size: 28px;
+        }
+        .leaf-page-container .subpage-container #leaf-banner-content p {
+            text-align: justify;
+            line-height: inherit;
+            font-size: 14px;
+        }
+        .leaf-page-container .leaves-type-table{
+            max-width: 375px;
+            width:100%;
+            margin:50px auto;
+        }
+        .toren-main-container{
+            max-width: 375px;
+            width: 100%;
+            margin:0 auto;
+        }
+        .toren-main-container h2 {
+            text-align: center;
+            padding: 60px 0px 50px 0px;
+            color: green;
+            font-size: 25px;
+        }
+        .toren-main-container .toren-container {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 50px;
+            line-height: inherit;
+            text-align: justify;
+            max-width: 375px;
+            margin: 0 auto;
+        }
+        .toren-container .toren-banner img {
+            height: 300px;
+            width: 300px;
+            border-radius: 20px;
+            border: 1px solid black;
+            margin: 0px 40px 40px 40px;
+        }
+        .toren-main-container .toren-container .toren-content h3 {
+            padding: 0px 0px;
+            color: Red;
+            font-size: 22px;
+        }
+        .toren-main-container .toren-container .toren-content p {
+            font-size: 15px;
+            text-align: justify;
+            line-height: inherit;
+        }
+        .toren-main-container .toren-type-table .toren-table-heading .table.table-hover.table-responsive.table-bordered {
+            max-width: 425px;
+            width: 100%;
+            display: block;
+        }
+}
+
+@media (max-width:375px){
+        .leaf-page-container{
+            max-width: 375px;
+            width:100%;
+            margin:0 auto;
+        }
+        .leaf-page-container .subpage-container {
+            max-width: 325px;
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 80px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 40px;
+        }
+        .leaf-page-container .subpage-container .leaf-sub-banner .leaf-subpage-img {
+            height: 250px;
+            width: 325px;
+            border-radius: 30px;
+            margin: 0px 0px;
+        }
+        .leaf-page-container .subpage-container #leaf-banner-content h2 {
+            text-align: center;
+            padding: 0px 0px;
+            font-size: 25px;
+        }
+        .leaf-page-container .subpage-container #leaf-banner-content p {
+            text-align: justify;
+            line-height: inherit;
+            font-size: 13px;
+        }
+        .leaf-page-container .leaves-type-table{
+            max-width: 325px;
+            width:100%;
+            margin:50px auto;
+        }
+        .toren-main-container{
+            max-width: 325px;
+            width: 100%;
+            margin:0 auto;
+        }
+        .toren-main-container h2 {
+            text-align: center;
+            padding: 60px 0px 50px 0px;
+            color: green;
+            font-size: 25px;
+        }
+        .toren-main-container .toren-container {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 50px;
+            line-height: inherit;
+            text-align: justify;
+            max-width: 325px;
+            margin: 0 auto;
+        }
+        .toren-container .toren-banner img {
+            height: 300px;
+            width: 300px;
+            border-radius: 20px;
+            border: 1px solid black;
+            margin: 0px 15px 30px 15px;
+        }
+        .toren-main-container .toren-container .toren-content h3 {
+            padding: 0px 0px;
+            color: Red;
+            font-size: 22px;
+        }
+        .toren-main-container .toren-container .toren-content p {
+            font-size: 15px;
+            text-align: justify;
+            line-height: inherit;
+        }
+        .toren-main-container .toren-type-table .toren-table-heading .table.table-hover.table-responsive.table-bordered {
+            max-width: 325px;
+            width: 100%;
+            display: block;
+        }
+}
+
+@media (max-width:320px){
+        .leaf-page-container{
+            max-width: 320px;
+            width:100%;
+            margin:0 auto;
+        }
+        .leaf-page-container .subpage-container {
+            max-width: 280px;
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 80px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 40px;
+        }
+        .leaf-page-container .subpage-container .leaf-sub-banner .leaf-subpage-img {
+            height: 250px;
+            width: 280px;
+            border-radius: 30px;
+            margin: 0px 0px;
+        }
+        .leaf-page-container .subpage-container #leaf-banner-content h2 {
+            text-align: center;
+            padding: 0px 0px;
+            font-size: 25px;
+        }
+        .leaf-page-container .subpage-container #leaf-banner-content p {
+            text-align: justify;
+            line-height: inherit;
+            font-size: 13px;
+        }
+        .leaf-page-container .leaves-type-table{
+            max-width: 280px;
+            width:100%;
+            margin:50px auto;
+        }
+        .toren-main-container{
+            max-width: 275px;
+            width: 100%;
+            margin:0 auto;
+        }
+        .toren-main-container h2 {
+            text-align: center;
+            padding: 60px 0px 50px 0px;
+            color: green;
+            font-size: 25px;
+        }
+        .toren-main-container .toren-container {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 50px;
+            line-height: inherit;
+            text-align: justify;
+            max-width: 275px;
+            margin: 0 auto;
+        }
+        .toren-container .toren-banner img {
+            height: 275px;
+            width: 275px;
+            border-radius: 20px;
+            border: 1px solid black;
+            margin: 0px 0px 20px 0px;
+        }
+        .toren-main-container .toren-container .toren-content h3 {
+            padding: 0px 0px;
+            color: Red;
+            font-size: 22px;
+        }
+        .toren-main-container .toren-container .toren-content p {
+            font-size: 15px;
+            text-align: justify;
+            line-height: inherit;
+        }
+        .toren-main-container .toren-type-table .toren-table-heading .table.table-hover.table-responsive.table-bordered {
+            max-width: 275px;
+            width: 100%;
+            display: block;
+        }
+}

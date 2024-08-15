@@ -91,14 +91,13 @@
     }
     .brass-type-table .brass-table-heading h3 {
         padding-top: 57px 54px;
-        margin: 236px 95px;
+        margin: 236px 95px 50px 95px;
         text-align: center;
         font-size: 57px;
     }
     table.table.table-hover.table-responsive.table-bordered {
         width: 80%;
         margin: 45px auto;
-        margin-top: -142px;
     }
 }
 @media (max-width:1440px){
@@ -192,14 +191,13 @@
     }
     .brass-type-table .brass-table-heading h3 {
         padding-top: 57px 54px;
-        margin: 174px 95px;
+        margin: 174px 95px 50px 95px;
         text-align: center;
         font-size: 29px;
     }
     table.table.table-hover.table-responsive.table-bordered {
         width: 80%;
         margin: 45px auto;
-        margin-top: -103px;
     }
     .pooja-subpage-img {
         height: 306px;
@@ -253,14 +251,13 @@
     }
     .brass-type-table .brass-table-heading h3 {
         padding-top: 57px 54px;
-        margin: 153px 95px;
+        margin: 153px 95px 50px 95px;
         text-align: center;
         font-size: 29px;
     }
     table.table.table-hover.table-responsive.table-bordered {
         width: 80%;
         margin: 45px auto;
-        margin-top: -104px;
     }
 }
 @media (max-width:768px){
@@ -359,7 +356,7 @@
     }
     .brass-type-table .brass-table-heading h3 {
         padding-top: 57px 54px;
-        margin: -78px 95px;
+        margin: -78px 95px 50px 95px;
         text-align: center;
         font-size: 22px;
     }
@@ -367,7 +364,6 @@
         max-width: 900px;
         width: 100%;
         margin: 45px auto !important;
-        margin-top: 112px !important;
         border-color: #ff000066 !important;
     }
     table.table.table-hover.table-responsive.table-bordered th {
