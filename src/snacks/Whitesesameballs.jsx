@@ -1,6 +1,7 @@
 import React from 'react'
 import banner from '../images/snacks/White-sesame-banner.jpg'
 import '../css/SnacksPage.css'
+import '../css/Responsive/SnacksPageResponsive.css'
 
 function Whitesesameballs() {
   return (

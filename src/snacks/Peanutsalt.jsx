@@ -1,6 +1,7 @@
 import React from 'react'
 import banner from '../images/snacks/Salted-peanut-banner.jpg'
 import '../css/SnacksPage.css'
+import '../css/Responsive/SnacksPageResponsive.css'
 
 function Peanutsalt() {
   return (

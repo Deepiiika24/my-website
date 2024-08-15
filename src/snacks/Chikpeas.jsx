@@ -1,6 +1,7 @@
 import React from 'react'
 import banner from '../images/snacks/chikpeas-banner.jpg'
 import '../css/SnacksPage.css'
+import '../css/Responsive/SnacksPageResponsive.css'
 
 function Chikpeas() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css//vegetablepages.css'
+import '../css/vegetablepages.css'
 import brinjal from '../images/vegetables/brinjal-banner.jpg'
 function Brinjal() {
   return (

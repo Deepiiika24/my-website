@@ -1,6 +1,7 @@
 import React from 'react'
 import banner from '../images/snacks/Black-sesame-banner.jpg'
 import '../css/SnacksPage.css'
+import '../css/Responsive/SnacksPageResponsive.css'
 
 function Blacksesameballs() {
   return (

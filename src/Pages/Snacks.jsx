@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Snacks.css'
+import '../css/Responsive/SnacksResponsive.css'
 import rice from '../images/snacks/snacks-banner.png'
 import icon from '../images/l.png'
 import snack1 from '../images/snacks/Black-sesame-balls.jpg' 
@@ -53,8 +54,6 @@ function Snacks() {
               <img src={snack4} className='snacks-pic'></img>
               <h3 className='snacks-link1-name' id='snacks-link-name'><Link to='/Garlic-mixture'>Garlic Mixture</Link> </h3>
             </div>
-          </div>
-          <div className="snacks-image">
             <div className='card'>
               <img src={snack5} className='snacks-pic'></img>
               <h3 className='snacks-link1-name' id='snacks-link-name'><Link to='/Kadalai-parupu'>Channa Dal</Link> </h3>
@@ -71,8 +70,6 @@ function Snacks() {
               <img src={snack8} className='snacks-pic'></img>
               <h3 className='snacks-link1-name' id='snacks-link-name'><Link to='/Peanut-chikkies'>Peanut Chikkies</Link> </h3>
             </div>
-          </div>
-          <div className="snacks-image">
             <div className='card'>
               <img src={snack9} className='snacks-pic'></img>
               <h3 className='snacks-link1-name' id='snacks-link-name'><Link to='/Peanut-chilli'>Peanut Chilli</Link> </h3>
@@ -89,8 +86,6 @@ function Snacks() {
               <img src={snack12} className='snacks-pic'></img>
               <h3 className='snacks-link1-name' id='snacks-link-name'><Link to='/Tapioca-chips'>Tapioca Chips</Link> </h3>
             </div>
-          </div>
-          <div className="snacks-image">
             <div className='card'>
               <img src={snack13} className='snacks-pic'></img>
               <h3 className='snacks-link1-name' id='snacks-link-name'><Link to='/Tapioca-stick'>Tapioca Stick</Link> </h3>

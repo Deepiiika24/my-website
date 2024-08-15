@@ -19,10 +19,14 @@
 .snackspage-main-container .snackspage-container .snackspage-content h2 {
     text-align: center;
     padding: 5px 0px;
+    font-size: 30px;
 }
-
+.snackspage-type-table .snackspage-table-heading h2{
+    font-size: 30px;
+}
 .snackspage-main-container .snackspage-container .snackspage-content p {
     text-align: justify;
+    font-size: 15px;
 }
 .snackspage-type-table{
     margin:50px auto;

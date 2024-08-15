@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/vegetable.css'
+import '../css/Responsive/VegetableResponsive.css'
 import { Link } from 'react-router-dom'
 import veg1 from '../images/vegetables/BOTTEL.jpg'
 import veg2 from '../images/vegetables/brinjal.jpg'

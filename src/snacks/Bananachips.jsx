@@ -1,6 +1,7 @@
 import React from 'react'
 import banner from '../images/snacks/Banana-chips-banner.jpg'
 import '../css/SnacksPage.css'
+import '../css/Responsive/SnacksPageResponsive.css'
 
 function Bananachips() {
   return (
