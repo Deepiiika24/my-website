@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Css/poojapages.css'
+import '../css/poojapages.css'
 import durga from '../images/beeda/rore-beeda.jpg'
 function  Rosegulkand() {
   return (

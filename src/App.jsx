@@ -163,6 +163,14 @@ import Nelpoori from './poojaproduct/Nelpoori'
 import Arasankattai from './poojaproduct/Arasankattai'
 import Grass from './poojaproduct/Grass'
 
+import Cardamomseeds from './Beeda/Cardamomseeds'
+import Dryclove from './Beeda/Dryclove'
+import Sweetpanchutni from './Beeda/Sweetpanchutni'
+import Sweetjeeramittai from './Beeda/Sweetjeeramittai'
+import Shreddedcoconut from './Beeda/Shreddedcoconut'
+import Rosegulkand from './Beeda/Rosegulkand'
+import Kanpuribiscuit from './Beeda/Kanpuribiscuit'
+import Drytuttifrutti from './Beeda/Drytuttifrutti'
 function App() {
   return (
     <div>
@@ -312,6 +320,14 @@ function App() {
           <Route path='/Peanut-chikki-powder' element={<Peanutchikkipowder />}></Route>
 
           <Route path='/Beeda' element={<Beeda />}></Route>
+          <Route path='/Cardamomseeds' element={<Cardamomseeds/>}></Route>
+          <Route path='/Dryclove' element={<Dryclove/>}></Route>
+          <Route path='/Kanpuribiscuit' element={<Kanpuribiscuit/>}></Route>
+          <Route path='/Rosegulkand' element={<Rosegulkand/>}></Route>
+          <Route path='/Shreddedcoconut' element={<Shreddedcoconut/>}></Route>
+          <Route path='/Sweetjeeramittai' element={<Sweetjeeramittai/>}></Route>
+          <Route path='/Sweetpanchutni' element={<Sweetpanchutni/>}></Route>
+          <Route path='/Drytuttifrutti' element={<Drytuttifrutti/>}></Route>
 
           <Route path='/ContactForm' element={<ContactForm />}></Route>
           <Route path='/Certificate' element={<Certificate />}></Route>
