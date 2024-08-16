@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css//vegetablepages.css'
+import '../css/Responsive/VegetablePageResponsive.css'
 import potato from '../images/vegetables/potato-banner.jpg'
 function Potato() {
   return (

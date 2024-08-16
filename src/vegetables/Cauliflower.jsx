@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css//vegetablepages.css'
+import '../css/Responsive/VegetablePageResponsive.css'
 import cauliflower from '../images/vegetables/cauliflower-banner.jpg'
 function Cauliflower() {
   return (

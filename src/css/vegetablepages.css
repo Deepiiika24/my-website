@@ -20,15 +20,17 @@ section.vegetable-type-banner img {
 .veg-contant h1 {
     text-align: center;
     padding: 10px 0px;
+    font-size: 30px;
 }
 .veg-contant p {
     text-align: justify;
     line-height: inherit;
+    font-size: 18px;
 }
 .veg-container {
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 30px;
 }
 .veg-type-table {
     width: 100%;
@@ -38,6 +40,6 @@ section.vegetable-type-banner img {
 
 .veg-table-heading h1 {
     text-align: start;
-    font-size: 48px;
+    font-size: 30px;
     color: #000000b3;
 }

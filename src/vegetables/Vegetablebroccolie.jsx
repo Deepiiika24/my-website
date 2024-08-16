@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css//vegetablepages.css'
+import '../css/Responsive/VegetablePageResponsive.css'
 import broccolie from '../images/vegetables/broccolie-banner.jpg'
 function Vegetablebroccolie() {
   return (

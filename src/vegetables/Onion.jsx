@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css//vegetablepages.css'
+import '../css/Responsive/VegetablePageResponsive.css'
 import onion from '../images/vegetables/onion-banner.jpg'
 function Onion() {
   return (

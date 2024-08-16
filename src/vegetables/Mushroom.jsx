@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css//vegetablepages.css'
+import '../css/Responsive/VegetablePageResponsive.css'
 import mushroom from '../images/vegetables/mushroom-banner.jpg'
 function Mushroom() {
   return (

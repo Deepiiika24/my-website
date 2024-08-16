@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css//vegetablepages.css'
+import '../css/Responsive/VegetablePageResponsive.css'
 import drumstick from '../images/vegetables/drumstick-banner.jpg'
 function Drumstick() {
   return (

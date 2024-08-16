@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css//vegetablepages.css'
+import '../css/Responsive/VegetablePageResponsive.css'
 import ladyfinger from '../images/vegetables/ladyfinger-banner.jpg'
 function Ladyfinger() {
   return (

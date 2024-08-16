@@ -1,0 +1,389 @@
+@media (max-width:2560px){
+    .veg-main-container{
+        max-width: 2560px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.vegetable-type-banner {
+        max-width: 2200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.vegetable-type-banner img {
+        height: 700px;
+        width: auto;
+        border-radius: 30px;
+        margin-top: 150px;
+    }
+    .veg-contant {
+        margin-top: 150px;
+    }
+    .veg-contant h1 {
+        text-align: center;
+        padding: 30px 0px;
+        font-size: 50px;
+    }
+    .veg-contant p {
+        text-align: justify;
+        line-height: inherit;
+        font-size: 35px;
+    }
+    .veg-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .veg-type-table {
+        width: 100%;
+        max-width: 2200px;
+        margin: 50px auto;
+    }
+    
+    .veg-table-heading h1 {
+        text-align: start;
+        font-size: 50px;
+        color: #000000b3;
+    }
+    
+}
+
+@media (max-width:1440px){
+        .veg-main-container{
+            max-width: 1440px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        section.vegetable-type-banner {
+            max-width: 1280px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        section.vegetable-type-banner img {
+            height: 600px;
+            width: 600px;
+            border-radius: 30px;
+            margin-top: 150px;
+        }
+        .veg-contant {
+            margin-top: 150px;
+        }
+        .veg-contant h1 {
+            text-align: center;
+            padding: 30px 0px;
+            font-size: 40px;
+        }
+        .veg-contant p {
+            text-align: justify;
+            line-height: inherit;
+            font-size: 20px;
+        }
+        .veg-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+        }
+        .veg-type-table {
+            width: 100%;
+            max-width: 1280px;
+            margin: 50px auto;
+        }
+        
+        .veg-table-heading h1 {
+            text-align: start;
+            font-size: 40px;
+            color: #000000b3;
+        }
+}
+
+@media (max-width:1280px){
+    .veg-main-container{
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.vegetable-type-banner {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.vegetable-type-banner img {
+        height: 400px;
+        width: 500px;
+        border-radius: 30px;
+        margin-top: 150px;
+    }
+    .veg-contant {
+        margin-top: 150px;
+    }
+    .veg-contant h1 {
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 30px;
+    }
+    .veg-contant p {
+        text-align: justify;
+        line-height: inherit;
+        font-size: 18px;
+    }
+    .veg-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .veg-type-table {
+        width: 100%;
+        max-width: 1100px;
+        margin: 50px auto;
+    }
+    
+    .veg-table-heading h1 {
+        text-align: start;
+        font-size: 30px;
+        color: #000000b3;
+    }
+    
+}
+
+@media (max-width:1024px){
+        .veg-main-container{
+            max-width: 1024px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        section.vegetable-type-banner {
+            max-width: 900px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        section.vegetable-type-banner img {
+            height: 450px;
+            width: 450px;
+            border-radius: 30px;
+            margin-top: 150px;
+        }
+        .veg-contant {
+            margin-top: 150px;
+        }
+        .veg-contant h1 {
+            text-align: center;
+            padding: 30px 0px;
+            font-size: 28px;
+        }
+        .veg-contant p {
+            text-align: justify;
+            line-height: inherit;
+            font-size: 15px;
+        }
+        .veg-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+        }
+        .veg-type-table {
+            width: 100%;
+            max-width: 900px;
+            margin: 50px auto;
+        }
+        
+        .veg-table-heading h1 {
+            text-align: start;
+            font-size: 28px;
+            color: #000000b3;
+        }
+}
+
+@media (max-width:768px){
+        .veg-main-container{
+            max-width: 768px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        section.vegetable-type-banner {
+            max-width: 700px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        section.vegetable-type-banner img {
+            height: 400px;
+            width: 600px;
+            border-radius: 30px;
+            margin: 100px 50px 0px 50px;
+        }
+        .veg-contant {
+            margin-top: 0px;
+        }
+        .veg-contant h1 {
+            text-align: center;
+            padding: 0px;
+            font-size: 25px;
+            margin: 0px 0px 0px 0px;
+        }
+        .veg-contant p {
+            text-align: justify;
+            line-height: inherit;
+            font-size: 15px;
+        }
+        .veg-container {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .veg-type-table {
+            width: 100%;
+            max-width: 700px;
+            margin: 10px auto;
+        }
+        
+        .veg-table-heading h1 {
+            text-align: start;
+            font-size: 25px;
+            color: #000000b3;
+        }
+}
+
+@media (max-width:425px){
+        .veg-main-container{
+            max-width: 425px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        section.vegetable-type-banner {
+            max-width: 375px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        section.vegetable-type-banner img {
+            height: 300px;
+            width: 350px;
+            border-radius: 30px;
+            margin: 100px 15px 30px 15px;
+        }
+        .veg-contant {
+            margin-top: 0px;
+        }
+        .veg-contant h1 {
+            text-align: center;
+            padding: 0px;
+            font-size: 25px;
+            margin: 0px 0px 0px 0px;
+        }
+        .veg-contant p {
+            text-align: justify;
+            line-height: inherit;
+            font-size: 15px;
+        }
+        .veg-container {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .veg-type-table {
+            width: 100%;
+            max-width: 375px;
+            margin: 10px auto;
+        }
+        
+        .veg-table-heading h1 {
+            text-align: start;
+            font-size: 25px;
+            color: #000000b3;
+        }
+}
+
+@media (max-width:375px){
+        .veg-main-container{
+            max-width: 375px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        section.vegetable-type-banner {
+            max-width: 320px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        section.vegetable-type-banner img {
+            height: 250px;
+            width: 325px;
+            border-radius: 30px;
+            margin: 100px -5px 30px -5px;
+        }
+        .veg-contant {
+            margin-top: 0px;
+        }
+        .veg-contant h1 {
+            text-align: center;
+            padding: 0px;
+            font-size: 20px;
+            margin: 0px 0px 0px 0px;
+        }
+        .veg-contant p {
+            text-align: justify;
+            line-height: inherit;
+            font-size: 15px;
+        }
+        .veg-container {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .veg-type-table {
+            width: 100%;
+            max-width: 320px;
+            margin: 10px auto;
+        }
+        
+        .veg-table-heading h1 {
+            text-align: start;
+            font-size: 20px;
+            color: #000000b3;
+        }
+}
+
+@media (max-width:320px){
+        .veg-main-container{
+            max-width: 320px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        section.vegetable-type-banner {
+            max-width: 270px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        section.vegetable-type-banner img {
+            height: 250px;
+            width: 280px;
+            border-radius: 30px;
+            margin: 100px -5px 30px -5px;
+        }
+        .veg-contant {
+            margin-top: 0px;
+        }
+        .veg-contant h1 {
+            text-align: center;
+            padding: 0px;
+            font-size: 20px;
+            margin: 0px 0px 0px 0px;
+        }
+        .veg-contant p {
+            text-align: justify;
+            line-height: inherit;
+            font-size: 15px;
+        }
+        .veg-container {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .veg-type-table {
+            width: 100%;
+            max-width: 270px;
+            margin: 10px auto;
+        }
+        
+        .veg-table-heading h1 {
+            text-align: start;
+            font-size: 20px;
+            color: #000000b3;
+        }
+}

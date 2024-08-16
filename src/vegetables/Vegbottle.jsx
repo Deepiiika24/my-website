@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css//vegetablepages.css'
+import '../css/Responsive/VegetablePageResponsive.css'
 import bottle from '../images/vegetables/bottel-banner.jpg'
 function Vegbottle() {
   return (
