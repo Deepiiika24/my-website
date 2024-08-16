@@ -602,6 +602,9 @@
         height: 243px;
         width: 243px;
     }
+    .w-100{
+        width:101% !important;
+    }
 }
 
 @media (max-width:320px) {
@@ -681,5 +684,8 @@
         border-radius: 10px;
         height: 243px;
         width: 243px;
+    }
+    .w-100{
+        width:101% !important;
     }
 }
