@@ -7,7 +7,7 @@
     img.spices-page-banner {
         max-width: 2560px;
         width: 100%;
-        margin: 0 auto;
+        margin: 41px auto;
     }
     section.spices-type-content, section.Spices-type-table {
         max-width: 2200px;
@@ -50,7 +50,7 @@
     img.spices-page-banner {
         max-width: 1440px;
         width: 100%;
-        margin: 0 auto;
+        margin: 21px auto;
     }
     section.spices-type-content, section.Spices-type-table {
         max-width: 1280px;
@@ -273,7 +273,7 @@
     img.spices-page-banner {
         max-width: 375px;
         width: 100%;
-        margin: 50px auto;
+        margin: 1px auto;
     }
     section.spices-type-content, section.Spices-type-table {
         max-width: 320px;

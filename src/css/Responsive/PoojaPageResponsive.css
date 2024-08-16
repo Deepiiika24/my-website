@@ -156,6 +156,14 @@
         margin: 40px 0px;
         font-size: 35px;
     }
+    #pooja-banner-content-viputhi h2 {
+        text-align: center;
+        font-size: 60px;
+    }
+    #pooja-banner-content-viputhi p {
+        font-size: 35px;
+        text-align: justify;
+    }
 }
 
 @media (max-width:1440px) {
@@ -288,7 +296,15 @@
         margin: 40px 0px;
         font-size: 25px;
     }
-
+    #pooja-banner-content-viputhi h2 {
+        text-align: center;
+        font-size: 50px;
+        margin: -125px 0px 0px 0px;
+    }
+    #pooja-banner-content-viputhi p {
+        font-size: 24px;
+        text-align: justify;
+    }
 }
 
 @media (max-width:1280px){
@@ -419,7 +435,15 @@
         width:100%;
         margin:0 auto;
     }
-    
+    #pooja-banner-content-viputhi h2 {
+        text-align: center;
+        font-size: 40px;
+        margin: 0px 0px;
+    }
+    #pooja-banner-content-viputhi p {
+        font-size: 25px;
+        text-align: justify;
+    }
 }
 
 @media (max-width:1024px) {
@@ -554,6 +578,15 @@
         margin: 0px 0px;
         font-size: 20px;
     }
+    #pooja-banner-content-viputhi h2 {
+        text-align: center;
+        font-size: 35px;
+        margin: -100px 0px 0px 0px;
+    }
+    #pooja-banner-content-viputhi p {
+        font-size: 19px;
+        text-align: justify;
+    }
 }
 
 @media (max-width:768px) {
@@ -680,6 +713,15 @@
         line-height: inherit;
         margin: 0px 0px;
         font-size: 18px;
+    }
+    #pooja-banner-content-viputhi h2 {
+        text-align: center;
+        font-size: 30px;
+        margin: -20px 0px 10px 0px;
+    }
+    #pooja-banner-content-viputhi p {
+        font-size: 20px;
+        text-align: justify;
     }
 }
 
@@ -817,6 +859,15 @@
         margin: 0px 0px;
         font-size: 15px;
     }
+    #pooja-banner-content-viputhi h2 {
+        text-align: center;
+        font-size: 30px;
+        margin: -20px 0px 10px 0px;
+    }
+    #pooja-banner-content-viputhi p {
+        font-size: 20px;
+        text-align: justify;
+    }
 }
 
 @media (max-width:375px) {
@@ -953,6 +1004,15 @@
         margin: 0px 0px;
         font-size: 15px;
     }
+    #pooja-banner-content-viputhi h2 {
+        text-align: center;
+        font-size: 30px;
+        margin: -20px 0px 10px 0px;
+    }
+    #pooja-banner-content-viputhi p {
+        font-size: 15px;
+        text-align: justify;
+    }
 
 }
 
@@ -1070,5 +1130,14 @@
         line-height: inherit;
         margin: 0px 0px;
         font-size: 15px;
+    }
+    #pooja-banner-content-viputhi h2 {
+        text-align: center;
+        font-size: 30px;
+        margin: -20px 0px 10px 0px;
+    }
+    #pooja-banner-content-viputhi p {
+        font-size: 15px;
+        text-align: justify;
     }
 }

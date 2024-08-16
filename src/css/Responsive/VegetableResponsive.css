@@ -1,131 +1,238 @@
 @media (max-width:2560px) {
-    .vegetable-banner {
-        width: 200%;
-        background-image: ('../images/vegetables/vegetable-banner.jpg');
-        background-size: cover;
-        padding: 283px 88px;
-        margin: 121px -80px 0px -643px;
-        position: relative;
-    }
-    .vegetable-logo-context img {
-        max-width: 311px;
-        margin: 62px 525px;
-    }
-    .vegetable-logo-context h1 {
-        text-align: center;
-        margin: -142px 0px;
-        color: green;
-        font-size: 56px;
-    }
-    .vegetable-logo-context p {
-        margin: 76px -251px 0px -255px !important;
-        text-align: justify;
-        font-size: 30px !important;
-    }
-}
-@media (max-width:1440px){
-    .vegetable-banner {
-        width: 156.5%;
-        background-image: ('../images/vegetables/vegetable-banner.jpg');
-        background-size: cover;
-        padding: 283px 88px;
-        margin: 121px -80px 0px -643px;
-        position: relative;
-    }
-    .vegetable-logo-context p {
-        margin: 35px -9px 0px -13px !important;
-        text-align: justify;
-        font-size: 23px !important;
-    }
-    .vegetable-logo-context img {
-        max-width: 224px;
-        margin: 39px 537px;
-    }
-    .vegetable-logo-context h1 {
-        text-align: center;
-        margin: -142px 0px;
-        color: green;
-        font-size: 36px;
-    }
-.vegetable-product {
-    width: 100%;
-    margin: -71px 0px;
-}
-
-}
-@media (max-width:1280px){
-    .vegetable-logo-context img {
-        max-width: 205px;
-        margin: 39px 529px;
-    }
-    .vegetable-banner {
+    .vegetable-container {
+        max-width: 2560px;
         width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable-body-container {
+        max-width: 2200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable-banner {
         background-image: ('../images/vegetables/vegetable-banner.jpg');
         background-size: cover;
-        padding: 184px 0px;
-        margin: 81px 0px 0px 0px;
+        padding: 400px 0px;
+        margin: 121px 0px;
         position: relative;
     }
-    .vegetable-logo-context p {
-        margin: 35px 39px 0px 44px !important;
-        text-align: justify;
-        font-size: 18px !important;
+
+    .vegetable-content {
+        width: 100%;
+        background-color: white;
+        margin: 30px 0px;
     }
+
+    .vegetable-logo-context img {
+        width: 20%;
+        margin: -70px 880px -20px 880px;
+    }
+
     .vegetable-logo-context h1 {
         text-align: center;
-        margin: -115px 0px;
         color: green;
+        font-size: 50px;
+        padding: 0px 0px;
+        margin: -60px 0px 40px 0px;
+    }
+
+    .vegetable-logo-context p {
+        text-align: justify;
+        margin: 0px 0px;
+        font-size: 35px;
+    }
+
+    .vegetable-img {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 2.5rem;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: relative;
+    }
+
+    .vegetable-product {
+        width: 100%;
+        margin: 50px auto;
+        max-width: 2200px;
+    }
+
+    .vegetable-img .card {
+        height: 450px;
+        width: 400px
+    }
+
+    img.vegetable-pic {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 3px;
+        height: 400px;
+        width: 400px;
+    }
+
+    h3#veg-link-name a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 0 auto;
         font-size: 30px;
     }
+
+    h3#veg-link-name {
+        margin: 0 auto;
+    }
 }
-@media (max-width:1024px){
-    .vegetable-logo-context img {
-        max-width: 205px;
-        margin: 39px 408px;
-    }
-    .vegetable-banner {
+
+@media (max-width:1440px) {
+    .vegetable-container {
+        max-width: 1440px;
         width: 100%;
-        background-image: ('../images/vegetables/vegetable-banner.jpg');
-        background-size: cover;
-        padding: 157px 0px;
-        margin: 81px 0px 0px 0px;
-        position: relative;
-    }
-    .vegetable-logo-context img {
-        max-width: 168px;
-        margin: 21px 428px;
-    }
-    .vegetable-logo-context h1 {
-        text-align: center;
-        margin: -85px 0px;
-        color: green;
-        font-size: 24px;
-    }
-    .vegetable-logo-context p {
-        margin: -65px 39px 0px 44px !important;
-        text-align: justify;
-        font-size: 17px !important;
+        margin: 0 auto;
     }
 
-}
-@media (max-width:768px){
-    .vegetable-logo-context img {
-        max-width: 168px;
-        margin: 21px 299px;
-    }
-    .vegetable-banner {
+    .vegetable-body-container {
+        max-width: 1280px;
         width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable-banner {
         background-image: ('../images/vegetables/vegetable-banner.jpg');
         background-size: cover;
-        padding: 121px 0px;
-        margin: 61px 0px 0px 0px;
+        padding: 225px 0px;
+        margin: 101px 0px;
         position: relative;
     }
-    .vegetable-logo-context p {
-        margin: -129px 0px 0px -4px !important;
-        text-align: justify;
-        font-size: 16px !important;
+
+    .vegetable-content {
+        width: 100%;
+        background-color: white;
+        margin: 30px 0px;
     }
+
+    .vegetable-logo-context img {
+        width: 20%;
+        margin: -90px 515px 10px 515px;
+    }
+
+    .vegetable-logo-context h1 {
+        text-align: center;
+        color: green;
+        font-size: 40px;
+        padding: 0px 0px;
+        margin: -60px 0px 40px 0px;
+    }
+
+    .vegetable-logo-context p {
+        text-align: justify;
+        margin: 0px 0px;
+        font-size: 30px;
+    }
+
+    .vegetable-img {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2.5rem;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        padding: 0px 0px 0px 45px;
+    }
+
+    .vegetable-product {
+        width: 100%;
+        margin: 50px auto;
+        max-width: 1280px;
+    }
+
+    .vegetable-img .card {
+        height: 293px;
+        width: 243px
+    }
+
+    img.vegetable-pic {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 3px;
+        height: 243px;
+        width: 243px;
+    }
+
+    h3#veg-link-name a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+
+    h3#veg-link-name {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:1280px) {
+    .vegetable-container {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable-body-container {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable-banner {
+        background-image: ('../images/vegetables/vegetable-banner.jpg');
+        background-size: cover;
+        padding: 200px 0px;
+        margin: 81px 0px;
+        position: relative;
+    }
+
+    .vegetable-content {
+        width: 100%;
+        background-color: white;
+        margin: 30px 0px;
+    }
+
+    .vegetable-logo-context img {
+        width: 200px;
+        height: auto;
+        margin: -54px 450px 48px 450px;
+    }
+
+    .vegetable-logo-context h1 {
+        text-align: center;
+        color: green;
+        margin: -158px auto;
+        font-size: 30px;
+        padding: 80px 0px;
+    }
+
+    .vegetable-logo-context p {
+        text-align: justify;
+        margin: 110px 0px 0px 0px;
+        font-size: 15px;
+    }
+
     .vegetable-img {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -134,109 +241,487 @@
         right: 0;
         bottom: 0;
         position: relative;
-        margin: 0px 126px;
+    }
+
+    .vegetable-product {
+        width: 100%;
+        margin: 50px auto;
+        max-width: 1100px;
+    }
+
+    img.vegetable-pic {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 3px;
+    }
+
+    h3#veg-link-name a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    h3#veg-link-name {
+        margin: 0 auto;
     }
 }
-@media (max-width:425px){
-    .vegetable-logo-context img {
-        max-width: 168px;
-        margin: 22px 124px;
-    }
-    .vegetable-banner {
+
+@media (max-width:1024px) {
+    .vegetable-container {
+        max-width: 1024px;
         width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable-body-container {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable-banner {
+        background-image: ('../images/vegetables/vegetable-banner.jpg');
+        background-size: cover;
+        padding: 160px 0px;
+        margin: 81px 0px;
+        position: relative;
+    }
+
+    .vegetable-content {
+        width: 100%;
+        background-color: white;
+        margin: 30px 0px;
+    }
+
+    .vegetable-logo-context img {
+        width: 20%;
+        margin: -60px 360px 40px 360px;
+    }
+
+    .vegetable-logo-context h1 {
+        text-align: center;
+        color: green;
+        font-size: 28px;
+        padding: 0px 0px;
+        margin: -60px 0px 40px 0px;
+    }
+
+    .vegetable-logo-context p {
+        text-align: justify;
+        margin: 0px 0px;
+        font-size: 15px;
+    }
+
+    .vegetable-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        padding: 0px 0px 0px 35px;
+    }
+
+    .vegetable-product {
+        width: 100%;
+        margin: 50px auto;
+        max-width: 900px;
+    }
+
+    .vegetable-img .card {
+        height: 293px;
+        width: 243px
+    }
+
+    img.vegetable-pic {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 3px;
+        height: 243px;
+        width: 243px;
+    }
+
+    h3#veg-link-name a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    h3#veg-link-name {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:768px) {
+    .vegetable-container {
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable-body-container {
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable-banner {
+        background-image: ('../images/vegetables/vegetable-banner.jpg');
+        background-size: cover;
+        padding: 120px 0px;
+        margin: 61px 0px;
+        position: relative;
+    }
+
+    .vegetable-content {
+        width: 100%;
+        background-color: white;
+        margin: 30px 0px;
+    }
+
+    .vegetable-logo-context img {
+        width: 20%;
+        margin: -40px 275px 40px 275px;
+    }
+
+    .vegetable-logo-context h1 {
+        text-align: center;
+        color: green;
+        font-size: 25px;
+        padding: 0px 0px;
+        margin: -60px 0px 40px 0px;
+    }
+
+    .vegetable-logo-context p {
+        text-align: justify;
+        margin: 0px 0px;
+        font-size: 15px;
+    }
+
+    .vegetable-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        padding: 0px 85px;
+    }
+
+    .vegetable-product {
+        width: 100%;
+        margin: 50px auto;
+        max-width: 700px;
+    }
+
+    .vegetable-img .card {
+        height: 293px;
+        width: 243px
+    }
+
+    img.vegetable-pic {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 3px;
+        height: 243px;
+        width: 243px;
+    }
+
+    h3#veg-link-name a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    h3#veg-link-name {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:425px) {
+    .vegetable-container {
+        max-width: 425px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable-body-container {
+        max-width: 375px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .vegetable-banner {
         background-image: ('../images/vegetables/vegetable-banner.jpg');
         background-size: cover;
         padding: 66px 0px;
-        margin: 61px 0px 0px 0px;
+        margin: 61px 0px;
         position: relative;
     }
-    .vegetable-logo-context img {
-        max-width: 134px;
-        margin: 6px 145px;
-    }
-    .vegetable-logo-context h1 {
-        text-align: center;
-        margin: -65px 0px;
-        color: green;
-        font-size: 19px;
-    }
-        .vegetable-logo-context p {
-            margin: -129px 0px 0px 0px !important;
-            text-align: justify;
-            font-size: 13px !important;
-        }
-        .vegetable-product {
-            width: 100%;
-            margin: 0px -37px;
-        }
-}
-@media (max-width:375px){
-    .vegetable-logo-context img {
-        max-width: 134px;
-        margin: 6px 120px;
-    }
-    .vegetable-banner {
+
+    .vegetable-content {
         width: 100%;
-        background-image: ('../images/vegetables/vegetable-banner.jpg');
-        background-size: cover;
-        padding: 59px 0px;
-        margin: 61px 0px 0px 0px;
-        position: relative;
+        background-color: white;
+        margin: 30px 0px;
     }
+
     .vegetable-logo-context img {
-        max-width: 127px;
-        margin: 2px 120px;
+        width: 30%;
+        margin: -50px 130px 40px 130px;
     }
+
     .vegetable-logo-context h1 {
         text-align: center;
-        margin: -65px 0px;
         color: green;
-        font-size: 17px;
+        font-size: 20px;
+        padding: 0px 0px;
+        margin: -60px 0px 60px 0px;
     }
+
     .vegetable-logo-context p {
         text-align: justify;
-        font-size: 12px !important;
+        margin: -35px 0px 0px 0px;
+        font-size: 13px;
     }
+
     .vegetable-img {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        grid-template-columns: repeat(1, 1fr);
         gap: 2.5rem;
         left: 0;
         right: 0;
         bottom: 0;
         position: relative;
-        margin: 0px 98px;
-        margin-top: -123px;
-    }
-}
-@media (max-width:320px){
-    .vegetable-logo-context img {
-        max-width: 108px;
-        margin: 0px 106px;
-    }
-    .vegetable-banner {
-        width: 100%;
-        background-image: ('../images/vegetables/vegetable-banner.jpg');
-        background-size: cover;
-        padding: 50px 0px;
-        margin: 61px 0px 0px 0px;
-        position: relative;
-    }
-    .vegetable-logo-context h1 {
-        text-align: center;
-        margin: -52px 0px;
-        color: green;
-        font-size: 14px;
-    }
-    .vegetable-logo-context p {
-        text-align: justify;
-        font-size: 11px !important;
-        margin: -154px 0px 0px -52px !important;
-        margin-right: 1px !important;
-    }
-    .vegetable-product {
-        width: 100%;
-        margin: 0px -63px;
+        padding: 0px 65px;
     }
 
+    .vegetable-product {
+        width: 100%;
+        margin: 50px auto;
+        max-width: 375px;
+    }
+
+    .vegetable-img .card {
+        height: 293px;
+        width: 243px
+    }
+
+    img.vegetable-pic {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 3px;
+        height: 243px;
+        width: 243px;
+    }
+
+    h3#veg-link-name a {
+        text-decoration: none;
+        color: #00000091;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    h3#veg-link-name {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:375px){
+        .vegetable-container {
+            max-width: 375px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .vegetable-body-container {
+            max-width: 320px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .vegetable {
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .vegetable-banner {
+            background-image: ('../images/vegetables/vegetable-banner.jpg');
+            background-size: cover;
+            padding: 58px 0px;
+            margin: 61px 0px;
+            position: relative;
+        }
+    
+        .vegetable-content {
+            width: 100%;
+            background-color: white;
+            margin: 30px 0px;
+        }
+    
+        .vegetable-logo-context img {
+            width: 30%;
+            margin: -40px 110px 40px 110px;
+        }
+    
+        .vegetable-logo-context h1 {
+            text-align: center;
+            color: green;
+            font-size: 20px;
+            padding: 0px 0px;
+            margin: -60px 0px 60px 0px;
+        }
+    
+        .vegetable-logo-context p {
+            text-align: justify;
+            margin: -35px 0px 0px 0px;
+            font-size: 13px;
+        }
+    
+        .vegetable-img {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 2.5rem;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: relative;
+            padding: 0px 38px;
+        }
+    
+        .vegetable-product {
+            width: 100%;
+            margin: 50px auto;
+            max-width: 320px;
+        }
+    
+        .vegetable-img .card {
+            height: 293px;
+            width: 243px
+        }
+    
+        img.vegetable-pic {
+            box-shadow: 0px 0px 13px #808080a6;
+            border-radius: 3px;
+            height: 243px;
+            width: 243px;
+        }
+    
+        h3#veg-link-name a {
+            text-decoration: none;
+            color: #00000091;
+            margin: 0 auto;
+            font-size: 15px;
+        }
+    
+        h3#veg-link-name {
+            margin: 0 auto;
+        }
+}
+
+@media (max-width:320px){
+        .vegetable-container {
+            max-width: 320px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .vegetable-body-container {
+            max-width: 270px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .vegetable {
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .vegetable-banner {
+            background-image: ('../images/vegetables/vegetable-banner.jpg');
+            background-size: cover;
+            padding: 58px 0px;
+            margin: 61px 0px;
+            position: relative;
+        }
+    
+        .vegetable-content {
+            width: 100%;
+            background-color: white;
+            margin: 30px 0px;
+        }
+    
+        .vegetable-logo-context img {
+            width: 40%;
+            margin: -50px 80px 50px 80px;
+        }
+    
+        .vegetable-logo-context h1 {
+            text-align: center;
+            color: green;
+            font-size: 20px;
+            padding: 0px 0px;
+            margin: -60px 0px 60px 0px;
+        }
+    
+        .vegetable-logo-context p {
+            text-align: justify;
+            margin: -35px 0px 0px 0px;
+            font-size: 13px;
+        }
+    
+        .vegetable-img {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 2.5rem;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: relative;
+            padding: 0px 15px;
+        }
+    
+        .vegetable-product {
+            width: 100%;
+            margin: 50px auto;
+            max-width: 270px;
+        }
+    
+        .vegetable-img .card {
+            height: 293px;
+            width: 243px
+        }
+    
+        img.vegetable-pic {
+            box-shadow: 0px 0px 13px #808080a6;
+            border-radius: 3px;
+            height: 243px;
+            width: 243px;
+        }
+    
+        h3#veg-link-name a {
+            text-decoration: none;
+            color: #00000091;
+            margin: 0 auto;
+            font-size: 15px;
+        }
+    
+        h3#veg-link-name {
+            margin: 0 auto;
+        }
 }

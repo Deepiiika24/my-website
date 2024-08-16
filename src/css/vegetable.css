@@ -14,11 +14,11 @@
 }
 .vegetable-banner{
     background-image: url('../images/vegetables/vegetable-banner.jpg');
-    background-size: cover;
-    padding: 141px 81px;
-    margin: 119px 0px;
-    position: relative;
-}
+        background-size: cover;
+        padding: 200px 0px;
+        margin: 81px 0px;
+        position: relative;
+    }
 .vegetable-content {
     width: 100%;
     background-color: white;
@@ -27,7 +27,7 @@
 .vegetable-logo-context img {
     width: 200px;
     height: auto;
-    margin: -98px 450px 48px 450px;
+    margin: -54px 450px 48px 450px;
 }
 .vegetable-logo-context h1 {
     text-align: center;
@@ -39,6 +39,7 @@
 .vegetable-logo-context p {
     text-align: justify;
     margin: 110px 0px 0px 0px;
+    font-size: 15px;
 }
  .vegetable-img{
     display: grid;

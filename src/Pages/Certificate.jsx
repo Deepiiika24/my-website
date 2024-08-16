@@ -16,6 +16,9 @@ function Certificate() {
       <section className='certificate-content'>
         <div className='certificate-logo-content'>
           <img src={logo}></img>
+          <h4>CERTIFICATIONS</h4>
+        <h4>_______</h4>
+        <p>When it comes to food handling and export, maintaining high levels of hygiene, quality and safety are crucial. This is why, at Koogul Industries, we meet international food safety and quality standards through various quality checks and following strict protocols throughout the process. This has allowed us to be accredited to a number of quality and food safety certifications.</p>
         </div>
       </section>
       <section className='certificate-img'>
