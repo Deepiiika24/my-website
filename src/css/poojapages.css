@@ -1,41 +1,46 @@
 .pooja-page-container{
-    max-width: 1280px;
+    max-width: 1100px;
     width:100%;
     margin:0 auto;
 }
- .pooja-subpage-container{
+.pooja-subpage-container {
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 130px;
     display: flex;
     justify-content: space-between;
     gap: 50px;
 }
 .pooja-subpage-img {
-    width: 500;
-    height: 272px;
-    border-radius: 32px;
-    margin: 32px -27px;
-
+    height: 400px;
+    width: 500px;
+    border-radius: 30px;
+    margin: 0px 0px;
 }
-#pooja-banner-content h2 {
+#pooja-banner-content-kalash h2 {
     text-align: center;
-    padding: 42px 99px;
+    margin: 25px 0px 0px 0px;
+    font-size: 35px;
 }
-#pooja-banner-content-om h2{
-    text-align: center;
-    padding: 67px 50px;
-}
-#pooja-banner-content-om p{
+#pooja-banner-content-kalash p {
     text-align: justify;
     line-height: inherit;
-    margin: -38px 54px ;
+    margin: 0px 0px;
+    font-size: 25px;
 }
- #pooja-banner-content p {
-    text-align: justify;
-    line-height: inherit;
-    margin: -32px 54px;
+.brass-type-table {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.brass-type-table .brass-table-heading h3 {
+    padding-top: 0px;
+    margin: 40px 0px;
+    text-align: center;
+    font-size: 35px;
+}
+table.table.table-hover.table-responsive.table-bordered{
+    border-color: #ff000066 !important;
 }
 .pooja-items{
     max-width: 1100px;
@@ -57,34 +62,7 @@
     gap: 0%;
     justify-content: space-evenly;
     color: #808080;
-    margin: -133px 2px
-}
-.pooja-samagari h1 {
-    font-size: 16px;
-    padding: 1px 25px;
-}
-.pooja-poornahuthi h1{
-    font-size: 16px;
-    padding: 1px 25px;
-}
-.pooja-powder h1 {
-    font-size: 16px;
-    padding: 0px 39px;
-}
-.pooja-samagari ul li {
-    font-size: 13px;
-}
-.pooja-poornahuthi ul li {
-    font-size: 13px;
-}
-.pooja-powder ul li {
-    font-size: 13px;
-}
-.pooja-Dry-Fruits ul li {
-    font-size: 13px;
-}
-.pooja-Vasthram ul li {
-    font-size: 13px;
+    margin: -133px 0px 0px 0px;
 }
 .pooja-items-row2{
     max-width: 1100px;
@@ -93,52 +71,57 @@
     padding-top: 30px; 
     justify-content: space-between;
     gap: 20px;
-    height: 50px;
 }
-.pooja-Dry-Fruits h1 {
-    font-size: 16px;
-    padding: 1px 60px;
+#pooja-banner-content h2 {
+    font-size: 40px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
 }
-.pooja-Vasthram h1 {
-    font-size: 16px;
-    padding: 1px 60px;
-}
-#pooja-banner-content-kalash h2{
-    text-align: left;
-    padding: 85px 105px;
-}
-#pooja-banner-content-kalash p{
+
+#pooja-banner-content p {
     text-align: justify;
     line-height: inherit;
-    margin: -69px 88px;
+    margin: 20px 0px;
+    font-size: 20px;
 }
+h1.pooja-kit-heading {
+    margin: 0px;
+    font-size: 40px;
+    text-align: start;
+}
+
+.pooja-samagari h1,
+.pooja-poornahuthi h1,
+.pooja-powder h1,
+.pooja-Dry-Fruits h1,
+.pooja-Vasthram h1 {
+    font-size: 25px;
+    padding: 0px 0px;
+}
+
+.pooja-samagari ul li,
+.pooja-poornahuthi ul li,
+.pooja-powder ul li,
+.pooja-Dry-Fruits ul li,
+.pooja-Vasthram ul li {
+    font-size: 20px;
+}
+#pooja-banner-content-om h2 {
+    text-align: center;
+    padding: 0px;
+    font-size: 35px;
+    margin: -30px 0px 15px 0px;
+}
+
+#pooja-banner-content-om p {
+    text-align: justify;
+    line-height: inherit;
+    margin: 0px 0px;
+    font-size: 20px;
+}
+
 .brass-type-table{
     max-width: 1100px;
     width:100%;
     margin:0 auto;
-}
-table.table.table-hover.table-responsive.table-bordered {
-    max-width: 900px;
-    width: 100%;
-    margin: 50px auto;
-    /* border: 1px solid rgb(248, 247, 247); */
-    border-color: #ff000066;
-}
-.table-bordered>:not(caption)>*>* {
-    border-width: 0 1px;
-    padding: 11px 52px;
-}
-.brass-type-table .brass-table-heading h3 {
-    padding-top: 57px 54px;
-    margin: 51px 95px;
-    text-align: center;
-}
-#pooja-banner-content-viputhi h2{
-    text-align: left;
-    margin: 55px 232px;
-}
-#pooja-banner-content-viputhi p{
-    text-align: justify;
-    line-height: inherit;
-    margin: -45px 88px;
 }

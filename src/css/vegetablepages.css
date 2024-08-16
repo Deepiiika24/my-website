@@ -41,21 +41,3 @@ section.vegetable-type-banner img {
     font-size: 48px;
     color: #000000b3;
 }
-
-table.table.table-hover.table-responsive.table-bordered {
-    width: 63%;
-    padding: 45px 2px;
-    margin: 68px 234px;
-}
-
-table.table.table-hover.table-responsive.table-bordered th {
-    padding: 6px 96px;
-}
-
-.table-bordered tr {
-    border: 1px solid #ff000057;
-}
-
-.table-bordered th {
-    border: 1px solid #ff000057;
-}
