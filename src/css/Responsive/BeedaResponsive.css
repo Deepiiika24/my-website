@@ -1,0 +1,568 @@
+@media (max-width:2560px) {
+    .beeda-container {
+        max-width: 2560px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .beeda-body-container {
+        max-width: 2200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .beeda {
+        width: 100%;
+    }
+
+    .beeda-banner {
+        background-image: ('../images/beeda/beeda-banner.png');
+        background-size: cover;
+        padding: 317px 0px;
+        margin: 121px 0px 0px 0px;
+        position: relative;
+    }
+
+    .beeda-content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .beeda-logo-context img {
+        width: 20%;
+        height: auto;
+        margin: 0px 880px -50px 880px;
+    }
+
+    .beeda-logo-context h1 {
+        text-align: center;
+        color: green;
+        font-size: 50px;
+    }
+
+    .beeda-logo-context p {
+        text-align: justify;
+        padding: 0px 0px;
+        font-size: 35px;
+    }
+
+    .beeda-product {
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .beeda-img {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 4.5rem;
+    }
+
+    .beeda-product .beeda-img .card {
+        height: 450px;
+        width: 400px;
+    }
+
+    img.beeda-pic {
+        height: 400px;
+        width: 400px;
+    }
+
+    h3#beeda-linkname a {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:1440px) {
+    .beeda-container {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .beeda-body-container {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .beeda {
+        width: 100%;
+    }
+
+    .beeda-banner {
+        background-image: ('../images/beeda/beeda-banner.png');
+        background-size: cover;
+        padding: 178px 0px;
+        margin: 101px 0px 0px 0px;
+        position: relative;
+    }
+
+    .beeda-content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .beeda-logo-context img {
+        width: 20%;
+        height: auto;
+        margin: 0px 515px -50px 515px;
+    }
+
+    .beeda-logo-context h1 {
+        text-align: center;
+        color: green;
+        font-size: 40px;
+    }
+
+    .beeda-logo-context p {
+        text-align: justify;
+        padding: 0px 0px;
+        font-size: 25px;
+    }
+
+    .beeda-product {
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .beeda-img {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 4.5rem;
+        padding: 0px 0px 0px 30px;
+    }
+
+    .beeda-product .beeda-img .card {
+        height: 293px;
+        width: 243px;
+    }
+
+    img.beeda-pic {
+        height: 243px;
+        width: 243px;
+    }
+
+    h3#beeda-linkname a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1280px) {
+    .beeda-container {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .beeda-body-container {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .beeda {
+        width: 100%;
+    }
+
+    .beeda-banner {
+        background-image: ('../images/beeda/beeda-banner.png');
+        background-size: cover;
+        padding: 158px 0px;
+        margin: 81px 0px 0px 0px;
+        position: relative;
+    }
+
+    .beeda-content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .beeda-logo-context img {
+        width: 200px;
+        height: auto;
+        margin: 50px 450px -30px 450px;
+    }
+
+    .beeda-logo-context h1 {
+        text-align: center;
+        color: green;
+        font-size: 30px;
+    }
+
+    .beeda-logo-context p {
+        text-align: justify;
+        padding: 20px 0px;
+        font-size: 25px;
+    }
+
+    .beeda-img {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 4.5rem;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        padding: 0px;
+    }
+
+    .beeda-product {
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    img.beeda-pic {
+        box-shadow: 0px 0px 13px #808080a6;
+        border-radius: 3px;
+    }
+
+    h3#beeda-linkname a {
+        text-decoration: none;
+        color: #00000091;
+        font-size: 20px;
+    }
+
+    h3#beeda-linkname {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:1024px){
+        .beeda-container {
+            max-width: 1024px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda-body-container {
+            max-width: 900px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda {
+            width: 100%;
+        }
+    
+        .beeda-banner {
+            background-image: ('../images/beeda/beeda-banner.png');
+            background-size: cover;
+            padding: 126px 0px;
+            margin: 81px 0px 0px 0px;
+            position: relative;
+        }
+    
+        .beeda-content {
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda-logo-context img {
+            width: 20%;
+            height: auto;
+            margin: 0px 360px -50px 360px;
+        }
+    
+        .beeda-logo-context h1 {
+            text-align: center;
+            color: green;
+            font-size: 30px;
+            margin:0px 0px -30px 0px;
+        }
+    
+        .beeda-logo-context p {
+            text-align: justify;
+            padding: 20px 0px;
+            font-size: 20px;
+        }
+    
+        .beeda-product {
+            width: 100%;
+            margin: 50px auto;
+        }
+    
+        .beeda-img {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 4.5rem;
+            padding: 0px 0px 0px 0px;
+        }
+    
+        .beeda-product .beeda-img .card {
+            height: 293px;
+            width: 243px;
+        }
+    
+        img.beeda-pic {
+            height: 243px;
+            width: 243px;
+        }
+    
+        h3#beeda-linkname a {
+            font-size: 20px;
+        }
+}
+
+@media (max-width:768px){
+        .beeda-container {
+            max-width: 768px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda-body-container {
+            max-width: 700px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda {
+            width: 100%;
+        }
+    
+        .beeda-banner {
+            background-image: ('../images/beeda/beeda-banner.png');
+            background-size: cover;
+            padding: 95px 0px;
+            margin: 61px 0px 0px 0px;
+            position: relative;
+        }
+    
+        .beeda-content {
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda-logo-context img {
+            width: 20%;
+            height: auto;
+            margin: 0px 280px -50px 280px;
+        }
+    
+        .beeda-logo-context h1 {
+            text-align: center;
+            color: green;
+            font-size: 25px;
+            margin:0px 0px -30px 0px;
+        }
+    
+        .beeda-logo-context p {
+            text-align: justify;
+            padding: 20px 0px;
+            font-size: 15px;
+        }
+    
+        .beeda-product {
+            width: 100%;
+            margin: 50px auto;
+        }
+    
+        .beeda-img {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 4.5rem;
+            padding: 0px 70px;
+        }
+    
+        h3#beeda-linkname a {
+            font-size: 20px;
+        }
+}
+
+@media (max-width:425px){
+        .beeda-container {
+            max-width: 425px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda-body-container {
+            max-width: 375px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda {
+            width: 100%;
+        }
+    
+        .beeda-banner {
+            background-image: ('../images/beeda/beeda-banner.png');
+            background-size: cover;
+            padding: 52px 0px;
+            margin: 61px 0px 0px 0px;
+            position: relative;
+        }
+    
+        .beeda-content {
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda-logo-context img {
+            width: 30%;
+            height: auto;
+            margin: 0px 130px -50px 130px;
+        }
+    
+        .beeda-logo-context h1 {
+            text-align: center;
+            color: green;
+            font-size: 22px;
+            margin:0px 0px -50px 0px;
+        }
+    
+        .beeda-logo-context p {
+            text-align: justify;
+            padding: 30px 0px;
+            font-size: 15px;
+        }
+    
+        .beeda-product {
+            width: 100%;
+            margin: 50px auto;
+        }
+    
+        .beeda-img {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 4.5rem;
+            padding: 0px 65px;
+        }
+    
+        h3#beeda-linkname a {
+            font-size: 18px;
+        }
+}
+
+@media (max-width:375px){
+        .beeda-container {
+            max-width: 375px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda-body-container {
+            max-width: 320px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda {
+            width: 100%;
+        }
+    
+        .beeda-banner {
+            background-image: ('../images/beeda/beeda-banner.png');
+            background-size: cover;
+            padding: 46px 0px;
+            margin: 61px 0px 0px 0px;
+            position: relative;
+        }
+    
+        .beeda-content {
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda-logo-context img {
+            width: 30%;
+            height: auto;
+            margin: 0px 112px -50px 112px;
+        }
+    
+        .beeda-logo-context h1 {
+            text-align: center;
+            color: green;
+            font-size: 20px;
+            margin:0px 0px -50px 0px;
+        }
+    
+        .beeda-logo-context p {
+            text-align: justify;
+            padding: 30px 0px;
+            font-size: 15px;
+        }
+    
+        .beeda-product {
+            width: 100%;
+            margin: 50px auto;
+        }
+    
+        .beeda-img {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 4.5rem;
+            padding: 0px 38px;
+        }
+    
+        h3#beeda-linkname a {
+            font-size: 18px;
+        }
+}
+
+@media (max-width:320px){
+        .beeda-container {
+            max-width: 320px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda-body-container {
+            max-width: 270px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda {
+            width: 100%;
+        }
+    
+        .beeda-banner {
+            background-image: ('../images/beeda/beeda-banner.png');
+            background-size: cover;
+            padding: 39px 0px;
+            margin: 61px 0px 0px 0px;
+            position: relative;
+        }
+    
+        .beeda-content {
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .beeda-logo-context img {
+            width: 30%;
+            height: auto;
+            margin: 0px 95px -50px 95px;
+        }
+    
+        .beeda-logo-context h1 {
+            text-align: center;
+            color: green;
+            font-size: 20px;
+            margin:0px 0px -50px 0px;
+        }
+    
+        .beeda-logo-context p {
+            text-align: justify;
+            padding: 30px 0px;
+            font-size: 15px;
+        }
+    
+        .beeda-product {
+            width: 100%;
+            margin: 50px auto;
+        }
+    
+        .beeda-img {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 4.5rem;
+            padding: 0px 14px;
+        }
+    
+        h3#beeda-linkname a {
+            font-size: 18px;
+        }
+}

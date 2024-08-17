@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../css/Flower.css'
+import '../css/Responsive/FlowerResponsive.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, FreeMode, Pagination } from 'swiper/modules';
 import { Link } from 'react-router-dom'
@@ -55,7 +56,33 @@ function Flower() {
         <div className="flower-img">
           <Swiper slidesPerView={4} spaceBetween={10} freeMode={true} loop={true} pagination={{ clickable: true, }} autoplay={{
             delay: 2500, disableOnInteraction: false,
-          }} modules={[FreeMode, Pagination, Autoplay]} className="flower-swiper">
+          }} modules={[FreeMode, Pagination, Autoplay]} className="flower-swiper"
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+            },
+            374: {
+              slidesPerView: 1,
+            },
+            424: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+            },
+            1280: {
+              slidesPerView: 4,
+            },
+            1440: {
+              slidesPerView: 4,
+            },
+            2560: {
+              slidesPerView: 5,
+            }
+          }}>
             <SwiperSlide className='flower-swiper-slide'>
               <div className='card'>
                 <img className='flower-slide-img' src={Carnation1} alt="" />

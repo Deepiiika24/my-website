@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/beeda.css'
+import '../css/Responsive/BeedaResponsive.css'
 import { Link } from 'react-router-dom'
 import veg1 from '../images/beeda/cocount.jpg'
 import veg2 from '../images/beeda/jeera.jpg'
