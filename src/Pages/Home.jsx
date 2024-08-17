@@ -82,7 +82,7 @@ function Home() {
                         </div>
                         <div className='card'>
                             <img src={swiper6} className='slide-img'></img>
-                            <h3 className='link6-name' id='home-link-name'><Link to='/Leaf'>Leaf</Link> </h3>
+                            <h3 className='link6-name' id='home-link-name'><Link to='/leaves'>Leaf</Link> </h3>
                         </div>
                         <div className='card'>
                             <img src={swiper8} className='slide-img'></img>

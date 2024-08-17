@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/FlowerPage.css'
+import '../css/Responsive/FlowerPageResponsive.css'
 import banner from '../images/Rose-garland-banner.png'
 
 function Rosegarland() {
@@ -12,8 +13,8 @@ function Rosegarland() {
         <div id='banner-content'>
           <h2>Exporting Rose Garland</h2>
           <p>Rose garlands are a timeless and elegant choice for various ceremonies, especially weddings. Known for their beauty, fragrance, and symbolism, roses add a touch of romance and sophistication to any occasion. These garlands are crafted by stringing together fresh roses, creating a continuous chain of blossoms that can be used in numerous ways.
-          Red Roses: Symbolize love, passion, and respect.Red Roses: Symbolize love, passion, and respect.Red Roses: Symbolize love, passion, and respect.Yellow Roses: Stand for friendship and happiness.
-          Orange Roses: Reflect enthusiasm and excitement.
+            Red Roses: Symbolize love, passion, and respect.Red Roses: Symbolize love, passion, and respect.Red Roses: Symbolize love, passion, and respect.Yellow Roses: Stand for friendship and happiness.
+            Orange Roses: Reflect enthusiasm and excitement.
           </p>
         </div>
       </div>

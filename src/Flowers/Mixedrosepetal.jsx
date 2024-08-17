@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/FlowerPage.css'
+import '../css/Responsive/FlowerPageResponsive.css'
 import banner from '../images/Mixed-petal-banner.avif'
 
 function Mixedrosepetal() {
@@ -15,7 +16,7 @@ function Mixedrosepetal() {
           </p>
         </div>
       </div>
-      <div className='final-container'>
+      <div className="final-container">
       <h4>USES & BENEFITS</h4>
       <h6><b>USES</b></h6>
       <ul>

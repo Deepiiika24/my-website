@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/FlowerPage.css'
+import '../css/Responsive/FlowerPageResponsive.css'
 import banner from '../images/Peach-carnation-banner.jpg'
 
 function Peachcarnation() {

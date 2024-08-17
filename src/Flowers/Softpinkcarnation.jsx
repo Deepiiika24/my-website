@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/FlowerPage.css'
+import '../css/Responsive/FlowerPageResponsive.css'
 import banner from '../images/Soft-pink-carnation-banner.jpg'
 function Softpinkcarnation() {
   return (

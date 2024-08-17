@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/FlowerPage.css'
+import '../css/Responsive/FlowerPageResponsive.css'
 import banner from '../images/Tuberose-garland-banner.png'
 function Tuberosegarland() {
   return (
@@ -15,7 +16,7 @@ function Tuberosegarland() {
           </p>
         </div>
       </div>
-      <div className='final-container'>
+      <div className="final-container">
         <h4>USES & BENEFITS</h4>
         <h6><b>USES</b></h6>
         <ul>
@@ -24,7 +25,7 @@ function Tuberosegarland() {
           <li><b>Special Occasions:</b>Tuberose garlands are used in celebrations and events to add an element of elegance and fragrance to the surroundings.</li>
         </ul>
         <p>By incorporating tuberose garlands into your events and decor, you can enjoy their captivating beauty and fragrance, enhancing the ambiance and creating memorable experiences.</p>
-      </div>
+        </div>
     </div>
   )
 }

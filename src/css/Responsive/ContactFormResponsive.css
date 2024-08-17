@@ -35,19 +35,11 @@
         padding: 20px 0px;
         font-size: 50px;
     }
-
     button.btn.btn-primary {
-        color: #ffffff;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        font-family: 'Open Sans', sans-serif;
+        margin: 0px 0px 0px 827px;
+        border-radius: 30px;
+        font-size: 30px;
         font-weight: bold;
-        height: 100px;
-        line-height: 55px !important;
-        border-radius: 50px;
-        width: 600px;
-        margin: 30px 0px 0px 360px;
-        font-size: 35px;
     }
 
 
@@ -127,17 +119,10 @@
     }
 
     button.btn.btn-primary {
-        color: #ffffff;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        font-family: 'Open Sans', sans-serif;
+        margin: 0px 0px 0px 449px;
+        border-radius: 30px;
+        font-size: 25px;
         font-weight: bold;
-        height: 55px;
-        line-height: 55px !important;
-        border-radius: 50px;
-        width: 420px;
-        margin: 0px 0px 0px 210px;
-        font-size: 30px;
     }
 
 }
@@ -181,17 +166,10 @@
     }
 
     button.btn.btn-primary {
-        color: #ffffff;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        font-family: 'Open Sans', sans-serif;
+        margin: 0px 0px 0px 340px;
+        border-radius: 20px;
+        font-size: 20px;
         font-weight: bold;
-        height: 55px;
-        line-height: 55px !important;
-        border-radius: 50px;
-        width: 300px;
-        margin: 0px 0px 0px 155px;
-        font-size: 27px;
     }
 
     .contact-form-body .contact-address .reg-add .row {
@@ -251,17 +229,10 @@
     }
 
     button.btn.btn-primary {
-        color: #ffffff;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        font-family: 'Open Sans', sans-serif;
+        margin: 0px 0px 0px 240px;
+        border-radius: 30px;
+        font-size: 20px;
         font-weight: bold;
-        height: 55px;
-        line-height: 55px !important;
-        border-radius: 50px;
-        width: 300px;
-        margin: 0px 0px 0px 155px;
-        font-size: 25px;
     }
 }
 
@@ -290,17 +261,10 @@
     }
 
     button.btn.btn-primary {
-        color: #ffffff;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        font-family: 'Open Sans', sans-serif;
+        margin: 0px 0px 0px 312px;
+        border-radius: 30px;
+        font-size: 18px;
         font-weight: bold;
-        height: 55px;
-        line-height: 55px !important;
-        border-radius: 50px;
-        width: 300px;
-        margin: 0px 0px 0px 155px;
-        font-size: 20px;
     }
 }
 
@@ -329,17 +293,10 @@
     }
 
     button.btn.btn-primary {
-        color: #ffffff;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        font-family: 'Open Sans', sans-serif;
+        margin: 0px 0px 0px 237px;
+        border-radius: 30px;
+        font-size: 18px;
         font-weight: bold;
-        height: 55px;
-        line-height: 55px !important;
-        border-radius: 50px;
-        width: 300px;
-        margin: 0px 0px;
-        font-size: 20px;
     }
 }
 
@@ -365,6 +322,12 @@
         justify-content: space-between;
         gap: 20px;
         padding: 0px;
+    }
+    button.btn.btn-primary {
+        margin: 0px 0px 0px 187px;
+        border-radius: 30px;
+        font-size: 18px;
+        font-weight: bold;
     }
 }
 
@@ -397,16 +360,10 @@
         font-size: 25px;
     }
     button.btn.btn-primary {
-        color: #ffffff;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        font-family: 'Open Sans', sans-serif;
+        margin: 0px 0px 0px 137px;
+        border-radius: 30px;
+        font-size: 18px;
         font-weight: bold;
-        height: 55px;
-        line-height: 55px !important;
-        border-radius: 50px;
-        width: 250px;
-        margin: 0px 0px;
     }
 }
 

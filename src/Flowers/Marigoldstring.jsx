@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/FlowerPage.css'
+import '../css/Responsive/FlowerPageResponsive.css'
 import banner from '../images/Marigold-string-banner.jpg'
 
 function Marigoldstring() {
@@ -41,7 +42,7 @@ function Marigoldstring() {
           </table>
         </div>
       </section>
-      <div className='final-container'>
+      <div className="final-container">
         <h4>USES & BENEFITS</h4>
         <h6><b>USES</b></h6>
         <ul>
@@ -55,7 +56,7 @@ function Marigoldstring() {
           <li>The strong scent of marigold flowers acts as a natural repellent against pests like mosquitoes and aphids, making them a valuable companion plant in gardens.</li>
           <li>Marigold flowers have medicinal properties and are used in traditional medicine for treating minor skin irritations, wounds, and inflammation.</li>
         </ul>
-      </div>
+        </div>
     </div>
   )
 }

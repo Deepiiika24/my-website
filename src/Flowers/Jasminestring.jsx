@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/FlowerPage.css'
+import '../css/Responsive/FlowerPageResponsive.css'
 import banner from '../images/Jasmine-string-banner.jpg'
 
 function Jasminestring() {
@@ -55,7 +56,7 @@ function Jasminestring() {
           <li>Jasmine flowers symbolize purity, love, and beauty, adding depth and meaning to your decorations and gifts.</li>
           <li>Suitable for a wide range of occasions, from weddings and festivals to everyday home decor.</li>
         </ul>
-      </div>
+        </div>
     </div>
 
   )

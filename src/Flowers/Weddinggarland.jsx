@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/FlowerPage.css'
+import '../css/Responsive/FlowerPageResponsive.css'
 import banner from '../images/Wedding-garland-banner.png'
 
 function Weddinggarland() {
@@ -16,7 +17,7 @@ function Weddinggarland() {
           </p>
         </div>
       </div>
-      <div className='final-container'>
+      <div className="final-container">
         <h4><b>Types of Flowers Used</b></h4>
         <ul>
           <li><b>Roses:</b><br />Symbolize love and passion. Red roses are especially popular in wedding garlands.</li>

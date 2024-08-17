@@ -1,10 +1,11 @@
 import React from 'react'
 import '../css/FlowerPage.css'
+import '../css/Responsive/FlowerPageResponsive.css'
 import banner from '../images/Baby-breath-banner.png'
 
 function Babybreathstring() {
   return (
-    <div className='container'>
+    <div className='flowers-container'>
       <div className="banner">
         <img src={banner} />
       </div>
@@ -40,6 +41,7 @@ function Babybreathstring() {
             </table>
           </div>
         </section>
+        <div className="final-container">
         <h4>USES & BENEFITS</h4>
         <h6><b>USES</b></h6>
         <ul>
@@ -55,6 +57,7 @@ function Babybreathstring() {
           <li><b>Long-Lasting:</b>When properly cared for, Baby's Breath flowers have a long vase life and can also be dried for extended use in arrangements and crafts.</li>
           <li><b>Symbolic Significance:</b>These flowers carry a deep symbolism of purity and everlasting love, enhancing the emotional impact of any arrangement.</li>
         </ul>
+        </div>
         <p>We take pride in our commitment to quality and customer satisfaction. Our dedicated team ensures that each order is meticulously packed and delivered with care. Whether you are planning a wedding, decorating for a special event, or simply enhancing your home decor, our Baby's Breath flowers will bring an added touch of grace and beauty.</p>
       </div>
     </div >

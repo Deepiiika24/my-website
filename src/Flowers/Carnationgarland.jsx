@@ -1,14 +1,15 @@
 import React from 'react'
 import '../css/FlowerPage.css'
+import '../css/Responsive/FlowerPageResponsive.css'
 import banner from '../images/Carnation-garland-banner.png'
 
 
 function Carnationgarland() {
   return (
 
-    <div className='container'>
+    <div className='flowers-container'>
       <div className="banner">
-        <img src={banner} alt="" />
+        <img src={banner} />
       </div>
       <div className="content">
         <h2> Exporting Premium Carnation Garlands Worldwide</h2>
@@ -41,6 +42,7 @@ function Carnationgarland() {
             </table>
           </div>
         </section>
+        <div className="final-container">
         <h4>USES & BENEFITS</h4>
         <h6><b>USES</b></h6>
         <ul>
@@ -56,6 +58,7 @@ function Carnationgarland() {
           <li><b>Versatility:</b> Suitable for a wide range of occasions, from weddings and festivals to everyday home decor.</li>
           <li><b>Natural Fragrance:</b> The subtle, sweet scent of carnations enhances the sensory experience, making your celebrations even more delightful.</li>
         </ul>
+        </div>
         <p>By exporting our premium Carnation Garlands, we ensure that their elegance and charm can be shared and appreciated globally, bringing joy and beauty to every special occasion.</p>
       </div>
     </div>
