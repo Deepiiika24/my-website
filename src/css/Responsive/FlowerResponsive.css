@@ -960,12 +960,12 @@
         }
     
         .flower-container .flower-content {
-            max-width: 270px;
+            max-width: 280px;
         }
     
         .flower-container .flower-content img {
             width: 30%;
-            margin: 0px 95px -50px 95px;
+            margin: 0px 98px -50px 98px;
         }
     
         .flower-container .flower-content p {
@@ -979,7 +979,7 @@
         }
     
         .flower-product {
-            max-width: 270px;
+            max-width: 280px;
             margin-bottom: 50px;
         }
     
@@ -1007,12 +1007,12 @@
         }
     
         .container .flower-product {
-            max-width: 270px;
+            max-width: 280px;
             margin-bottom: 50px;
         }
     
         .swiper .flower-swiper {
-            max-width: 270px;
+            max-width: 280px;
         }
     
         .flower-swiper .flower-swiper-slide {
@@ -1039,7 +1039,7 @@
         }
     
         .container .flower-petals {
-            max-width: 270px;
+            max-width: 280px;
         }
     
         .petals-img,
@@ -1048,6 +1048,6 @@
             display: grid;
             grid-template-columns: repeat(1,1fr);
             gap: 50px;
-            padding: 0px 15px;
+            padding: 0px 18px;
         }
 }
