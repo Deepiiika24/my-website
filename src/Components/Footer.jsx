@@ -51,7 +51,7 @@ function Footer() {
                             <h3><PhoneIcon />PhoneNo:</h3>
                             <h5>+91 6374980568</h5>
                             <h3> <MailOutlineIcon />Email:</h3>
-                            <h5>manisha@gmail.com</h5>
+                            <h5>koogulinfo@gmail.com</h5>
                         </div>
                     </div>
                     <div className='icon'>
