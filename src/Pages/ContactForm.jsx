@@ -23,7 +23,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.send('service_o4g1u0h', 'template_kzlu56c', formData, 'MDefw_dKaSKYzSMI4')
+    emailjs.send('service_brsjkmb', 'template_nmv78db', formData, 'v0IH5Ug-pmYE2Yy65')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         alert('Your enquiry has been sent successfully.');
