@@ -28,7 +28,6 @@
 .snacks-container p{
     text-align: justify;
     padding:15px 0px;
-    font-size: 15px;
 }
 .snacks-container .snacks-sub-container .snacks-image {
     display: grid;

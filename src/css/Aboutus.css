@@ -147,7 +147,6 @@
     width: 100%;
     margin: 0 auto;
     padding-top: 20px;
-    font-size: 18px;
 
 }
 
@@ -165,7 +164,7 @@
 
 .about-main-container .about-final-container .about-container1 .about-sub-container p,
 .about-main-container .about-final-container .about-container2 .about-sub-container p {
-    font-size: 15px;
+    font-size: auto;
 }
 
 .about-main-container .about-final-container .about-container3 {
@@ -176,7 +175,7 @@
 }
 
 .about-main-container .about-final-container .about-container3 p {
-    font-size: 15px;
+    font-size: auto;
 }
 
 .about-wrapper {
@@ -206,7 +205,6 @@
 
 .about-final-container .about-container1 .about-sub-container p,
 .about-main-container .about-final-container .about-container2 .about-sub-container p {
-    font-size: 15px;
     text-align: center;
 }
 
@@ -215,8 +213,10 @@
     width: 33.33333333%;
 }
 
-.about-wrapper .about-container3 h5,
-.about-wrapper .about-container3 p {
+.about-wrapper .about-container3 h5{
     text-align: center;
     font-size: 25px;
+}
+.about-wrapper .about-container3 p {
+    text-align: center;
 }

@@ -25,7 +25,6 @@ section.vegetable-type-banner img {
 .veg-contant p {
     text-align: justify;
     line-height: inherit;
-    font-size: 18px;
 }
 .veg-container {
     display: flex;
