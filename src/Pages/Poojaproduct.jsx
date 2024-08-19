@@ -89,12 +89,6 @@ function Poojaproduct() {
                 },
                 1280: {
                   slidesPerView: 4,
-                },
-                1440: {
-                  slidesPerView: 4,
-                },
-                2560: {
-                  slidesPerView: 5,
                 }
               }}>
               <SwiperSlide className='pooja-swiper-slide'>
@@ -178,12 +172,6 @@ function Poojaproduct() {
                 },
                 1280: {
                   slidesPerView: 4,
-                },
-                1440: {
-                  slidesPerView: 4,
-                },
-                2560: {
-                  slidesPerView: 5,
                 }
               }}>
               <SwiperSlide className='pooja-swiper-slide'>
@@ -249,12 +237,6 @@ function Poojaproduct() {
                 },
                 1280: {
                   slidesPerView: 4,
-                },
-                1440: {
-                  slidesPerView: 4,
-                },
-                2560: {
-                  slidesPerView: 5,
                 }
               }}>
               <SwiperSlide className='pooja-swiper-slide'>
@@ -332,12 +314,6 @@ function Poojaproduct() {
                 },
                 1280: {
                   slidesPerView: 4,
-                },
-                1440: {
-                  slidesPerView: 4,
-                },
-                2560: {
-                  slidesPerView: 5,
                 }
               }}>
               <SwiperSlide className='pooja-swiper-slide'>
@@ -439,12 +415,6 @@ function Poojaproduct() {
                 },
                 1280: {
                   slidesPerView: 4,
-                },
-                1440: {
-                  slidesPerView: 4,
-                },
-                2560: {
-                  slidesPerView: 5,
                 }
               }}>
               <SwiperSlide className='pooja-swiper-slide'>
