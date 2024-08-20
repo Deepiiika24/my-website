@@ -1,7 +1,6 @@
 import React from 'react'
 import '../css/Home.css';
 import '../css/Responsive/HomeResponsive.css'
-import logo from '../images/logo1.png'
 import slide1 from '../images/slider-1.jpg'
 import slide2 from '../images/pooja-home-banner.jpg'
 import slide3 from '../images/spices-banner-4.jpg'
@@ -45,11 +44,10 @@ function Home() {
             </div>
             <section className='home-main-bg'>
                 <div className='home-container'>
-                    <img className='logo1' src={logo}></img>
                     <div className='home-content'>
-                        <h2>Koogul Industries Importers & Exporters</h2>
-                        <h2 style={{padding:"0px 0px 20px 0px"}}>__________</h2>
-                        <p>"As the ‘land of spices’, India exports tons of various kinds of food. In fact, food export from India is a major source of revenue. To help your products reach to even the farthest corners of the world, Pisum Foods offers you various types of food export as well as spices export from India. Being among the leading food export companies in India, we ensure our services conform to international quality standards.”</p>
+                        <h1>Koogul Industries - Global Food Importers & Exporters</h1>
+                        <h1 style={{padding:"0px 0px 20px 0px"}}>__________</h1>
+                        <p>"As a leading exporter of premium quality food products, Koogul Industries is committed to bringing the rich and diverse flavors of India to the world. Our extensive range of food and spice exports is sourced directly from trusted farms and suppliers, ensuring freshness and authenticity in every shipment. With a strong focus on meeting international quality standards, we guarantee that our products reach global markets with the highest level of care and excellence. Koogul Industries is dedicated to supporting your business by delivering the finest Indian produce to every corner of the globe."</p>
                     </div>
                 </div>
             </section>

@@ -14,16 +14,12 @@
     margin: 0 auto;
 }
 
-.home-container img.logo1 {
-    height: auto;
-    width: 200px;
-    margin: 0px 450px;
-}
 
-.home-content h2 {
+.home-content h1 {
     text-align: center;
     color: green;
-    font-size: 22px
+    font-size: 30px;
+    margin: 20px 0px 0px 0px;
 }
 
 .home-content p {
@@ -63,7 +59,7 @@ img.slide-img {
 section.main-bg1 {
     width: 100%;
     background-color: #c0bbbb1c;
-    margin: -50px 0px 0px 0px;
+    margin: -49px 0px 0px 0px;
 }
 
 .w-100 {
@@ -72,7 +68,8 @@ section.main-bg1 {
 }
 
 img.product {
-    margin: 48px 379px;
+    margin: 48px 347px;
+    width: 45%;
 }
 
 img.pic {
