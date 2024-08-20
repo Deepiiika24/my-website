@@ -21,11 +21,12 @@
     text-align: center;
     color: green;
     font-size: 30px;
-    margin: 20px 0px 0px 0px;
+    margin: 50px 0px -50px 0px;
 }
 
 .home-content p {
     text-align: justify;
+    padding:50px 0px 0px 0px;
 }
 
 .slider1 {
