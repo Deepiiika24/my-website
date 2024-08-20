@@ -32,6 +32,13 @@ button.btn.btn-primary {
     margin: 0px 0px 0px 300px;
     border-radius: 20px;
 }
-.contact-form-body .contact-address .reg-add .row{
-    margin:20px 0px;
+.contact-form-body .contact-address .reg-add .single-contact-info {
+    display: flex;
+    margin-bottom: 15px;
+}
+.contact-form-body .contact-address .reg-add .contact-info-icon {
+    width: 35px;
+}
+.contact-form-body .contact-address .reg-add .contact-text-info p{
+    text-align:justify;
 }

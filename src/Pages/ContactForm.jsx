@@ -51,27 +51,27 @@ const ContactForm = () => {
         <div className='contact-address'>
           <h3>REGISTERED ADDRESS</h3>
           <div className="reg-add">
-            <div className="row">
-              <div className="col-md-1">
+            <div className="single-contact-info">
+              <div className="contact-icon-info">
                 <LocationOnIcon style={{color:"#ef5350"}}/>
               </div>
-              <div className="col-md-10">
-                <p>No:11, M.R.K Nagar, 50feet Main Road,<br />Kolapakkam, Chennai-600128, Tamil Nadu, India</p>
+              <div className="contact-text-info">
+                <p>No:11, M.R.K Nagar,<br /> 50feet Main Road, Kolapakkam, <br />Chennai-600128, Tamil Nadu, India</p>
               </div>
             </div>
-            <div className="row">
-              <div className="col-md-1">
+            <div className="single-contact-info">
+              <div className="contact-icon-info">
                 <PhoneIcon style={{color:"#ef5350"}}/>
               </div>
-              <div className="col-md-10">
+              <div className="contact-text-info">
                 <p>+91 6374980568</p>
               </div>
             </div>
-            <div className="row">
-              <div className="col-md-1">
+            <div className="single-contact-info">
+              <div className="contact-icon-info">
                 <EmailIcon style={{color:"#ef5350"}}/>
               </div>
-              <div className="col-md-10">
+              <div className="contact-text-info">
                 <p>koogulinfo@gmail.com</p>
               </div>
             </div>

@@ -29,12 +29,6 @@
         margin: 0 auto;
     }
 
-    .reg-add .row .col-md-10 p,
-    .contact-form .col-form-label {
-        font-size: 14px;
-        padding: 0px 0px;
-    }
-
     button.btn.btn-primary {
         margin: 0px 0px 0px 240px;
         border-radius: 30px;
