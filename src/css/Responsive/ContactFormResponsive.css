@@ -73,6 +73,11 @@
         font-size: 18px;
         font-weight: bold;
     }
+    .contact-container .contact-form-body .contact-address h3, .contact-container .contact-form-body .contact-form h3 {
+        font-size: 25px;
+        padding: 20px 0;
+        text-align: start;
+    }
 }
 
 @media (max-width:425px) {
