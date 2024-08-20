@@ -26,10 +26,15 @@ section.spices-type-content,section.Spices-type-table {
     padding: 10px 0px;
     font-size: 30px;
 }
-.Spices-type-table .Spices-table-heading th#quantity{
+.Spices-type-table .Spices-table-heading  .table #quantity{
     border-left-color: white;
     border-right-color: white;
 }
-.Spices-type-table .Spices-table-heading th#Quantity{
+.Spices-type-table .Spices-table-heading .table th#Quantity{
     border-right-color: white;
+}
+img.spices-page-banner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
 }

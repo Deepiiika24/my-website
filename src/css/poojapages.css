@@ -23,10 +23,11 @@
     margin: 25px 0px 0px 0px;
     font-size: 35px;
 }
-#pooja-banner-content-kalash p {
-    text-align: justify;
-    line-height: inherit;
-    margin: 0px 0px;
+#pooja-banner-content-kalash h2 {
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+    font-size: 35px;
+    padding: 30px 0px;
 }
 .brass-type-table {
     max-width: 1100px;
