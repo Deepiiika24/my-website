@@ -81,31 +81,31 @@ const ContactForm = () => {
           <h3>CONTACT WITH US</h3>
           <form onSubmit={handleSubmit}>
             <div class="mb-3 row">
-              <label class="col-sm-4 col-form-label">Name :</label>
+              <label class="col-sm-4 col-form-label">Name <span style={{color:"red"}}>*</span></label>
               <div class="col-sm-8">
                 <input type="text" className='form-control' name="fullName" value={formData.fullName} onChange={handleChange} required />
               </div>
             </div>
             <div class="mb-3 row">
-              <label class="col-sm-4 col-form-label">Email :</label>
+              <label class="col-sm-4 col-form-label">Email <span style={{color:"red"}}>*</span></label>
               <div class="col-sm-8">
                 <input type="email" name="email" className='form-control' value={formData.email} onChange={handleChange} required />
               </div>
             </div>
             <div class="mb-3 row">
-              <label class="col-sm-4 col-form-label">Country Code :</label>
+              <label class="col-sm-4 col-form-label">Country Code <span style={{color:"red"}}>*</span></label>
               <div class="col-sm-8">
                 <input type="text" name="countryCode" className='form-control' value={formData.countryCode} onChange={handleChange} required />
               </div>
             </div>
             <div class="mb-3 row">
-              <label class="col-sm-4 col-form-label">Mobile Number :</label>
+              <label class="col-sm-4 col-form-label">Mobile Number <span style={{color:"red"}}>*</span></label>
               <div class="col-sm-8">
                 <input type="text" name="mobileNumber" className='form-control' value={formData.mobileNumber} onChange={handleChange} required />
               </div>
             </div>
             <div class="mb-3 row">
-              <label class="col-sm-4 col-form-label">Message :</label>
+              <label class="col-sm-4 col-form-label">Message <span style={{color:"red"}}>*</span></label>
               <div class="col-sm-8">
                 <textarea name="message" value={formData.message} className='form-control' onChange={handleChange} required></textarea>
               </div>
