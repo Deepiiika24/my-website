@@ -58,6 +58,7 @@
     bottom: 0;
     position: relative;
     margin: 50px -20px;
+    gap: 50px;
 }
 
 .spices-product {

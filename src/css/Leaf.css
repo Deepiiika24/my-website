@@ -34,9 +34,10 @@
 }
 .leaves-main-container .leaves-sub-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
     padding: 25px 0px;
+    gap: 50px;
 }
 .leaves-sub-container .card {
     height: 243px;
