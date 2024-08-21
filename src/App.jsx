@@ -171,10 +171,12 @@ import Shreddedcoconut from './Beeda/Shreddedcoconut'
 import Rosegulkand from './Beeda/Rosegulkand'
 import Kanpuribiscuit from './Beeda/Kanpuribiscuit'
 import Drytuttifrutti from './Beeda/Drytuttifrutti'
+import Scroll from './Components/Scroll'
 function App() {
   return (
     <div>
       <BrowserRouter>
+        <Scroll/>
         <Header />
         <Socialicon />
         <Routes>
