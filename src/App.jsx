@@ -172,6 +172,8 @@ import Rosegulkand from './Beeda/Rosegulkand'
 import Kanpuribiscuit from './Beeda/Kanpuribiscuit'
 import Drytuttifrutti from './Beeda/Drytuttifrutti'
 import Scroll from './Components/Scroll'
+import Pickle from './Pages/Pickle'
+import Oil from './Pages/Oil'
 function App() {
   return (
     <div>
@@ -347,6 +349,10 @@ function App() {
           <Route path='/Onion' element={<Onion />}></Route>
           <Route path='/Potato' element={<Potato />}></Route>
           <Route path='/Spinach' element={<Spinach />}></Route>
+
+          <Route path='/Pickles' element={<Pickle/>}></Route>
+
+          <Route path='/Oil' element={<Oil/>}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

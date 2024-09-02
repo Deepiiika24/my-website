@@ -34,6 +34,8 @@ function Header() {
                   <li><a class="dropdown-item"><Link to="/Vegetables">Vegetables</Link></a></li>
                   <li><a class="dropdown-item"><Link to="/Snacks">Snacks</Link></a></li>
                   <li><a class="dropdown-item"><Link to="/Beeda">Paan Beeda</Link></a></li>
+                  <li><a class="dropdown-item"><Link to="/Pickles">Pickles</Link></a></li>
+                  <li><a class="dropdown-item"><Link to="/Oil">Oil</Link></a></li>
                 </ul>
               </li>
               <li class="nav-item">
