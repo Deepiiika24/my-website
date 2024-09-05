@@ -35,51 +35,51 @@ function Pickle() {
         <div className="rice-sub-container">
             <div className='card'>
               <img src={pickle1} className='rice-pic'></img>
-              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Basmati-rice'>Garlic Pickle</Link> </h3>
+              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Garlic-pickle'>Garlic Pickle</Link> </h3>
             </div>
             <div className='card'>
               <img src={pickle2} className='rice-pic'></img>
-              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Matta-rice'>Green Chilli Pickle</Link> </h3>
+              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Green-chilli-pickle'>Green Chilli Pickle</Link> </h3>
             </div>
             <div className='card'>
               <img src={pickle3} className='rice-pic'></img>
-              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Idli-rice'>Tomato Pickle</Link> </h3>
+              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Tomato-pickle'>Tomato Pickle</Link> </h3>
             </div>
             <div className='card'>
               <img src={pickle4} className='rice-pic'></img>
-              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Boiled-rice'>Mango Pickle</Link> </h3>
+              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Mango-pickle'>Mango Pickle</Link> </h3>
             </div>
             <div className='card'>
               <img src={pickle5} className='rice-pic'></img>
-              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Red-raw-rice'>Brinjal Pickle</Link> </h3>
+              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Brinjal-pickle'>Brinjal Pickle</Link> </h3>
             </div>
             <div className='card'>
               <img src={pickle6} className='rice-pic'></img>
-              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Seeraga-samba-rice'>Curry Leaf Pickle</Link> </h3>
+              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Curry-leaf-pickle'>Curry Leaf Pickle</Link> </h3>
             </div>
             <div className='card'>
               <img src={pickle7} className='rice-pic'></img>
-              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/White-raw-rice'>Coriander Leaf Pickle</Link> </h3>
+              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Coriander-leaf-pickle'>Coriander Leaf Pickle</Link> </h3>
             </div>
             <div className='card'>
               <img src={pickle8} className='rice-pic'></img>
-              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/White-raw-rice'>Ginger Pickle</Link> </h3>
+              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Ginger-pickle'>Ginger Pickle</Link> </h3>
             </div>
             <div className='card'>
               <img src={pickle9} className='rice-pic'></img>
-              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/White-raw-rice'>Mahani Pickle</Link> </h3>
+              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Mahani-pickle'>Mahani Pickle</Link> </h3>
             </div>
             <div className='card'>
               <img src={pickle10} className='rice-pic'></img>
-              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/White-raw-rice'>Vadu Maangai Pickle</Link> </h3>
+              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Vadu-maangai-pickle'>Vadu Maangai Pickle</Link> </h3>
             </div>
             <div className='card'>
               <img src={pickle11} className='rice-pic'></img>
-              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/White-raw-rice'>Amla Pickle</Link> </h3>
+              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Amla-pickle'>Amla Pickle</Link> </h3>
             </div>
             <div className='card'>
               <img src={pickle12} className='rice-pic'></img>
-              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/White-raw-rice'>Lime Pickle</Link> </h3>
+              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Lime-pickle'>Lime Pickle</Link> </h3>
             </div>
         </div>
       </div>

@@ -174,6 +174,18 @@ import Drytuttifrutti from './Beeda/Drytuttifrutti'
 import Scroll from './Components/Scroll'
 import Pickle from './Pages/Pickle'
 import Oil from './Pages/Oil'
+import AmlaPickle from './Pickle/AmlaPickle'
+import BrinjalPickle from './Pickle/BrinjalPickle'
+import CorianderLeafPickle from './Pickle/CorianderLeafPickle'
+import CurryLeafPickle from './Pickle/CurryLeafPickle'
+import GarlicPickle from './Pickle/GarlicPickle'
+import GingerPickle from './Pickle/GingerPickle'
+import GreenChilliPickle from './Pickle/GreenChilliPickle'
+import LimePickle from './Pickle/LimePickle'
+import MahaniPickle from './Pickle/MahaniPickle'
+import MangoPickle from './Pickle/MangoPickle'
+import TomatoPickle from './Pickle/TomatoPickle'
+import VaduMaangaaiPickle from './Pickle/VaduMaangaaiPickle'
 function App() {
   return (
     <div>
@@ -351,6 +363,18 @@ function App() {
           <Route path='/Spinach' element={<Spinach />}></Route>
 
           <Route path='/Pickles' element={<Pickle/>}></Route>
+          <Route path='/Amla-pickle' element={<AmlaPickle/>}></Route>
+          <Route path='/Brinjal-pickle' element={<BrinjalPickle/>}></Route>
+          <Route path='/Coriander-leaf-pickle' element={<CorianderLeafPickle/>}></Route>
+          <Route path='/Curry-leaf-pickle' element={<CurryLeafPickle/>}></Route>
+          <Route path='/Garlic-pickle' element={<GarlicPickle/>}></Route>
+          <Route path='/Ginger-pickle' element={<GingerPickle/>}></Route>
+          <Route path='/Green-chilli-pickle' element={<GreenChilliPickle/>}></Route>
+          <Route path='/Lime-pickle' element={<LimePickle/>}></Route>
+          <Route path='/Mahani-pickle' element={<MahaniPickle/>}></Route>
+          <Route path='/Mango-pickle' element={<MangoPickle/>}></Route>
+          <Route path='/Tomato-pickle' element={<TomatoPickle/>}></Route>
+          <Route path='/Vadu-maangai-pickle' element={<VaduMaangaaiPickle/>}></Route>
 
           <Route path='/Oil' element={<Oil/>}></Route>
         </Routes>
