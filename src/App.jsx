@@ -173,7 +173,16 @@ import Kanpuribiscuit from './Beeda/Kanpuribiscuit'
 import Drytuttifrutti from './Beeda/Drytuttifrutti'
 import Scroll from './Components/Scroll'
 import Pickle from './Pages/Pickle'
+
 import Oil from './Pages/Oil'
+import Yelluoil from './Oil/Yelluoil'
+import Coconutoil from './Oil/Coconutoil'
+import Palmoil from './Oil/Palmoil'
+import Peanutoil from './Oil/Peanutoil'
+import Sunfloweroil from './Oil/Sunfloweroil'
+import Ghee from './Oil/Ghee'
+import Mustardoil from './Oil/Mustardoil'
+
 import AmlaPickle from './Pickle/AmlaPickle'
 import BrinjalPickle from './Pickle/BrinjalPickle'
 import CorianderLeafPickle from './Pickle/CorianderLeafPickle'
@@ -377,6 +386,14 @@ function App() {
           <Route path='/Vadu-maangai-pickle' element={<VaduMaangaaiPickle/>}></Route>
 
           <Route path='/Oil' element={<Oil/>}></Route>
+          <Route path='/Yelluoil' element={<Yelluoil/>}></Route>
+          <Route path='/Coconutoil' element={<Coconutoil/>}></Route>
+          <Route path='/Palmoil' element={<Palmoil/>}></Route>
+          <Route path='/Peanutoil' element={<Peanutoil/>}></Route>
+          <Route path='/Sunfloweroil' element={<Sunfloweroil/>}></Route>
+          <Route path='/Ghee' element={<Ghee/>}></Route>
+          <Route path='/Mustardoil' element={<Mustardoil/>}></Route>
+
         </Routes>
         <Footer />
       </BrowserRouter>
