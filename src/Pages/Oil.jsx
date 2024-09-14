@@ -22,9 +22,8 @@ function Oil() {
             <img src={icon} className='rice-body-icon' />
           </div>
           <div>
-            <h2 className='rice-body-heading'>
-            OIL EXPORTER FROM INDIA</h2>
-            <h1>_______</h1>
+            <h2 className='rice-body-heading'>OIL EXPORTER FROM INDIA</h2>
+            <h2 className='rice-body-heading'>_______</h2>
             <p>Cooking oil is a versatile kitchen staple used for frying, sautéing, roasting, baking, and as a base for dressings and marinades. It enhances the flavor and texture of food while providing essential fats needed for a balanced diet. Different types of cooking oils, such as olive, sunflower, coconut, and canola oil, have unique properties, including varying smoke points and health benefits, making them suitable for different cooking methods. Additionally, cooking oils are also used in food preservation, as they help to extend shelf life and maintain moisture in various dishes.</p>
           </div>
           <div className="rice-sub-container">
