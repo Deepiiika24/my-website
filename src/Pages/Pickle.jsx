@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Rice.css'
 import '../css/Responsive/RiceResponsive.css'
-import banner from '../images/Pickle/Banner.png'
+import banner from '../images/Pickle/pickle-banner.png'
 import icon from '../images/l.png'
-import pickle1 from '../images/Pickle/Garlic-Pickle.jpg'
+import pickle1 from '../images/Pickle/Garlic-Pickle1.png'
 import pickle2 from '../images/Pickle/GreenChilli-Pickle.jpg'
 import pickle3 from '../images/Pickle/Tomato-Pickle.jpg'
 import pickle4 from '../images/Pickle/Mango-Pickle.jpg'

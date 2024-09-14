@@ -15,6 +15,7 @@ import swiper7 from '../images/snack1.jpg'
 import swiper8 from '../images/beeda.jpg'
 import shape from '../images/shape.png'
 import { Link } from 'react-router-dom'
+import VegetableVideo from '../Video/VegetableVideo.mp4'
 function Home() {
 
     return (
@@ -46,52 +47,57 @@ function Home() {
                 <div className='home-container'>
                     <div className='home-content'>
                         <h1>Koogul Industries - Global Food Importers & Exporters</h1>
-                        <h1 style={{padding:"0px 0px 20px 0px"}}>__________</h1>
+                        <h1 style={{ padding: "0px 0px 20px 0px" }}>__________</h1>
                         <p>"As a leading exporter of premium quality food products, Koogul Industries is committed to bringing the rich and diverse flavors of India to the world. Our extensive range of food and spice exports is sourced directly from trusted farms and suppliers, ensuring freshness and authenticity in every shipment. With a strong focus on meeting international quality standards, we guarantee that our products reach global markets with the highest level of care and excellence. Koogul Industries is dedicated to supporting your business by delivering the finest Indian produce to every corner of the globe."</p>
                     </div>
                 </div>
             </section>
-                <div className='shape-container'>
-                    <img className='product' src={shape}></img>
-                </div>
+            <div className='shape-container'>
+                <img className='product' src={shape}></img>
+            </div>
             <section className='main-bg1'>
-                    <img className='pic' src={pic}></img>
-                    <h1 className='text'>Popular Products</h1>
-                    <div className='slider1'>
-                        <div className='card'>
-                            <img src={swiper1} className='slide-img'></img>
-                            <h3 className='link1-name' id='home-link-name'><Link to='/Rice'>Rice</Link> </h3>
-                        </div>
-                        <div className='card'>
-                            <img src={swiper2} className='slide-img'></img>
-                            <h3 className='link2-name' id='home-link-name'><Link to='/Flower'>Flower</Link> </h3>
-                        </div>
-                        <div className='card'>
-                            <img src={swiper3} className='slide-img'></img>
-                            <h3 className='link3-name' id='home-link-name'><Link to='/Poojaproduct'>Pooja product</Link> </h3>
-                        </div>
-                        <div className='card'>
-                            <img src={swiper4} className='slide-img'></img>
-                            <h3 className='link4-name' id='home-link-name'><Link to='/Spices'>Spices</Link> </h3>
-                        </div>
-                        <div className='card'>
-                            <img src={swiper5} className='slide-img'></img>
-                            <h3 className='link5-name' id='home-link-name'><Link to='/Vegetables'>Vegetables</Link> </h3>
-                        </div>
-                        <div className='card'>
-                            <img src={swiper6} className='slide-img'></img>
-                            <h3 className='link6-name' id='home-link-name'><Link to='/leaves'>Leaf</Link> </h3>
-                        </div>
-                        <div className='card'>
-                            <img src={swiper8} className='slide-img'></img>
-                            <h3 className='link7-name' id='home-link-name'><Link to='/Beeda'>Beeda</Link> </h3>
-                        </div>
-                        <div className='card'>
-                            <img src={swiper7} className='slide-img'></img>
-                            <h3 className='link8-name' id='home-link-name'><Link to='/Snacks'>Snacks</Link> </h3>
-                        </div>
+                <img className='pic' src={pic}></img>
+                <h1 className='text'>Popular Products</h1>
+                <div className='slider1'>
+                    <div className='card'>
+                        <img src={swiper1} className='slide-img'></img>
+                        <h3 className='link1-name' id='home-link-name'><Link to='/Rice'>Rice</Link> </h3>
                     </div>
+                    <div className='card'>
+                        <img src={swiper2} className='slide-img'></img>
+                        <h3 className='link2-name' id='home-link-name'><Link to='/Flower'>Flower</Link> </h3>
+                    </div>
+                    <div className='card'>
+                        <img src={swiper3} className='slide-img'></img>
+                        <h3 className='link3-name' id='home-link-name'><Link to='/Poojaproduct'>Pooja product</Link> </h3>
+                    </div>
+                    <div className='card'>
+                        <img src={swiper4} className='slide-img'></img>
+                        <h3 className='link4-name' id='home-link-name'><Link to='/Spices'>Spices</Link> </h3>
+                    </div>
+                    <div className='card'>
+                        <img src={swiper5} className='slide-img'></img>
+                        <h3 className='link5-name' id='home-link-name'><Link to='/Vegetables'>Vegetables</Link> </h3>
+                    </div>
+                    <div className='card'>
+                        <img src={swiper6} className='slide-img'></img>
+                        <h3 className='link6-name' id='home-link-name'><Link to='/leaves'>Leaf</Link> </h3>
+                    </div>
+                    <div className='card'>
+                        <img src={swiper8} className='slide-img'></img>
+                        <h3 className='link7-name' id='home-link-name'><Link to='/Beeda'>Beeda</Link> </h3>
+                    </div>
+                    <div className='card'>
+                        <img src={swiper7} className='slide-img'></img>
+                        <h3 className='link8-name' id='home-link-name'><Link to='/Snacks'>Snacks</Link> </h3>
+                    </div>
+                </div>
             </section>
+            <div className='vegetable-video-container'>
+                <video width="300" height="300" autoPlay loop muted>
+                    <source src={VegetableVideo} />
+                </video>
+            </div>
         </div>
 
 
