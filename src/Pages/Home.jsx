@@ -15,7 +15,11 @@ import swiper7 from '../images/snack1.jpg'
 import swiper8 from '../images/beeda.jpg'
 import shape from '../images/shape.png'
 import { Link } from 'react-router-dom'
-import VegetableVideo from '../Video/VegetableVideo.mp4'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, FreeMode, Pagination } from 'swiper/modules';
+import VegetableVideo1 from '../Video/Video1.mp4'
+import VegetableVideo2 from '../Video/Video2.mp4'
+import VegetableVideo3 from '../Video/Video3.mp4'
 function Home() {
 
     return (
@@ -94,9 +98,25 @@ function Home() {
                 </div>
             </section>
             <div className='vegetable-video-container'>
-                <video width="300" height="300" autoPlay loop muted>
-                    <source src={VegetableVideo} />
-                </video>
+                <Swiper slidesPerView={1} spaceBetween={10} freeMode={true} loop={true} pagination={{ clickable: true, }} autoplay={{
+                    delay: 5000, disableOnInteraction: false,
+                }} modules={[FreeMode, Pagination, Autoplay]} className='video-swiper'>
+                    <SwiperSlide className='video-swiper-slide'>
+                        <video width="1100" height="500" autoPlay loop muted>
+                            <source src={VegetableVideo1} />
+                        </video>
+                    </SwiperSlide>
+                    <SwiperSlide className='video-swiper-slide'>
+                        <video width="1100" height="500" autoPlay loop muted>
+                            <source src={VegetableVideo2} />
+                        </video>
+                    </SwiperSlide>
+                    <SwiperSlide className='video-swiper-slide'>
+                        <video width="1100" height="500" autoPlay loop muted>
+                            <source src={VegetableVideo3} />
+                        </video>
+                    </SwiperSlide>
+                </Swiper>
             </div>
         </div>
 
