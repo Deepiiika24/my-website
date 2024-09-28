@@ -62,3 +62,6 @@
   .rice-container .rice-sub-container .card img.rice-pic:hover{
     transform: scale(1.1);
   }
+  .rice-container .rice-sub-container .card{
+    background-color: none;
+  }

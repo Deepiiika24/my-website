@@ -195,6 +195,8 @@ import MahaniPickle from './Pickle/MahaniPickle'
 import MangoPickle from './Pickle/MangoPickle'
 import TomatoPickle from './Pickle/TomatoPickle'
 import VaduMaangaaiPickle from './Pickle/VaduMaangaaiPickle'
+
+import Masala from './Pages/Masala'
 function App() {
   return (
     <div>
@@ -393,6 +395,8 @@ function App() {
           <Route path='/Sunfloweroil' element={<Sunfloweroil/>}></Route>
           <Route path='/Ghee' element={<Ghee/>}></Route>
           <Route path='/Mustardoil' element={<Mustardoil/>}></Route>
+
+          <Route path='/Masala' element={<Masala/>}></Route>
 
         </Routes>
         <Footer />
