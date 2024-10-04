@@ -102,17 +102,17 @@ function Home() {
                     delay: 5000, disableOnInteraction: false,
                 }} modules={[FreeMode, Pagination, Autoplay]} className='video-swiper'>
                     <SwiperSlide className='video-swiper-slide'>
-                        <video width="1100" height="500" autoPlay loop muted>
+                        <video autoPlay loop muted>
                             <source src={VegetableVideo1} />
                         </video>
                     </SwiperSlide>
                     <SwiperSlide className='video-swiper-slide'>
-                        <video width="1100" height="500" autoPlay loop muted>
+                        <video autoPlay loop muted>
                             <source src={VegetableVideo2} />
                         </video>
                     </SwiperSlide>
                     <SwiperSlide className='video-swiper-slide'>
-                        <video width="1100" height="500" autoPlay loop muted>
+                        <video autoPlay loop muted>
                             <source src={VegetableVideo3} />
                         </video>
                     </SwiperSlide>
