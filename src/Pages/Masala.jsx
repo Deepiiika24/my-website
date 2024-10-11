@@ -4,11 +4,12 @@ import '../css/Rice.css'
 import '../css/Responsive/RiceResponsive.css'
 import rice from '../images/rice/Rice-banner.png'
 import icon from '../images/l.png'
-import Masala1 from '../images/Masala/Garam-Masala.png'
-import Masala2 from '../images/Masala/Curry-Masala.png'
-import Masala3 from '../images/Masala/Sambar-Masala.png'
-import Masala4 from '../images/Masala/Rasam-Masala.png'
-import Masala5 from '../images/Masala/PuliKulambu-Masala.png'
+import Masala1 from '../images/Masala/Garam_Masala.png'
+import Masala2 from '../images/Masala/Curry_Masala.png'
+import Masala3 from '../images/Masala/Sambar_Masala.png'
+import Masala4 from '../images/Masala/Rasam_Masala.png'
+import Masala5 from '../images/Masala/Pulikulambu_Masala.png'
+import Masala6 from '../images/Masala/Meat_Curry_Masala.png'
 
 function Masala() {
   return (
@@ -45,6 +46,10 @@ function Masala() {
             <div className='card'>
               <img src={Masala5} className='rice-pic'></img>
               <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Puli-Kulambu-Masala'>Puli Kulambu Masala</Link> </h3>
+            </div>
+            <div className='card'>
+              <img src={Masala6} className='rice-pic'></img>
+              <h3 className='rice-link1-name' id='rice-link-name'><Link to='/Meat-Curry-Masala'>Meat Curry Masala</Link> </h3>
             </div>
         </div>
       </div>
