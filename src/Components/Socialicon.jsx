@@ -3,7 +3,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { pink } from '@mui/material/colors';
-import '../css/Socialicon.css'
+import '../Style/Socialicon.css'
 
 const Socialicon = () => {
     return (
@@ -22,7 +22,7 @@ const Socialicon = () => {
                 </a>
                 </li>
                 <li className='social-icon'>
-                <a href="https://www.instagram.com/rameshram3636" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                     <InstagramIcon style={{ fontSize: 25,margin: "0px 20px 0px 0px" }} sx={{ color: pink[500] }} className='instagram' />
                     INSTAGRAM
                 </a>
