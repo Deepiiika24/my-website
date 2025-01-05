@@ -1,0 +1,240 @@
+
+@media (max-width:1024px){
+    .spices-page-container {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.Spices-type-banner {
+        margin-top: 81px;
+        width: 100%;
+    }
+    .Spices-type-banner .container{
+        max-width: 1024px;
+        width:100%;
+        margin:0 auto;
+    }
+    img.spices-page-banner {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.spices-type-content, section.Spices-type-table {
+        max-width: 900px;
+        width: 100%;
+        margin: 50px auto;
+    }
+    .spices-type-text h1 {
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 30px;
+    }
+    .h1, h1 {
+        font-size: 30px;
+        padding: 30px 0px;
+    }
+    .spices-type-text p {
+        text-align: justify;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:768px){
+    .spices-page-container {
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.Spices-type-banner {
+        margin-top: 61px;
+        width: 100%;
+    }
+    .Spices-type-banner .container{
+        max-width: 768px;
+        width:100%;
+        margin:0 auto;
+    }
+    img.spices-page-banner {
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.spices-type-content, section.Spices-type-table {
+        max-width: 600px;
+        width: 100%;
+        margin: 50px auto;
+    }
+    .spices-type-text h1 {
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 20px;
+    }
+    .Spices-table-heading h1 {
+        text-align: start;
+        padding: 10px 0px;
+        font-size: 20px;
+    }
+    .spices-type-text p {
+        text-align: justify;
+        font-size: 15px;
+    }
+    table.table.table-hover.table-responsive.table-bordered th {
+        padding: 0px 0px !important;
+        font-size: 15px;
+    }
+    table.table.table-hover.table-responsive.table-bordered {
+    max-width: 600px !important;
+    width: 100% !important;
+    margin: 50px auto;
+    border: 1px solid rgb(248, 247, 247) !important;
+    border-color: #ff000066;
+}
+}
+ 
+@media (max-width:425px){
+    .spices-page-container {
+        max-width: 425px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .Spices-type-banner .container{
+        max-width: 425px;
+        width:100%;
+        margin:0 auto;
+    }
+    section.Spices-type-banner {
+        margin-top: 61px;
+        width: 100%;
+    }
+    img.spices-page-banner {
+        max-width: 425px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.spices-type-content, section.Spices-type-table {
+        max-width: 375px;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .spices-type-text h1 {
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 20px;
+    }
+    .Spices-table-heading h1 {
+        text-align: start;
+        padding: 10px 0px;
+        font-size: 20px;
+    }
+    .spices-type-text p {
+        text-align: justify;
+        font-size: 12px;
+    }
+    table.table.table-hover.table-responsive.table-bordered th {
+        padding: 0px 0px !important;
+        font-size: 12px;
+    }
+    table.table.table-hover.table-responsive.table-bordered {
+        max-width: 375px !important;
+        width: 100% !important;
+        margin: 0px 0px 30px 0px !important;
+        border: 1px solid rgb(248, 247, 247) !important;
+        border-color: #ff000066;
+    }
+}
+
+@media (max-width:375px){
+    .spices-page-container {
+        max-width: 375px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .Spices-type-banner .container{
+        max-width: 375px;
+        width:100%;
+        margin:0 auto;
+    }
+    img.spices-page-banner {
+        max-width: 375px;
+        width: 100%;
+        margin: 1px auto;
+    }
+    section.spices-type-content, section.Spices-type-table {
+        max-width: 320px;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .spices-type-text h1 {
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+    .Spices-table-heading h1 {
+        text-align: start;
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+    .spices-type-text p {
+        text-align: justify;
+        font-size: 12px;
+    }
+    table.table.table-hover.table-responsive.table-bordered th {
+        padding: 0px 0px !important;
+        font-size: 10px;
+    }
+    table.table.table-hover.table-responsive.table-bordered {
+        max-width: 320px !important;
+        width: 100% !important;
+        margin: 0px 0px 30px 0px !important;
+        border: 1px solid rgb(248, 247, 247) !important;
+        border-color: #ff000066;
+    }
+}
+
+@media (max-width:320px){
+    .spices-page-container {
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .Spices-type-banner .container{
+        max-width: 320px;
+        width:100%;
+        margin:0 auto;
+    }
+    img.spices-page-banner {
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.spices-type-content, section.Spices-type-table {
+        max-width: 280px;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .spices-type-text h1 {
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+    .Spices-table-heading h1 {
+        text-align: start;
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+    .spices-type-text p {
+        text-align: justify;
+        font-size: 12px;
+    }
+    table.table.table-hover.table-responsive.table-bordered th {
+        padding: 0px 0px !important;
+        font-size: 10px;
+    }
+    table.table.table-hover.table-responsive.table-bordered {
+        max-width: 280px !important;
+        width: 100% !important;
+        margin: 0px 0px 30px 0px !important;
+        border: 1px solid rgb(248, 247, 247) !important;
+        border-color: #ff000066;
+    }
+}

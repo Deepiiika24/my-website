@@ -1,0 +1,159 @@
+
+@media (max-width:1024px){
+    .ricepage-main-container {
+        max-width: 900px;
+        width: 100%;
+        margin: 150px auto;
+    }
+    .ricepage-main-container .ricepage-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-banner img {
+        height: 450px;
+        width: 450px;
+        border-radius: 30px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-content h2 {
+        text-align: center;
+        padding: 0px 0px;
+        font-size: 28px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-content p {
+        text-align: justify;
+        font-size: 15px;
+        padding:10px 0px;
+    }
+    .ricepage-table-heading h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:768px){
+    .ricepage-main-container {
+        max-width: 600px;
+        width: 100%;
+        margin: 80px auto;
+    }
+    .ricepage-main-container .ricepage-container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+        margin:0px 18px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-banner img {
+        height: 400px;
+        width: 600px;
+        border-radius: 30px;
+        margin: 0px -20px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-content h2 {
+        text-align: center;
+        padding: 0px 0px;
+        font-size: 25px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-content p {
+        text-align: justify;
+        font-size: 15px;
+        padding:10px 0px;
+    }
+    .ricepage-table-heading h2 {
+        font-size: 25px;
+    }
+}
+ 
+@media (max-width:425px){
+    .ricepage-main-container {
+        max-width: 375px;
+        width: 100%;
+        margin: 80px auto;
+    }
+    .ricepage-main-container .ricepage-container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-banner img {
+        height: 300px;
+        width: 350px;
+        border-radius: 30px;
+        margin: 0px -5px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-content h2 {
+        text-align: center;
+        padding: 0px 0px;
+        font-size: 25px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-content p {
+        text-align: justify;
+        font-size: 15px;
+        padding:10px 0px;
+    }
+    .ricepage-table-heading h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:375px){
+    .ricepage-main-container {
+        max-width: 325px;
+        width: 100%;
+        margin: 80px auto;
+    }
+    .ricepage-main-container .ricepage-container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-banner img {
+        height: 250px;
+        width: 325px;
+        border-radius: 30px;
+        margin: 0px -20px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-content h2 {
+        text-align: center;
+        padding: 0px 0px;
+        font-size: 20px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-content p {
+        text-align: justify;
+        font-size: 15px;
+        padding:10px 0px;
+    }
+    .ricepage-table-heading h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:320px){
+    .ricepage-main-container {
+        max-width: 280px;
+        width: 100%;
+        margin: 80px auto;
+    }
+    .ricepage-main-container .ricepage-container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-banner img {
+        height: 250px;
+        width:280px;
+        border-radius: 30px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-content h2 {
+        text-align: center;
+        padding: 0px 0px;
+        font-size: 20px;
+    }
+    .ricepage-main-container .ricepage-container .ricepage-content p {
+        text-align: justify;
+        font-size: 15px;
+        padding:10px 0px;
+    }
+    .ricepage-table-heading h2 {
+        font-size: 20px;
+    }
+}
